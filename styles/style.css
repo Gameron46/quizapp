@@ -2,6 +2,11 @@ body {
     background-color: lightblue;
 }
 
+select {
+    width: 300px;
+    overflow: hidden;
+}
+
 #Quiz {
     font-size:large;
     margin: auto;

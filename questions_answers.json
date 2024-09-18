@@ -1,0 +1,139 @@
+{
+    "questions": [
+        {"question": "Five students are standing in a line according to their heights, from tallest to shortest. 1) Lisa is taller than Mickey, but shorter than Fernando. 2) Mickey is shorter than Noah, but taller than Jodi. 3) Noah is shorter than Fernando.",
+        "options": [
+            "A. First",
+            "B. Second",
+            "C. Third",
+            "D. Fourth",
+            "E. Cannot be determined from the information given."
+        ],
+        "answer": "E. Cannot be determined from the information given."},
+        {"question": "People who graduate from North College are expected to donate at least $500 per year to the school. Sydney donates $100 per year to North College. Based only on the information above, which of the following must be true?",
+        "options": [
+            "F. Sydney did not graduate from North College.", 
+            "G. If Sydney earned more money, she would donate more to the college.",
+            "H.  If all graduates donated only $100 per year, North College could not continue to operate.",
+            "J. If Sydney graduated from North College, she does not do what is expected of her.",
+            "K. Sydney contributes other services to North College to compensate for her lower financial contribution"
+        ],
+        "answer": "J. If Sydney graduated from North College, she does not do what is expected of her."},
+        {"question": "A species is extinct when it no longer has any living members. Scientists thought that fish species X was extinct. In 1980, a fisherman caught a living member of species X. This species is now known to live in large numbers in the near-freezing water of the north Atlantic Ocean. Based only on the information above, which of the following statements is a valid conclusion?",
+        "options": [
+            "A. Species X was never actually extinct.",
+            "B. Species X was extinct, but reappeared in 1980.",
+            "C. Species X has been discovered, but will soon become extinct.",
+            "D. There are other living species that are thought to be extinct",
+            "E. Living members of extinct species are found only in the ocean."
+        ],
+        "answer": "A. Species X was never actually extinct."},
+        {"question": "John will not go to the party if Sarah goes. Sarah will go to the party if Peter's mother comes home in time. Based only on the information above, which of the following must be true?",
+        "options": [
+            "F. If Peter's mother comes home in time, then John will not go to the party.",
+            "G. If John does not go to the party, then Sarah will go.",
+            "H. If Peter's mother does not come home in time, Sarah will not go to the party.",
+            "J. Sarah will not go to the party unless John goes.",
+            "K.  If John goes to the party, then Peter will go."
+        ],
+        "answer": "F. If Peter's mother comes home in time, then John will not go to the party."},
+        {"question": "Five plastic geometric shapes are stacked on the table. They are numbered consecutively from bottom to top. 1) One shape is a triangle. 2) The circle is the fourth shape. 3) There are exactly three shapes between the rectangle and the square. 4) There are exactly two shapes lower than the oval; one of them is the rectangle. In which position is the triangle?",
+        "options": [
+            "A. second",
+            "B. third",
+            "C. fourth",
+            "D. fifth",
+            "E. Cannot be determined from the information given. "
+        ],
+        "answer": "A. second"},
+        {"question": "All of the officers at the air show were pilots. Some pilots at the air show wore their uniforms. Based only on the information above, which of the following must be true",
+        "options": [
+            "F. All persons wearing uniforms at the air show were pilots.",
+            "G. Only pilots attended the air show.",
+            "H. If Zelda was an officer at the air show, then she must be a pilot.",
+            "J. All of the officers at the air show wore their uniforms.",
+            "K. If Peter was a pilot at the air show, then he wore his uniform"
+        ],
+        "answer": "H. If Zelda was an officer at the air show, then she must be a pilot."},
+        {"question": "Jack played three instruments in the orchestra. He played violin for two years, viola for three years, and cello for three years. The first year, Jack played only the violin. He never played more than two instruments during the same year. What is the least number of years Jack could have played in the orchestra?",
+        "options": [
+            "A. Four",
+            "B. five",
+            "C. six",
+            "D. Seven",
+            "E. Eight"
+        ],
+        "answer": "B. five"},
+        {"question": "In the code below, (1) each letter always represents the same word, (2) each word is represented by only one letter, and (3) in any given sentence, the letters may or may not be presented in the same order as the words. L: Sherbert S: is Q: cold M: and T: sweet T: Chili Q: is V: spicy N: and R: hot Q: Lemonade X: is W: cold T: and L tart P: Hot T: chocalate M: is V: sweet. Which letter represents the word 'and'?",
+        "options": [
+            "F. T",
+            "G. L",
+            "H. M",
+            "J. Q",
+            "K. Cannot be determined from the information given."
+        ],
+        "answer": "J. Q"},
+        {"question": "In the code below, (1) each letter always represents the same word, (2) each word is represented by only one letter, and (3) in any given sentence, the letters may or may not be presented in the same order as the words. L: Sherbert S: is Q: cold M: and T: sweet T: Chili Q: is V: spicy N: and R: hot Q: Lemonade X: is W: cold T: and L tart P: Hot T: chocalate M: is V: sweet. Which word is represented by the letter V?",
+        "options": [
+            "A. chili",
+            "B. spicy",
+            "C. hot",
+            "D. sweet",
+            "E. Cannot be determined from the information given."
+        ],
+        "answer": "C. hot"},
+        {"question": "At the race track, four race car drivers stood side by side, their backs toward you. Each driver stood facing his or her race car. 1) The brown car was to the right of the orange car. 2) Jorge stood immediately to Anya's right. 3) Marquise, who was to Jorge's right, owned the white car. 4) Patrick did not own the silver car. 5) Anya owned the orange car. Which race car driver stood at the far right?",
+        "options": [
+            "F. Jorge",
+            "G. Anya",
+            "H. Marquise",
+            "J. Patrick",
+            "K. Cannot be determined from the information given."
+        ],
+        "answer": "K. Cannot be determined from the information given."},
+        {"question": "Charlie has a headache. The doctor told Charlie that type X flu always comes with fever and a headache, while type Y flu always comes with a headache but no fever. Based only on the information above, which of the following must be true?",
+        "options": [
+            "A. If Charlie has a fever, then he must have type X flu.",
+            "B. If Charlie does not have a fever, then he must have type Y flu",
+            "C. If Charlie has a fever, then he may have type X flu.",
+            "D. A headache always means that a person has the flu.",
+            "E. If Charlie has a fever, then he may have type Y flu."
+        ],
+        "answer": "C. If Charlie has a fever, then he may have type X flu."},
+        {"question": "In the country of Cordovia, all the teachers are left-handed. Every Cordovian teacher is near- sighted. Based only on the information above, which of the following must be true?",
+        "options": [
+            "F. At least some left-handed Cordovians are near-sighted.",
+            "G. At least some right-handed Cordovians are teachers",
+            "H. Every left-handed Cordovian is a teacher.",
+            "J. Every near-sighted Cordovian is left-handed.",
+            "K. Every near-sighted Cordovian is a teacher."
+        ],
+        "answer": "F. At least some left-handed Cordovians are near-sighted."},
+        {"question": "In a cartoon, four trolls stood in a line. Their names were Banto, Gretchen, Snowflake, and Holly. One had green eyes, another had purple ears, another had red teeth, and another had white hair. 1) The troll with red teeth was directly in front of Snowflake, who had white hair. 2) Banto, who did not have green eyes, was behind Gretchen. 3) Gretchen had purple ears. 4) Snowflake was behind Holly. If the troll with green eyes stood behind Gretchen, then what was Gretchen's position? ",
+        "options": [
+            "A. first",
+            "B. second",
+            "C. third",
+            "D. fourth",
+            "E. Cannot be determined from the information given."
+        ],
+        "answer": "A. first"},
+        {"question": "When Tomas wears his white shirt, he also wears a tie. When he wears a tie, he also wears his black shoes. Based only on the information above, which of the following statements is a valid conclusion?",
+        "options": [
+            "F. When Tomas wears his black shoes, then he is wearing his white shirt.",
+            "G. Tomas wears his black shoes only when he is wearing a tie.",
+            "H. When Tomas wears his white shirt, then he is also wearing his black shoes.",
+            "J. If Tomas is not wearing his white shirt, then he is not wearing a tie.",
+            "K. If Tomas is not wearing a tie, then he is not wearing his black shoes."
+        ],
+        "answer": "H. When Tomas wears his white shirt, then he is also wearing his black shoes."},
+        {"question": "Six students stood in a line. Their names are Larnell, Masha, Nikia, Pedro, Ryan, and Sara, in that order. 1) The two students that wear glasses are immediately next to one another. 2) Three students are wearing school T-shirts. 3) None of the students wearing a school T-shirt is next to each other. 4) No student is wearing both glasses and a school T-shirt. Based only on the information above, which of the following must be true?",
+        "options": [
+            "A. Pedro and Ryan are wearing glasses.",
+            "B. Nikia is wearing a school T-shirt.",
+            "C. Pedro is wearing a school T-shirt.",
+            "D. Larnell and Sara are wearing school T-shirts.",
+            "E. Either Masha or Nikia is wearing a school T-shirt, but it is not possible to determine which one"
+        ],
+        "answer": "D. Larnell and Sara are wearing school T-shirts."}
+    ]
+}
