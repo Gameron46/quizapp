@@ -1,6 +1,6 @@
 {
     "questions": [
-        {"question": "Five students are standing in a line according to their heights, from tallest to shortest. 1) Lisa is taller than Mickey, but shorter than Fernando. 2) Mickey is shorter than Noah, but taller than Jodi. 3) Noah is shorter than Fernando.",
+        {"question": "Five students are standing in a line according to their heights, from tallest to shortest. 1) Lisa is taller than Mickey, but shorter than Fernando. 2) Mickey is shorter than Noah, but taller than Jodi. 3) Noah is shorter than Fernando. In which position is Noah?",
         "options": [
             "A. First",
             "B. Second",
@@ -45,7 +45,7 @@
             "E. Cannot be determined from the information given. "
         ],
         "answer": "A. second"},
-        {"question": "All of the officers at the air show were pilots. Some pilots at the air show wore their uniforms. Based only on the information above, which of the following must be true",
+        {"question": "All of the officers at the air show were pilots. Some pilots at the air show wore their uniforms. Based only on the information above, which of the following must be true?",
         "options": [
             "F. All persons wearing uniforms at the air show were pilots.",
             "G. Only pilots attended the air show.",
