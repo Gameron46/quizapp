@@ -1,139 +1,83 @@
 {
     "questions": [
         {"question": "Five students are standing in a line according to their heights, from tallest to shortest. 1) Lisa is taller than Mickey, but shorter than Fernando. 2) Mickey is shorter than Noah, but taller than Jodi. 3) Noah is shorter than Fernando. In which position is Noah?",
-        "options": [
-            "A. First",
-            "B. Second",
-            "C. Third",
-            "D. Fourth",
-            "E. Cannot be determined from the information given."
-        ],
-        "answer": "E. Cannot be determined from the information given."},
+        "options": ["A. First", "B. Second", "C. Third", "D. Fourth", "E. Cannot be determined from the information given."],
+        "answer": "E. Cannot be determined from the information given.",
+        "explanation": "Most people find it helpful to draw a diagram for this kind of problem. Let an initial stand for each name. Write tallest on the left-hand side of your scratch paper. Then diagram the first statement. Tallest: F L M After reading the second statement, you can put Jodi into the diagram, but not Noah. All we know about Noah is that he goes somewhere to the left of Mickey; we don't know how his height compares with that of Fernando or Lisa. Tallest: F L M J After reading the third statement, we are still not sure about Noah's position. We know he is shorter than Fernando, but he could fit on either side of Lisa. However, we can now answer the question. Noah is either second or third, but his exact position cannot be determined from the information given."},
+        
         {"question": "People who graduate from North College are expected to donate at least $500 per year to the school. Sydney donates $100 per year to North College. Based only on the information above, which of the following must be true?",
-        "options": [
-            "F. Sydney did not graduate from North College.", 
-            "G. If Sydney earned more money, she would donate more to the college.",
-            "H.  If all graduates donated only $100 per year, North College could not continue to operate.",
-            "J. If Sydney graduated from North College, she does not do what is expected of her.",
-            "K. Sydney contributes other services to North College to compensate for her lower financial contribution"
-        ],
-        "answer": "J. If Sydney graduated from North College, she does not do what is expected of her."},
+        "options": ["F. Sydney did not graduate from North College.", "G. If Sydney earned more money, she would donate more to the college.","H.  If all graduates donated only $100 per year, North College could not continue to operate.","J. If Sydney graduated from North College, she does not do what is expected of her.","K. Sydney contributes other services to North College to compensate for her lower financial contribution"],
+        "answer": "J. If Sydney graduated from North College, she does not do what is expected of her.",
+        "explanation": "We must check each option against the facts presented to determine which option is valid. We know nothing about Sydney except the size of her donation to North College. Thus, Option F, although it might be true, cannot be validly concluded. Options G and H also might be true, but we don't know that from the information given. The same is true for Option K. Option J is a valid conclusion, since we are told that graduates are expected to donate more than Sydney donates, and Sydney might or might not be a graduate."},
+        
         {"question": "A species is extinct when it no longer has any living members. Scientists thought that fish species X was extinct. In 1980, a fisherman caught a living member of species X. This species is now known to live in large numbers in the near-freezing water of the north Atlantic Ocean. Based only on the information above, which of the following statements is a valid conclusion?",
-        "options": [
-            "A. Species X was never actually extinct.",
-            "B. Species X was extinct, but reappeared in 1980.",
-            "C. Species X has been discovered, but will soon become extinct.",
-            "D. There are other living species that are thought to be extinct",
-            "E. Living members of extinct species are found only in the ocean."
-        ],
-        "answer": "A. Species X was never actually extinct."},
+        "options": ["A. Species X was never actually extinct.", "B. Species X was extinct, but reappeared in 1980.", "C. Species X has been discovered, but will soon become extinct.","D. There are other living species that are thought to be extinct","E. Living members of extinct species are found only in the ocean."],
+        "answer": "A. Species X was never actually extinct.",
+        "explanation": "According to the definition given, a species is extinct when no more members are living. Therefore, Option B is impossible. Option C is incorrect because there is no statement to suggest that the species will soon be extinct. Option D may be true, but it cannot be deduced from the given statements. The question says nothing about other living species that are thought to be extinct. Option E is false; nothing can be living and extinct at the same time. Option A is correct; if a living fish were caught, it was never extinct."},
+        
         {"question": "John will not go to the party if Sarah goes. Sarah will go to the party if Peter's mother comes home in time. Based only on the information above, which of the following must be true?",
-        "options": [
-            "F. If Peter's mother comes home in time, then John will not go to the party.",
-            "G. If John does not go to the party, then Sarah will go.",
-            "H. If Peter's mother does not come home in time, Sarah will not go to the party.",
-            "J. Sarah will not go to the party unless John goes.",
-            "K.  If John goes to the party, then Peter will go."
-        ],
-        "answer": "F. If Peter's mother comes home in time, then John will not go to the party."},
+        "options": ["F. If Peter's mother comes home in time, then John will not go to the party.", "G. If John does not go to the party, then Sarah will go.","H. If Peter's mother does not come home in time, Sarah will not go to the party.","J. Sarah will not go to the party unless John goes.","K.  If John goes to the party, then Peter will go."],
+        "answer": "F. If Peter's mother comes home in time, then John will not go to the party.",
+        "explanation": "This question contains two conditional statements. It is important that you read each statement carefully. The first sentence may be restated as, 'If Sarah goes to the party, then John will not go.' This is simply a rearrangement of the two clauses of the first condi- tion and there is no change in meaning. Note that the sentence only tells us what will happen if Sarah goes to the party. It says nothing about what will happen if Sarah does not go to the party. Therefore, it is incor- rect to conclude that John will go to the party if Sarah does not go. It is also incorrect to conclude that John will not go to the party if Sarah does not go. We simply do not know what will happen. Likewise, the second sentence can be restated as, 'If Peter's mother comes home in time, then Sarah will go.' However, it does not tell us what will happen if Peter's mother does not come home in time. Option F is correct; if Peter's mother comes home in time, Sarah will go to the party and, if she goes, John will not go. Option G is wrong because the first condi- tion does not say what will happen if John does not go to the party. Sarah may or may not go to the party, while John does not. The previous paragraph explains why Option H is wrong. Option J contradicts the first statement, and Option K can be ruled out because no information is given about Peter going to the party."},
+        
         {"question": "Five plastic geometric shapes are stacked on the table. They are numbered consecutively from bottom to top. 1) One shape is a triangle. 2) The circle is the fourth shape. 3) There are exactly three shapes between the rectangle and the square. 4) There are exactly two shapes lower than the oval; one of them is the rectangle. In which position is the triangle?",
-        "options": [
-            "A. second",
-            "B. third",
-            "C. fourth",
-            "D. fifth",
-            "E. Cannot be determined from the information given. "
-        ],
-        "answer": "A. second"},
+        "options": ["A. second","B. third","C. fourth","D. fifth","E. Cannot be determined from the information given. "],
+        "answer": "A. second",
+        "explanation": "Use a diagram to help solve this question. Write 'top and 'bottom' on your scratch paper and the numbers 1 through 5, beginning at the bottom with 1. Then look for specific locations of each shape. Statement two says that the circle is the fourth shape; write 'circle' next to 4. Statement four tells you that exactly two shapes are lower than the oval, which means the oval is position 3. Since there are exactly three shapes between the rectangle and the square, these two must be in the first and fifth positions; and, since statement four says the rectangle is lower than the oval, you can write 'rectangle' next to 1 and 'square' next to 5. That leaves the triangle in position 2:\nTop\n5 = square\n4 = circle\n3 = oval\n2 = triangle\n1 = rectangle\n Bottom"},
+        
         {"question": "All of the officers at the air show were pilots. Some pilots at the air show wore their uniforms. Based only on the information above, which of the following must be true?",
-        "options": [
-            "F. All persons wearing uniforms at the air show were pilots.",
-            "G. Only pilots attended the air show.",
-            "H. If Zelda was an officer at the air show, then she must be a pilot.",
-            "J. All of the officers at the air show wore their uniforms.",
-            "K. If Peter was a pilot at the air show, then he wore his uniform"
-        ],
-        "answer": "H. If Zelda was an officer at the air show, then she must be a pilot."},
+        "options": ["F. All persons wearing uniforms at the air show were pilots.","G. Only pilots attended the air show.","H. If Zelda was an officer at the air show, then she must be a pilot.","J. All of the officers at the air show wore their uniforms.","K. If Peter was a pilot at the air show, then he wore his uniform"],
+        "answer": "H. If Zelda was an officer at the air show, then she must be a pilot.",
+        "explanation":"To answer this question correctly, it is important to understand the relationships among the groups of people who attended the air show-officers, pilots, and pilots who wore their uniforms. It is also neces- sary to realize that some people who attended the air show might not belong to any of these groups. The question says that all officers were pilots, and that some pilots (not all) wore their uniforms. This is the extent of the information given about the officers and pilots who attended. Read each option and evaluate whether it must be true, based on the information given. Option F may or may not be true; the persons wearing uniforms may or may not be pilots. There is not enough informa- tion given to decide. Option G is incorrect because it is possible that people other than pilots attended the air show. The information given does not rule out that possibility. Option H says that an officer who attended the air show (Zelda) must be a pilot. According to the information given, this conclusion must be true. Options J and K can be ruled out because the officers and pilots may or may not have worn their uniforms. It might be helpful to draw a diagram to illustrate the relationships among the groups of people at the air show. The overlapping circles in the diagram show that some pilots (and officers) wore uniforms, but not necessarily all of them. It also shows that some people wearing uniforms may not be pilots or officers. The diagram can be used to rule out Options F, G, J, and K, and to support Option H as the correct answer.",
+        "image_urls": ["./images/q16.png"]},
+
         {"question": "Jack played three instruments in the orchestra. He played violin for two years, viola for three years, and cello for three years. The first year, Jack played only the violin. He never played more than two instruments during the same year. What is the least number of years Jack could have played in the orchestra?",
-        "options": [
-            "A. Four",
-            "B. five",
-            "C. six",
-            "D. Seven",
-            "E. Eight"
-        ],
-        "answer": "B. five"},
+        "options": ["A. Four","B. five","C. six","D. Seven","E. Eight"],
+        "answer": "B. five",
+        "explanation": "Write the following on a sheet of paper (eight years are shown because eight is the largest option, see Figure 1 below). Jack played the violin for two years, beginning with the first year. Put an X under Year 1 for violin. We do not know when he played his second year of vio- lin. One possibility is that he played it in the second year. Put an X under Year 2 for violin as well. Since he played only the violin in the first year, he could not have started the viola in Year 1. He could have played it in Years 2, 3, and 4 (see Figure 2 below). Jack also played the cello for three years, but since he never played more than two instruments in one year, he could not have started the cello in Years 1 and 2 in our present design. He could have played it in Years 3, 4, and 5 (see Figure 3 below).",
+        "image_urls": ["./images/q17_1.png","./images/q17_2.png","./images/q17_3.png"]},
+        
         {"question": "In the code below, (1) each letter always represents the same word, (2) each word is represented by only one letter, and (3) in any given sentence, the letters may or may not be presented in the same order as the words. L: Sherbert S: is Q: cold M: and T: sweet T: Chili Q: is V: spicy N: and R: hot Q: Lemonade X: is W: cold T: and L tart P: Hot T: chocalate M: is V: sweet. Which letter represents the word 'and'?",
-        "options": [
-            "F. T",
-            "G. L",
-            "H. M",
-            "J. Q",
-            "K. Cannot be determined from the information given."
-        ],
-        "answer": "J. Q"},
+        "options": ["F. T","G. L","H. M","J. Q","K. Cannot be determined from the information given."],
+        "answer": "J. Q",
+        "explanation": "The word 'and' appears in the first, second, and third sentences of the code, but not in the fourth sentence. The letter that represents 'and' must also appear in the first three sentences, but not in the fourth. The letter T (Option F) appears in all four sentences, so it cannot be correct. The letters L and M (Options G and H) each appear in only two sentences, not three, so they are also incorrect. The letter Q meets the requirements. It appears in the first three sentences but not the fourth. No other letters meet this requirement, so Option J is correct."},
+        
         {"question": "In the code below, (1) each letter always represents the same word, (2) each word is represented by only one letter, and (3) in any given sentence, the letters may or may not be presented in the same order as the words. L: Sherbert S: is Q: cold M: and T: sweet T: Chili Q: is V: spicy N: and R: hot Q: Lemonade X: is W: cold T: and L tart P: Hot T: chocalate M: is V: sweet. Which word is represented by the letter V?",
-        "options": [
-            "A. chili",
-            "B. spicy",
-            "C. hot",
-            "D. sweet",
-            "E. Cannot be determined from the information given."
-        ],
-        "answer": "C. hot"},
+        "options": ["A. chili","B. spicy","C. hot","D. sweet","E. Cannot be determined from the information given."],
+        "answer": "C. hot",
+        "explanation": "The letter V appears in the second and fourth sen- tences. Find the word that also appears only in those two sentences. Options A and B are incorrect because the words 'chili' and 'spicy' appear in the second sentence, but not in the fourth. Option D, 'sweet,' appears in the first and fourth sentences, but not in the second sentence, so it can be ruled out. The word 'hot' is the only word that appears in both the second and fourth sentences, and it is the correct answer."},
+        
         {"question": "At the race track, four race car drivers stood side by side, their backs toward you. Each driver stood facing his or her race car. 1) The brown car was to the right of the orange car. 2) Jorge stood immediately to Anya's right. 3) Marquise, who was to Jorge's right, owned the white car. 4) Patrick did not own the silver car. 5) Anya owned the orange car. Which race car driver stood at the far right?",
-        "options": [
-            "F. Jorge",
-            "G. Anya",
-            "H. Marquise",
-            "J. Patrick",
-            "K. Cannot be determined from the information given."
-        ],
-        "answer": "K. Cannot be determined from the information given."},
+        "options": ["F. Jorge","G. Anya","H. Marquise","J. Patrick","K. Cannot be determined from the information given."],
+        "answer": "K. Cannot be determined from the information given.",
+        "explanation": " This question provides information about two relationships: matching each driver with a car color, and putting the drivers in order. Because the question asks for the driver at the far right, start with the infor- mation about the drivers. According to Statements 2 and 3, Marquise stands to the right of both Anya and Jorge. There is no information about Patrick's posi- tion. Based only on this information, there are several possible orders (using the first initial of each driver). PAJM AJMP AJPM Maybe the colors of the cars will help to place Patrick. Patrick did not drive the white car (Statement 3), the silver car (Statement 4), or the orange car (Statement 5). Therefore, Patrick must drive the brown car. The brown car was to the right of the orange car (Statement 1), but that leaves two possible orders of cars, with an initial standing for each color. OSBW OSWB Thus, we cannot determine who stands at the far right, Patrick (the brown car) or Marquise (the white car), so the answer cannot be determined (Option K)."},
+        
         {"question": "Charlie has a headache. The doctor told Charlie that type X flu always comes with fever and a headache, while type Y flu always comes with a headache but no fever. Based only on the information above, which of the following must be true?",
-        "options": [
-            "A. If Charlie has a fever, then he must have type X flu.",
-            "B. If Charlie does not have a fever, then he must have type Y flu",
-            "C. If Charlie has a fever, then he may have type X flu.",
-            "D. A headache always means that a person has the flu.",
-            "E. If Charlie has a fever, then he may have type Y flu."
-        ],
-        "answer": "C. If Charlie has a fever, then he may have type X flu."},
+        "options": ["A. If Charlie has a fever, then he must have type X flu.","B. If Charlie does not have a fever, then he must have type Y flu","C. If Charlie has a fever, then he may have type X flu.","D. A headache always means that a person has the flu.","E. If Charlie has a fever, then he may have type Y flu."],
+        "answer": "C. If Charlie has a fever, then he may have type X flu.",
+        "explanation": "The doctor described symptoms for type X flu (fever and headache) and type Y flu (headache, but no fever). This does not mean that there are only two types of illnesses. The directions say, 'Base your answer only on the information given.' We do not know that type X and type Y flu are the only two types of illnesses because the information provided does not say so. Option A is incorrect because the information given is not sufficient to conclude that Charlie must have type X flu. He could have another illness. B is wrong for similar reasons; Charlie's symptoms could indicate another illness. D can be ruled out because a head- ache may be a symptom of many illnesses, including, but not limited to, flu. E is wrong because a person with type Y flu never has a fever. Option C is correct because it states that Charlie may have type X flu, leaving open the possibility of another illness."},
+        
         {"question": "In the country of Cordovia, all the teachers are left-handed. Every Cordovian teacher is near- sighted. Based only on the information above, which of the following must be true?",
-        "options": [
-            "F. At least some left-handed Cordovians are near-sighted.",
-            "G. At least some right-handed Cordovians are teachers",
-            "H. Every left-handed Cordovian is a teacher.",
-            "J. Every near-sighted Cordovian is left-handed.",
-            "K. Every near-sighted Cordovian is a teacher."
-        ],
-        "answer": "F. At least some left-handed Cordovians are near-sighted."},
+        "options": ["F. At least some left-handed Cordovians are near-sighted.","G. At least some right-handed Cordovians are teachers","H. Every left-handed Cordovian is a teacher.","J. Every near-sighted Cordovian is left-handed.","K. Every near-sighted Cordovian is a teacher."],
+        "answer": "F. At least some left-handed Cordovians are near-sighted.",
+        "explanation": " Represent the first sentence in a diagram like this. (Everyone who is not left-handed can be considered right-handed. See Figure 1 below). The second sentence states that every Cordovian teacher is also near-sighted. However, the problem does not provide enough information to determine where to place near-sightedness on the diagram. We do not know whether all near-sighted Cordovians are teachers (Option K) or are left-handed (Option J). Similarly, we do not know whether all left-handed Cordovians are teachers (Option H). Option G is incor- rect-the first sentence states that all Cordovian teach- ers are left-handed. Only Option F must be correct.",
+        "image_urls": ["./images/q22.png"]},
+        
         {"question": "In a cartoon, four trolls stood in a line. Their names were Banto, Gretchen, Snowflake, and Holly. One had green eyes, another had purple ears, another had red teeth, and another had white hair. 1) The troll with red teeth was directly in front of Snowflake, who had white hair. 2) Banto, who did not have green eyes, was behind Gretchen. 3) Gretchen had purple ears. 4) Snowflake was behind Holly. If the troll with green eyes stood behind Gretchen, then what was Gretchen's position? ",
-        "options": [
-            "A. first",
-            "B. second",
-            "C. third",
-            "D. fourth",
-            "E. Cannot be determined from the information given."
-        ],
-        "answer": "A. first"},
+        "options": ["A. first","B. second","C. third","D. fourth","E. Cannot be determined from the information given."],
+        "answer": "A. first",
+        "explanation": " This question requires you to solve two relation- ships: matching each troll with a colorful characteris- tic, and putting the trolls in order. Start by matching the trolls and their characteristics. According to Statement 1, Snowflake has white hair. According to Statement 3, Gretchen has purple ears. Statement 2 states that Banto did not have green eyes, so Holly must have the green eyes. This leaves Banto with the red teeth (see Figure 1 below). Now, put the trolls in order. From Statements 1 and 2, we can conclude that Banto was in front of Snowflake and behind Gretchen. The question says that Holly ('green eyes') was behind Gretchen. Thus, every troll is behind Gretchen, which is Option A.",
+        "image_urls": ["./images/q23.png"]},
+        
         {"question": "When Tomas wears his white shirt, he also wears a tie. When he wears a tie, he also wears his black shoes. Based only on the information above, which of the following statements is a valid conclusion?",
-        "options": [
-            "F. When Tomas wears his black shoes, then he is wearing his white shirt.",
-            "G. Tomas wears his black shoes only when he is wearing a tie.",
-            "H. When Tomas wears his white shirt, then he is also wearing his black shoes.",
-            "J. If Tomas is not wearing his white shirt, then he is not wearing a tie.",
-            "K. If Tomas is not wearing a tie, then he is not wearing his black shoes."
-        ],
-        "answer": "H. When Tomas wears his white shirt, then he is also wearing his black shoes."},
+        "options": ["F. When Tomas wears his black shoes, then he is wearing his white shirt.","G. Tomas wears his black shoes only when he is wearing a tie.","H. When Tomas wears his white shirt, then he is also wearing his black shoes.","J. If Tomas is not wearing his white shirt, then he is not wearing a tie.","K. If Tomas is not wearing a tie, then he is not wearing his black shoes."],
+        "answer": "H. When Tomas wears his white shirt, then he is also wearing his black shoes.",
+        "explanation": "This question contains two conditional statements. You can put the two sentences together: When Tomas is wearing a white shirt, he is also wearing a tie and black shoes. Thus, Option H must be true. W→T→ B The first sentence only tells us what will happen when Tomas wears his white shirt. It says nothing about what will happen when Tomas does not wear his white shirt. Therefore, it is incorrect to conclude that when Tomas wears a tie he is also wearing a white shirt. Likewise, the second sentence tells us only what will happen when Tomas wears a tie. It doesn't tell us what will happen when Tomas does not wear a tie. We cannot conclude that whenever Tomas wears his black shoes he is also wearing a tie."},
+        
         {"question": "Six students stood in a line. Their names are Larnell, Masha, Nikia, Pedro, Ryan, and Sara, in that order. 1) The two students that wear glasses are immediately next to one another. 2) Three students are wearing school T-shirts. 3) None of the students wearing a school T-shirt is next to each other. 4) No student is wearing both glasses and a school T-shirt. Based only on the information above, which of the following must be true?",
-        "options": [
-            "A. Pedro and Ryan are wearing glasses.",
-            "B. Nikia is wearing a school T-shirt.",
-            "C. Pedro is wearing a school T-shirt.",
-            "D. Larnell and Sara are wearing school T-shirts.",
-            "E. Either Masha or Nikia is wearing a school T-shirt, but it is not possible to determine which one"
-        ],
-        "answer": "D. Larnell and Sara are wearing school T-shirts."}
+        "options": ["A. Pedro and Ryan are wearing glasses.","B. Nikia is wearing a school T-shirt.","C. Pedro is wearing a school T-shirt.","D. Larnell and Sara are wearing school T-shirts.","E. Either Masha or Nikia is wearing a school T-shirt, but it is not possible to determine which one"],
+        "answer": "D. Larnell and Sara are wearing school T-shirts.",
+        "explanation": "One way to solve this problem is to create a grid with a row for each of the six students, in the order presented in the question. According to the conditions, two students wear glasses and three students wear school T-shirts. None of the students wearing school T-shirts is next to each other (Condition 3) and the two students wearing glasses are next to each other (Condition 1). No student wears both glasses and a school T-shirt (Condition 4). These conditions allow two possibilities (see Figure 1 below). There is no information to determine which possibility is correct. Check the options one by one. Options A, B, C, and E are true for one possibility but not the other, so you cannot conclude that any of them must be true. Option D is always true-Larnell and Sara wear school T-shirts in both possibilities.",
+        "image_urls": ["./images/q25.png"]}
     ]
 }
