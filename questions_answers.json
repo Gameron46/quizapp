@@ -121,6 +121,91 @@
         "options": ["A. 12", "B. 72", "C. 18", "D. 6"],
         "answer": "D. 6",
         "explanation": "To find the square root (√) you ask yourself, 'What number multiplied by itself gives me 36?' 6 x 6 = 36; therefore, 6 is the square root of 36."
+        },
+        {"question": "Mr. Brown plowed 6 acres in 1 hour. At this rate, how long will it take him to plow 21 acres?",
+        "options": ["A. 3 hours", "B. 4 hours", "C. 3.5 hours", "D. 4.75 hours"],
+        "answer": "C. 3.5 hours",
+        "explanation": "Mr. Brown plows 6 acres an hour, so divide the number of acres (21) by 6 to find the number of hours needed; 21 + 6 = 3.5 hours."
+        },
+        {"question": "What is the prime factorization of 84?",
+        "options": ["A. 42x2", "B. 2x2x4x6", "C. 2x7x6", "D. 2x2x3x7"],
+        "answer": "D. 2x2x3x7",
+        "explanation": "This is the only answer choice that has only PRIME numbers. A prime number is a number with two and only two distinct factors. In choice a, 42 is not prime. In choice b, 4 and 6 are not prime. In choice c, 6 is not prime."
+        },
+        {"question": "What is 2 to the 5th power?",
+        "options": ["A. 10", "B. 15", "C. 32", "D. 16"],
+        "answer": "C. 32",
+        "explanation": "2 to the 5th power=2 x 2 x 2 x 2 x 2 = 32"
+        },
+        {"question": "The low temperature in Anchorage, Alaska today was -4°F. The low temperature in Los Angeles, California was 63°F. What is the difference in the two low temperatures?",
+        "options": ["A. 59°", "B. 67°", "C. 57°", "D. 14°"],
+        "answer": "B. 67°",
+        "explanation": "Visualize a number line. The distance from -4 to 0 is 4. Then, the distance from 0 to 63 is 63. Add the two distances together to get 67; 63 + 4 = 67."
+        },
+        {"question": "The Robin's Nest Nursing Home had a fundraising goal of $9,500. By the end of the fundraiser, they had exceeded their goal by $2,100. How much did they raise?",
+        "options": ["A. $7,400", "B. $13,600", "C. $10,600", "D. $11,600"],
+        "answer": "D. $11,600",
+        "explanation": "Exceeded means 'gone above.' Therefore, if they exceeded their goal of $9,500 by $2,100, they went over their goal by $2,100; $9,500 + $2,100 = $11,600. If you chose a, you subtracted $2,100 from $9,500 instead of adding the two numbers."
+        },
+        {"question": "Mount Everest is 29,028 ft high. Mount Kilimanjaro is 19,340 ft high. How much taller is Mount Everest?",
+        "options": ["A. 9,688 feet", "B. 10,328 feet", "C. 11,347 feet", "D. 6,288 feet"],
+        "answer": "A. 9,688 feet",
+        "explanation": "Subtract Mt. Kilimanjaro's height from Mt. Everest's height; 29,028 - 19,340 = 9,688. If you chose b, you did not borrow correctly when subtracting."
+        },
+        {"question": "The area of a square is 64 cm squared. What is the length of one side of the square?",
+        "options": ["A. 8 cm", "B. 16 cm", "C. 32 cm", "D. 24 cm"],
+        "answer": "A. 8 cm",
+        "explanation": "To find the area of a square, you multiply the length of a side by itself, because all the sides are the same length. What number multiplied by itself is 64? 8 x 8 = 64."
+        },
+        {"question": "Mrs. Farrell's class has 26 students. Only 21 were present on Monday. How many were absent?",
+        "options": ["A. 15", "B. 5", "C. 4", "D. 16"],
+        "answer": "B. 5",
+        "explanation": "Subtract the number of students present from the total number in the class to determine how many students are missing; 26 - 21 = 5."
+        },
+        {"question": "Lucy's youth group raised $1,569 for charity. They decided to split the money evenly among 3 charities. How much will each charity receive?",
+        "options": ["A. $784.50", "B. $423.00", "C. $523.00", "D. $341.00"],
+        "answer": "C. $523.00",
+        "explanation": "Divide the money raised by three to find the amount each charity will receive; $1,569 + 3 = $523."
+        },
+        {"question": "Jason made 10 two-point baskets and 2 three-point baskets in Friday's basketball game. He did not score any other points. How many points did he score?",
+        "options": ["A. 22", "B. 12", "C. 24", "D. 26"],
+        "answer": "D. 26",
+        "explanation": "Find the number of points scored on two-point baskets by multiplying 2 x 10; 20 points were scored on two-point baskets. Find the number of points scored on three point baskets by multiplying 3 x 2; 6 points were scored on three-point baskets. The total number of points is the sum of these two totals; 20 + 6 = 26."
+        },
+        {"question": "Jeff left Hartford at 2:15 P.M. and arrived in Boston at 4:45 P.M. How long did the drive take him?",
+        "options": ["A. 2.5 hours", "B. 2.3 hours", "C. 3.25 hours", "D. 2.75 hours"],
+        "answer": "A. 2.5 hours",
+        "explanation": "From 2:15 P.M. to 4:15 P.M. is 2 hours. Then, from 4:15 P.M. to 4:45 P.M. is another half hour. This is a total of 2.5 hours."
+        },
+        {"question": "Shane rolls a die numbered 1 through 6. What is the probability Shane rolls a 5?",
+        "options": ["A. 5/6", "B. 1/6", "C. 1/5", "D. 1/2"],
+        "answer": "B. 1/6",
+        "explanation": "There is a 1 in 6 chance of rolling a 5 because there are 6 possible outcomes on a die, but only 1 outcome is a 5."
+        },
+        {"question": "Susan traveled 114 miles in 2 hours. If she keeps going at the same rate, how long will it take her to go the remaining 285 miles of her trip?",
+        "options": ["A. 5 hours", "B. 3 hours", "C. 7 hours", "D. 4 hours"],
+        "answer": "A. 5 hours",
+        "explanation": "Find the rate at which Susan is traveling by dividing her distance by time; 114 + 2 = 57 mph. To find out how long it will take her to travel 285 miles, divide her distance by her rate; 285/57 = 5 hours."
+        },
+        {"question": "A flight from Pittsburgh to Los Angeles took 5 hours and covered 3,060 miles. What was the plane's average speed?",
+        "options": ["A. 545 mph", "B. 615 mph", "C. 515 mph", "D. 612 mph"],
+        "answer": "D. 612 mph",
+        "explanation": "Divide the miles by the time to find the rate; 3,060/5 = 612 mph."
+        },
+        {"question": "Larry purchased 3 pairs of pants for $24 each and 5 shirts for $18 each. How much did Larry spend?",
+        "options": ["A. $42", "B. $72", "C. $162", "D. $186"],
+        "answer": "C. $162",
+        "explanation": "He spent $72 on pants (3 x $24 = $72) and $90 on shirts (5 x $18 = $90). Altogether he spent $162 ($72 + $90 = $162). If you chose a, you calculated the cost of ONE pair of pants plus ONE shirt instead of THREE pants and FIVE shirts."
+        },
+        {"question": "How many square centimeters are in one square meter?",
+        "options": ["A. 100 sq cm", "B. 10,000 sq cm", "C. 144 sq cm", "D. 100,000 sq cm"],
+        "answer": "B. 10,000 sq cm",
+        "explanation": "There are 100 cm in a meter. A square meter is 100 cm by 100 cm. The area of this is 10,000 sq cm (100 x 100 = 10,000)."
+        },
+        {"question": "Raul's bedroom is 4 yards long. How many inches long is the bedroom?",
+        "options": ["A. 144 inches", "B. 48 inches", "C. 400 inches", "D. 4,000 inches"],
+        "answer": "A. 144 inches",
+        "explanation": "There are 36 inches in a yard; 4 x 36 = 144 inches. There are 144 inches in 4 yards."
         }
     ]
 }
