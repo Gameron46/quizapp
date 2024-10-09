@@ -125,7 +125,7 @@
         {"question": "Mr. Brown plowed 6 acres in 1 hour. At this rate, how long will it take him to plow 21 acres?",
         "options": ["A. 3 hours", "B. 4 hours", "C. 3.5 hours", "D. 4.75 hours"],
         "answer": "C. 3.5 hours",
-        "explanation": "Mr. Brown plows 6 acres an hour, so divide the number of acres (21) by 6 to find the number of hours needed; 21 + 6 = 3.5 hours."
+        "explanation": "Mr. Brown plows 6 acres an hour, so divide the number of acres (21) by 6 to find the number of hours needed; 21/6 = 3.5 hours."
         },
         {"question": "What is the prime factorization of 84?",
         "options": ["A. 42x2", "B. 2x2x4x6", "C. 2x7x6", "D. 2x2x3x7"],
@@ -165,7 +165,7 @@
         {"question": "Lucy's youth group raised $1,569 for charity. They decided to split the money evenly among 3 charities. How much will each charity receive?",
         "options": ["A. $784.50", "B. $423.00", "C. $523.00", "D. $341.00"],
         "answer": "C. $523.00",
-        "explanation": "Divide the money raised by three to find the amount each charity will receive; $1,569 + 3 = $523."
+        "explanation": "Divide the money raised by three to find the amount each charity will receive; $1,569/3 = $523."
         },
         {"question": "Jason made 10 two-point baskets and 2 three-point baskets in Friday's basketball game. He did not score any other points. How many points did he score?",
         "options": ["A. 22", "B. 12", "C. 24", "D. 26"],
@@ -185,7 +185,7 @@
         {"question": "Susan traveled 114 miles in 2 hours. If she keeps going at the same rate, how long will it take her to go the remaining 285 miles of her trip?",
         "options": ["A. 5 hours", "B. 3 hours", "C. 7 hours", "D. 4 hours"],
         "answer": "A. 5 hours",
-        "explanation": "Find the rate at which Susan is traveling by dividing her distance by time; 114 + 2 = 57 mph. To find out how long it will take her to travel 285 miles, divide her distance by her rate; 285/57 = 5 hours."
+        "explanation": "Find the rate at which Susan is traveling by dividing her distance by time; 114/2 = 57 mph. To find out how long it will take her to travel 285 miles, divide her distance by her rate; 285/57 = 5 hours."
         },
         {"question": "A flight from Pittsburgh to Los Angeles took 5 hours and covered 3,060 miles. What was the plane's average speed?",
         "options": ["A. 545 mph", "B. 615 mph", "C. 515 mph", "D. 612 mph"],
@@ -240,7 +240,7 @@
         {"question": "What is the greatest common factor of 24 and 64?",
         "options": ["A. 8", "B. 4", "C. 12", "D. 36"],
         "answer": "A. 8",
-        "explanation": "List the factors of 24 and 64. The largest factor that they have in common is the greatest common factor. Factors of 24: 1, 2, 3, 4, 6, 8, 12, 24 Factors of 64: 1, 2, 4, 8, 16, 32, 64. The largest number that appears in both lists is 8."
+        "explanation": "List the factors of 24 and 64. The largest factor that they have in common is the greatest common factor. Factors of 24: 1, 2, 3, 4, 6, 8, 12, 24. Factors of 64: 1, 2, 4, 8, 16, 32, 64. The largest number that appears in both lists is 8."
         },
         {"question": "Twelve coworkers go out for lunch together and order three pizzas. Each pizza is cut into eight slices. If each person gets the same number of slices, how many slices will each person get?",
         "options": ["A. 4", "B. 3", "C. 5", "D. 2"],
