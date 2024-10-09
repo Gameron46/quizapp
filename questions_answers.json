@@ -206,6 +206,209 @@
         "options": ["A. 144 inches", "B. 48 inches", "C. 400 inches", "D. 4,000 inches"],
         "answer": "A. 144 inches",
         "explanation": "There are 36 inches in a yard; 4 x 36 = 144 inches. There are 144 inches in 4 yards."
+        },
+        {"question": "Jeff burns 500 calories per hour bicycling. How long will he have to ride to burn 750 calories?",
+        "options": ["A. 3 hours", "B. 2 hours", "C. 1.5 hours", "D. 0.5 hours"],
+        "answer": "C. 1.5 hours",
+        "explanation": "To find the number of hours needed to burn 750 calories, divide 750 by 500; 750/500 = 1.5 hours."
+        },
+        {"question": "The temperature at 6 P.M. was 31°F. By midnight, it had dropped 40°F. What was the temperature at midnight?",
+        "options": ["A. 9°F", "B. -9°F", "C. -11°F", "D. 0°F"],
+        "answer": "B. -9°F",
+        "explanation": "Visualize a number line. The drop from 31° to 0° is 31°. There are still 9 more degrees to drop. They will be below zero. -9°F is the temperature at midnight."
+        },
+        {"question": "The total ticket sales for a soccer game were $1,260; 210 tickets were purchased. If all the tickets are the same price, what was the cost of a ticket?",
+        "options": ["A. $6.00", "B. $3.50", "C. $10.00", "D. $7.50"],
+        "answer": "A. $6.00",
+        "explanation": "Divide the total sales ($1,260) by the number of tickets sold (210) to find the cost per ticket; $1,260 ÷ 210 = $6."
+        },
+        {"question": "Sherman took his pulse for 10 seconds and counted 11 beats. What is Sherman's pulse rate in beats per minute?",
+        "options": ["A. 210 beats per minute", "B. 110 beats per minute", "C. 66 beats per minute", "D. 84 beats per minute"],
+        "answer": "C. 66 beats per minute",
+        "explanation": "A 10 second count is 1/6 of a minute. To find the number of beats per minute, multiply the beat in 10 seconds by 6; 11 × 6 = 66 beats per minute."
+        },
+        {"question": "Jennifer flipped a coin three times and got heads each time. What is the probability that she gets heads on the next flip?",
+        "options": ["A. 1", "B. 1/16", "C. 1/2", "D. 0"],
+        "answer": "C. 1/2",
+        "explanation": "The probability of heads does not change based on the results of previous flips. Each flip is an independent event. Therefore, the probability of getting heads is 1/2."
+        },
+        {"question": "Jody's English quiz scores are 56, 93, 72, 89, and 87. What is the median of her scores?",
+        "options": ["A. 72", "B. 87", "C. 56", "D. 85.6"],
+        "answer": "B. 87",
+        "explanation": "To find the median, first put the numbers in order from least to greatest. 56, 72, 87, 89, 93. The middle number is the median. 87 is in the middle of the list, therefore, it is the median. If you chose a, you forgot to put the numbers in order before finding the middle number."
+        },
+        {"question": "What is the greatest common factor of 24 and 64?",
+        "options": ["A. 8", "B. 4", "C. 12", "D. 36"],
+        "answer": "A. 8",
+        "explanation": "List the factors of 24 and 64. The largest factor that they have in common is the greatest common factor. Factors of 24: 1, 2, 3, 4, 6, 8, 12, 24 Factors of 64: 1, 2, 4, 8, 16, 32, 64. The largest number that appears in both lists is 8."
+        },
+        {"question": "Twelve coworkers go out for lunch together and order three pizzas. Each pizza is cut into eight slices. If each person gets the same number of slices, how many slices will each person get?",
+        "options": ["A. 4", "B. 3", "C. 5", "D. 2"],
+        "answer": "D. 2",
+        "explanation": "Find the total number of slices by multiplying 3 by 8 (3 × 8 = 24). There are 24 slices to be shared among 12 coworkers. Divide the number of slices by the number of people to find the number of slices per person; 24/12= 2 slices per person."
+        },
+        {"question": "Marvin is helping his teachers plan a field trip. There are 125 people going on the field trip and each school bus holds 48 people. What is the minimum number of school buses they will need to reserve for the trip?",
+        "options": ["A. 3", "B. 2", "C. 4", "D. 5"],
+        "answer": "A. 3",
+        "explanation": "Divide the number of people by the number that fit on a bus; 125 ÷ 48 = 2.604. They need more than 2 buses, but not quite 3. Since you can't order part of a bus, they will need to order 3 buses."
+        },
+        {"question": "Which number in the answer choices below is not equivalent to the other numbers?",
+        "options": ["A. 0.6", "B. 60%", "C. 3/5", "D. 6%"],
+        "answer": "D. 6%",
+        "explanation": "Change all the answer choices to their decimal equivalents. Choice a is still 0.6; choice b is 0.6; choice c is 0.6 (3÷5); choice d is 0.06; 0.06 is not equivalent to the other numbers."
+        },
+        {"question": "Lance has 70 cents, Margaret has three-fourths of a dollar, Guy has two quarters and a dime, and Bill has six dimes. Who has the most money?",
+        "options": ["A. Lance", "B. Margaret", "C. Guy", "D. Bill"],
+        "answer": "B. Margaret",
+        "explanation": "Lance has 70 cents. Three-fourths of a dollar is 75 cents, so Margaret has 75 cents. Guy has 60 cents (25 + 25 + 10 = 60). Bill has 60 cents (6 × 10 = 60). Margaret has the most money."
+        },
+        {"question": "The students at Norton School were asked to name their favorite type of pet. Of the 430 students surveyed, 258 said that their favorite type of pet was a dog. Suppose that only 100 students were surveyed, with similar results, about how many students would say that a dog is their favorite type of pet?",
+        "options": ["A. 58", "B. 60", "C. 72", "D. 46"],
+        "answer": "B. 60",
+        "explanation": "Finding what 100 students would say is the same as finding the percent, because percent means 'out of 100.' To find the percent, divide the number of students who said a dog was their favorite (258) by the total number of students surveyed (430); 258 ÷ 430 = 0.6. Change 0.6 to a percent by moving the decimal two places to the right: 60%. This means that 60 out of 100 students would say dog."
+        },
+        {"question": "A group of five friends went out to lunch. The total bill for the lunch was $53.75. Their meals all cost about the same, so they wanted to split the bill evenly. Without considering tip, how much should each friend pay?",
+        "options": ["A. $11.25", "B. $12.85", "C. $10.75", "D. $11.50"],
+        "answer": "C. $10.75",
+        "explanation": "Divide the bill by 5; $53.75 ÷ 5 = $10.75. They each pay $10.75."
+        },
+        {"question": "The value of a computer is depreciated over five years for tax purposes (meaning that at the end of five years, the computer is worth $0). If a business paid $2,100 for a computer, how much will it have depreciated after 2 years?",
+        "options": ["A. $420", "B. $1,050", "C. $820", "D. $840"],
+        "answer": "D. $840",
+        "explanation": "Find how much it depreciates over one year by dividing the cost by 5; $2,100 ÷ 5 = $420. Multiply this by 2 for two years; $420 × 2 = $840. It will have depreciated $840."
+        },
+        {"question": "Steve earned a 96% on his first math test, a 74% on his second test, and an 85% on his third test. What is his test average?",
+        "options": ["A. 91%", "B. 85%", "C. 87%", "D. 82%"],
+        "answer": "B. 85%",
+        "explanation": "Add the test grades (96 + 74 + 85 = 255) and divide the sum by the number of tests (255 ÷ 3 = 85). The average is 85%."
+        },
+        {"question": "A national park keeps track of how many people per car enter the park. Today, 57 cars had 4 people, 61 cars had 2 people, 9 cars had 1 person, and 5 cars had 5 people. What is the average number of people per car? Round to the nearest person.",
+        "options": ["A. 2", "B. 3", "C. 4", "D. 5"],
+        "answer": "B. 3",
+        "explanation": "Find the total number of people and the total number of cars. Then, divide the total people by the total cars. People: 57x4=228, 61x2=122, 9x1=9, 5x5=25, TOTAL 384 people. Cars: 57+61+9+5=132. 384/132=2.9 which is rounded up to 3 people because 2.9 is closer to 3 than it is to 2."
+        },
+        {"question": "A large pipe dispenses 750 gallons of water in 50 seconds. At this rate, how long will it take to dispense 330 gallons?",
+        "options": ["A. 14 seconds", "B. 33 seconds", "C. 22 seconds", "D. 27 seconds"],
+        "answer": "C. 22 seconds",
+        "explanation": "Find the number of gallons per second by dividing 750 by 50 (750 ÷ 50 = 15 gallons per second). Divide 330 gallons by 15 to find how many seconds it will take (330 ÷ 15 = 22 seconds). It will take 22 seconds."
+        },
+        {"question": "The light on a lighthouse blinks 45 times a minute. How long will it take the light to blink 405 times?",
+        "options": ["A. 11 minutes", "B. 4 minutes", "C. 9 minutes", "D. 6 minutes"],
+        "answer": "C. 9 minutes",
+        "explanation": "Divide 405 by 45 to get 9 minutes."
+        },
+        {"question": "A die is rolled and a coin is tossed. What is the probability that a 3 will be rolled and a tail tossed?",
+        "options": ["A. 1/2", "B. 1/6", "C. 1/12", "D. 1/8"],
+        "answer": "C. 1/12",
+        "explanation": "Find the probability of each event separately, and then multiply the answers. The probability of rolling a 3 is 1/6 and the probability of tossing a tail is 1/2. To find the probability of both of them happening, multiply 1/6 x 1/2=1/12. The probability is 1/12."
+        },
+        {"question": "Wendy has 5 pairs of pants and 8 shirts. How many different combinations can she make with these items?",
+        "options": ["A. 13", "B. 24", "C. 40", "D. 21"],
+        "answer": "C. 40",
+        "explanation": "Multiply the number of choices for each item to find the number of combinations (5 × 8 = 40). There are 40 combinations."
+        },
+        {"question": "Audrey measured the width of her dining room in inches. It is 150 inches. How many feet wide is her dining room?",
+        "options": ["A. 12 feet", "B. 9 feet", "C. 12.5 feet", "D. 10.5 feet"],
+        "answer": "C. 12.5 feet",
+        "explanation": "There are 12 inches in a foot. Divide 150 by 12 to find the number of feet; 150/12=12.5 feet."
+        },
+        {"question": "Sharon wants to make 25 half-cup servings of soup. How many ounces of soup does she need?",
+        "options": ["A. 100 ounces", "B. 250 ounces", "C. 200 ounces", "D. 6.25 ounces"],
+        "answer": "A. 100 ounces",
+        "explanation": "One cup is 8 ounces, so half a cup is 4 ounces. Multiply 25 by 4 ounces to find the number of ounces needed; 25 x 4 = 100 ounces."
+        },
+        {"question": "Justin weighed 8 lb 12 oz when he was born. At his two-week check-up, he had gained 8 ounces. What was his weight in pounds and ounces?",
+        "options": ["A. 9 lb", "B. 8 lb 15 oz", "C. 9 lb 4 oz", "D. 10 lb 2 oz"],
+        "answer": "C. 9 lb 4 oz",
+        "explanation": "There are 16 ounces in a pound. If Justin gains 8 ounces he will be 8 pounds and 20 ounces. The 20 ounces is 1 pound and 4 ounces. Add this to the 8 pounds to get 9 pounds and 4 ounces."
+        },
+        {"question": "One inch equals 2.54 centimeters. The dimensions of a table made in Europe are 85 cm wide by 120 cm long. What is the width of the table in inches? Round to the nearest tenth of an inch.",
+        "options": ["A. 30 inches", "B. 215.9 inches", "C. 33.5 inches", "D. 47.2 inches"],
+        "answer": "C. 33.5 inches",
+        "explanation": "Divide the width (85 cm) by 2.54 to find the number of inches; 85 ÷ 2.54 = 33.46 inches. The question says to round to the nearest tenth (one decimal place), which would be 33.5 inches."
+        },
+        {"question": "A bag contains 3 red, 6 blue, 5 purple, and 2 orange marbles. One marble is selected at random. What is the probability that the marble chosen is blue?",
+        "options": ["A. 4/13", "B. 3/8", "C. 3/16", "D. 3/5"],
+        "answer": "B. 3/8",
+        "explanation": "The probability of blue is blue/total. The number of blue marbles is 6, and the total number of marbles is 16 (3 + 6 + 5 + 2 = 16). Therefore, the probability of choosing a blue is 6/16=3/8."
+        },
+        {"question": "The operator of an amusement park game kept track of how many tries it took participants to win the game. The following is the data from the first ten people: 2, 6, 3, 4, 6, 2, 8, 4, 3, 5. What is the median number of tries it took these participants to win the game?",
+        "options": ["A. 8", "B. 6", "C. 4", "D. 2"],
+        "answer": "C. 4",
+        "explanation": "First, put the numbers in order from least to greatest, and then find the middle of the set: 2, 2, 3, 3, 4, 4, 5, 6, 6. The middle is the average (mean) of the 5th and 6th data items. The mean of 4 and 4 is 4."
+        },
+        {"question": "Max goes to the gym every fourth day. Ellen's exercise routine is to go every third day. Today is Monday and both Max and Ellen are at the gym. What will the day of the week be the next time they are BOTH at the gym?",
+        "options": ["A. Sunday", "B. Wednesday", "C. Friday", "D. Saturday"],
+        "answer": "D. Saturday",
+        "explanation": "A chart like the one below can be used to determine which days Max and Ellen go to the gym. The first day after Monday that they both go, Saturday, is the answer.",
+        "image_urls": ["./images/math_q52.png"]
+        },
+        {"question": "Danny is a contestant on a TV game show. If he gets a question right, the points for that question are added to his score. If he gets a question wrong, the points for that question are subtracted from his score. Danny currently has 200 points. If he gets a 300-point question wrong, what will his score be?",
+        "options": ["A. -100", "B. 0", "C. -200", "D. 100"],
+        "answer": "A. -100",
+        "explanation": "200-300= -100 points"
+        },
+        {"question": "Write 3.5 x 10 to the 4th power in decimal notation.",
+        "options": ["A. 3.50000", "B. 35,000", "C. 350,000", "D. 0.00035"],
+        "answer": "B. 35,000",
+        "explanation": "Move the decimal point 4 places to the right to get 35,000."
+        },
+        {"question": "The Ravens played 25 home games this year. They had 9 losses and 2 ties. How many games did they win?",
+        "options": ["A. 14", "B. 11", "C. 13", "D. 12"],
+        "answer": "A. 14",
+        "explanation": "Eleven games are accounted for with the losses and ties (9 + 2 = 11). The remainder of the 25 games were won. Subtract to find the games won; 25-11=14 games won."
+        },
+        {"question": "The temperature at midnight was 4°F. By 2 A.M. it had dropped 9°F. What was the temperature at 2 A.M.?",
+        "options": ["A. 13°F", "B. -5°F", "C. -4°F", "D. 0°F"],
+        "answer": "B. -5°F",
+        "explanation": "If the temperature is only 4° and drops 9°, it goes below zero. It drops 4° to zero and another 5° to -5°F.",
+        "image_urls": ["./images/math_q56.png"]
+        },
+        {"question": "Find the next number in the following pattern. 320, 160, 80, 40,...",
+        "options": ["A. 35", "B. 30", "C. 10", "D. 20"],
+        "answer": "D. 20",
+        "explanation": "Each number is divided by 2 to find the next number; 40 ÷ 2 = 20. Twenty is the next number."
+        },
+        {"question": "Which of the following terms does NOT describe the number 9?",
+        "options": ["A. prime", "B. integer", "C. real number", "D. whole number"],
+        "answer": "A. prime",
+        "explanation": "Nine is NOT prime because it has 3 factors; 1, 3, and 9. Prime numbers have only 2 factors."
+        },
+        {"question": "Which expression below is equal to 5?",
+        "options": ["A. (1+2) squared", "B. 9-(2 squared)", "C. 11-10x5", "D. 45/3 x 3"],
+        "answer": "B. 9-(2 squared)",
+        "explanation": "The correct order of operations must be used here. PEMDAS tells you that you should do the operations in the following order: Parentheses, Exponents, Multiplication and Division-left to right, Addition and Subtraction-left to right.",
+        "image_urls": ["./images/math_q59.png"]
+        },
+        {"question": "A bus picks up a group of tourists at a hotel. The sightseeing bus travels 2 blocks north, 2 blocks east, 1 block south, 2 blocks east, and 1 block south. Where is the bus in relation to the hotel?",
+        "options": ["A. 2 blocks north", "B. 1 block west", "C. 3 blocks south", "D. 4 blocks east"],
+        "answer": "D. 4 blocks east",
+        "explanation": "See the diagram below. They are 4 blocks east of the hotel.",
+        "image_urls": ["./images/math_q60.png"]
+        },
+        {"question": "Each week Jaime saves $25. How long will it take her to save $350?",
+        "options": ["A. 12 weeks", "B. 14 weeks", "C. 16 weeks", "D. 18 weeks"],
+        "answer": "B. 14 weeks",
+        "explanation": "Divide $350 by $25; 350 ÷ 25 = 14 weeks."
+        },
+        {"question": "Ashley's car insurance costs her $115 per month. How much does it cost her per year?",
+        "options": ["A. $1,150", "B. $1,380", "C. $980", "D. $1,055"],
+        "answer": "B. $1,380",
+        "explanation": "Multiply $115 by 12 because there are 12 months in a year; $115 × 12 = $1,380 per year."
+        },
+        {"question": "The ratio of boys to girls at the dance was 3:4. There were 60 girls at the dance. How many boys were at the dance?",
+        "options": ["A. 45", "B. 50", "C. 55", "D. 40"],
+        "answer": "A. 45",
+        "explanation": "Use a proportion comparing boys to girls at the dance: boys/girls = 3/4 = x/60. Solve the proportion by cross-multiplying, setting the cross-products equal to each other and solving as shown below.",
+        "image_urls": ["./images/math_q63.png"]
+        }
+    ],
+    
+    "empty": [
+        {"question": "",
+        "options": ["A. ", "B. ", "C. ", "D. "],
+        "answer": "",
+        "explanation": ""
         }
     ]
 }

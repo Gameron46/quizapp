@@ -14,6 +14,7 @@ function startQuestions() {
                 questions = data.math
             }
             document.getElementById("quizSelect").remove();
+            document.getElementById("quizTypeBreak").remove();
             continueQuestions();
         }
     )
