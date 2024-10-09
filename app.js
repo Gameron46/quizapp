@@ -2,19 +2,27 @@ let questionnumber = 0;
 let numPoints = 0;
 let questions = [];
 
-function fetchJSONData() {
+function startQuestions() {
+    let quizSelection = document.getElementById("quizSelect").value
     fetch('./questions_answers.json')
         .then((res) => res.json())
         .then((data) => {
-            questions=data.questions
-        })
+            if (quizSelection === 'logic') {
+                questions = data.logic
+            }
+            else if (quizSelection === 'math') {
+                questions = data.math
+            }
+            document.getElementById("quizSelect").remove();
+            continueQuestions();
+        }
+    )
 }
-fetchJSONData();
 
 function continueQuestions() {
     questionnumber++;
     if (questionnumber === questions.length+1) {
-        document.getElementById("Quiz").innerHTML = '<h4>You got ' + numPoints + ' out of 15 questions correct.</h4> <h3>Thanks for taking the quiz!</h3>'
+        document.getElementById("Quiz").innerHTML = '<h4>You got ' + numPoints + ' out of ' + questions.length + ' questions correct.</h4> <h3>Thanks for taking the quiz!</h3>'
     }
     else {
         let selectionBox = document.createElement('select');

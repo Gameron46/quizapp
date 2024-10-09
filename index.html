@@ -7,9 +7,14 @@
     </head>
     <body>
         <div id="Quiz">
-            <h1 id="questionNum">Logic Quiz</h1>
-            <p id="questionText">Welcome to the quiz. Click the button below to get started.</p>
-            <button id="nextButton" type="button" onclick=continueQuestions()>Begin Quiz</button>
+            <h1 id="questionNum">Quiz App</h1>
+            <p id="questionText">Welcome to the quiz app. Select the quiz you want to take and click "Begin".</p>
+            <select id="quizSelect">
+                <option value="logic">Logic Quiz</option>
+                <option value="math">Math Quiz</option>
+            </select>
+            <br>
+            <button id="nextButton" type="button" onclick=startQuestions()>Begin Quiz</button>
         </div>
         <script src="app.js"></script>
     </body>

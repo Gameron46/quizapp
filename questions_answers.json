@@ -1,5 +1,5 @@
 {
-    "questions": [
+    "logic": [
         {"question": "Five students are standing in a line according to their heights, from tallest to shortest. 1) Lisa is taller than Mickey, but shorter than Fernando. 2) Mickey is shorter than Noah, but taller than Jodi. 3) Noah is shorter than Fernando. In which position is Noah?",
         "options": ["A. First", "B. Second", "C. Third", "D. Fourth", "E. Cannot be determined from the information given."],
         "answer": "E. Cannot be determined from the information given.",
@@ -79,5 +79,48 @@
         "answer": "D. Larnell and Sara are wearing school T-shirts.",
         "explanation": "One way to solve this problem is to create a grid with a row for each of the six students, in the order presented in the question. According to the conditions, two students wear glasses and three students wear school T-shirts. None of the students wearing school T-shirts is next to each other (Condition 3) and the two students wearing glasses are next to each other (Condition 1). No student wears both glasses and a school T-shirt (Condition 4). These conditions allow two possibilities (see Figure 1 below). There is no information to determine which possibility is correct. Check the options one by one. Options A, B, C, and E are true for one possibility but not the other, so you cannot conclude that any of them must be true. Option D is always true-Larnell and Sara wear school T-shirts in both possibilities.",
         "image_urls": ["./images/q25.png"]}
+    ],
+    
+    "math" : [
+        {"question": "Bonnie has twice as many cousins as Robert. George has 5 cousins, which is 11 less than Bonnie has. How many cousins does Robert have?",
+        "options": ["A. 17", "B. 21", "C. 4", "D. 8"],
+        "answer": "D. 8",
+        "explanation": "Work backwards to find the solution. George has 5 cousins, which is 11 less than Bonnie has; therefore, Bonnie has 16 cousins. Bonnie has twice as many as Robert has, so half of 16 is 8. Robert has 8 cousins."
+        },
+        {"question": "Oscar sold 2 glasses of milk for every 5 sodas he sold. If he sold 10 glasses of milk, how many sodas did he sell?",
+        "options": ["A. 45", "B. 20", "C. 25", "D. 10"],
+        "answer": "C. 25",
+        "explanation": "Set up a proportion with milk/soda; 2/5=10/x. Cross multiply and solve; (5)(10) = 2x. Divide both sides by 2; 50/2 = 2x/2; x=25 sodas."
+        },
+        {"question": "Justin earned scores of 85, 92, and 95 on his science tests. What does he need to earn on his next science test to have an average (arithmetic mean) of 93%?",
+        "options": ["A. 93", "B. 100", "C. 85", "D. 96"],
+        "answer": "B. 100",
+        "explanation": "To earn an average of 93% on four tests, the sum of those four testsmust be (93)(4) or 372. The sum of the first three tests is 85 + 92 + 95 = 272. The difference between the needed sum of four tests and the sum of the first three tests is 100. He needs a 100 to earn a 93 average."
+        },
+        {"question": "Brad's class collected 320 cans of food. They boxed them in boxes of 40 cans each. How many boxes did they need?",
+        "options": ["A. 280", "B. 10", "C. 8", "D. 5"],
+        "answer": "C. 8",
+        "explanation": "c. To find the number of boxes needed, you should divide the number of cans by 40; 320/40 = 8 boxes."
+        },
+        {"question": "Joey participated in a dance-a-thon. His team started dancing at 10 A.M. on Friday and stopped at 6 P.M. on Saturday. How many hours did Joey's team dance?",
+        "options": ["A. 52", "B. 56", "C. 30", "D. 32"],
+        "answer": "D. 32",
+        "explanation": "From 10 A.M. Friday to 10 A.M. Saturday is 24 hours. Then, from 10 A.M. Saturday to 6 P.M. Saturday is another 8 hours. Together, that makes 32 hours."
+        },
+        {"question": "Which expression has an answer of 18?",
+        "options": ["A. 2 x 5 + 4", "B. 2 x (4 + 5)", "C. 5 x (2 + 4)", "D. 4 × 2 + 5"],
+        "answer": "B. 2 x (4 + 5)",
+        "explanation": "Use the order of operations and try each option. The first option results in 14 because 2 x 5 = 10, then 10 + 4 = 14. This does not work. The second option does result in 18. The numbers in parentheses are added first and result in 9, which is then multiplied by 2 to get a final answer of 18. Choice c does not work because the operation in parentheses is done first, yielding 6, which is then multiplied by 5 to get a result of 30. Choice d does not work because the multiplication is done first, yielding 8, which is added to 5 for a final answer of 13."
+        },
+        {"question": "Callie's grandmother pledged $0.50 for every mile Callie walked in her walk-a-thon. Callie walked 9 miles. How much does her grandmother owe?",
+        "options": ["A. $4.50", "B. $18.00", "C. $5.00", "D. $9.00"],
+        "answer": "A. $4.50",
+        "explanation": "Multiply the number of miles (9) by the amount pledged per mile ($0.50); 9 x 0.50 = $4.50. To multiply decimals, multiply normally, then count the number of decimal places in the problem and place the decimal point in the answer so that the answer has the same number of decimal places as the problem."
+        },
+        {"question": "What is the square root of 36?",
+        "options": ["A. 12", "B. 72", "C. 18", "D. 6"],
+        "answer": "D. 6",
+        "explanation": "To find the square root (√) you ask yourself, 'What number multiplied by itself gives me 36?' 6 x 6 = 36; therefore, 6 is the square root of 36."
+        }
     ]
 }
