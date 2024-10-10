@@ -2,19 +2,35 @@ let questionnumber = 0;
 let numPoints = 0;
 let questions = [];
 
+function changeSubject() {
+    let subjects = {logicQuizzes: ["Logic Quiz"], mathQuizzes: ["Misc. Math Quiz"]}
+    let quizSelect = document.getElementById('quizSelect')
+    let subject = document.getElementById('subjectSelect').value;
+    quizSelect.innerHTML = ''
+
+    for (const subj of subjects[subject]) {
+        let option = document.createElement('option')
+        option.innerText = subj
+        option.value = subj
+        quizSelect.appendChild(option)
+    }
+}
+
 function startQuestions() {
     let quizSelection = document.getElementById("quizSelect").value
     fetch('./questions_answers.json')
         .then((res) => res.json())
         .then((data) => {
-            if (quizSelection === 'logic') {
+            if (quizSelection === 'Logic Quiz') {
                 questions = data.logic
             }
-            else if (quizSelection === 'math') {
+            else if (quizSelection === 'Misc. Math Quiz') {
                 questions = data.math
             }
             document.getElementById("quizSelect").remove();
-            document.getElementById("quizTypeBreak").remove();
+            document.getElementById("break1").remove();
+            document.getElementById("break2").remove();
+            document.getElementById("subjectSelect").remove()
             continueQuestions();
         }
     )
