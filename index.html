@@ -15,22 +15,26 @@
         <link rel="stylesheet" href="styles/style.css">
     </head>
     <body>
-        <div id="Quiz">
+        <div id="quiz">
             <h1 id="questionNum">Quiz App</h1>
-            <p id="questionText">Welcome to the quiz app.  The first box is the quiz subject and the second box 
-                is the specific quiz you want to take for that subject. Select the quiz you want to take 
-                and click "Start Quiz".</p>
-            <select onchange=changeSubject() id="subjectSelect">
-                <option value="logicQuizzes">Logic Quizzes</option>
-                <option value="mathQuizzes">Math Quizzes</option>
-            </select>
-            <br id="break1">
-            <select id="quizSelect">'
-                <option value="Logic Quiz">Logic Quiz</option>
-            </select>
-            <br id="break2">
-            <button id="nextButton" onclick=startQuestions()>Start Quiz</button>
-            <br id ="quizTypeBreak">
+            <p id="questionText">Welcome to the quiz app. Select the quiz you want to take and click "Start Quiz".</p>
+            <div id="quizzes">
+                <div style="display: inline-block">
+                    <select id="quizSelect">
+                        <option value="Logic Quiz">Logic Quiz</option>
+                    </select>
+                    <br>
+                    <button id="startButton" onclick=startQuestions(0)>Start Quiz</button>
+                </div>
+                <div style="display: inline-block">
+                    <select id="quizSelect">
+                        <option value="Misc. Math Quiz">Misc. Math Quiz</option>
+                    </select>
+                    <br>
+                    <button id="startButton" onclick=startQuestions(1)>Start Quiz</button>
+                </div>
+                <br>
+            </div>
         </div>
         <script src="app.js"></script>
     </body>

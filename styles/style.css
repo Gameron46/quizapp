@@ -7,7 +7,7 @@ select {
     overflow: hidden;
 }
 
-#Quiz {
+#quiz {
     font-size:large;
     margin: auto;
     width: 50%;
@@ -17,4 +17,7 @@ select {
 
 .answerBox {
     width: 50px;
+}
+#quizzes {
+    overflow: hidden;
 }

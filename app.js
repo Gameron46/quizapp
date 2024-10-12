@@ -2,22 +2,8 @@ let questionnumber = 0;
 let numPoints = 0;
 let questions = [];
 
-function changeSubject() {
-    let subjects = {logicQuizzes: ["Logic Quiz"], mathQuizzes: ["Misc. Math Quiz"]}
-    let quizSelect = document.getElementById('quizSelect')
-    let subject = document.getElementById('subjectSelect').value;
-    quizSelect.innerHTML = ''
-
-    for (const subj of subjects[subject]) {
-        let option = document.createElement('option')
-        option.innerText = subj
-        option.value = subj
-        quizSelect.appendChild(option)
-    }
-}
-
-function startQuestions() {
-    let quizSelection = document.getElementById("quizSelect").value
+function startQuestions(quizNum) {
+    let quizSelection = document.querySelectorAll("#quizSelect")[quizNum].value
     fetch('./questions_answers.json')
         .then((res) => res.json())
         .then((data) => {
@@ -27,10 +13,8 @@ function startQuestions() {
             else if (quizSelection === 'Misc. Math Quiz') {
                 questions = data.math
             }
-            document.getElementById("quizSelect").remove();
-            document.getElementById("break1").remove();
-            document.getElementById("break2").remove();
-            document.getElementById("subjectSelect").remove()
+            document.getElementById("quizzes").remove()
+            document.getElementById("quiz").innerHTML += `<button id="nextButton" onclick=nextQuestion()>Next</button>`
             continueQuestions();
         }
     )
@@ -39,7 +23,7 @@ function startQuestions() {
 function continueQuestions() {
     questionnumber++;
     if (questionnumber === questions.length+1) {
-        document.getElementById("Quiz").innerHTML = '<h4>You got ' + numPoints + ' out of ' + questions.length + ' questions correct.</h4> <h3>Thanks for taking the quiz!</h3>'
+        document.getElementById("quiz").innerHTML = `<h4>You got ${numPoints} out of ${questions.length} questions correct.</h4> <h3>Thanks for taking the quiz!</h3>`
     }
     else {
         let selectionBox = document.createElement('select');
@@ -56,11 +40,10 @@ function continueQuestions() {
             selectionBox.appendChild(optionElement);
         }
 
-        document.getElementById("questionNum").innerHTML = "Question " + questionnumber;
-        document.getElementById("questionText").innerHTML = questions[questionnumber-1].question + '<br>';
+        document.getElementById("questionNum").innerHTML = `Question ${questionnumber}`;
+        document.getElementById("questionText").innerHTML = `${questions[questionnumber-1].question} <br>`;
         document.getElementById("questionText").appendChild(selectionBox);
         document.getElementById("nextButton").setAttribute("onclick", "nextQuestion()");
-        document.getElementById("nextButton").textContent = "Next";
     }
 }
 
@@ -84,8 +67,7 @@ function nextQuestion() {
         document.getElementById("questionText").innerHTML = "Correct";
     }
     else {
-        document.getElementById("questionText").innerHTML = 'Incorrect <br> <b>The correct answer is:</b> ';
-        document.getElementById("questionText").innerHTML += questions[questionnumber-1].answer;
+        document.getElementById("questionText").innerHTML = `Incorrect <br> <b>The correct answer is: </b> ${questions[questionnumber-1].answer}`;
     }
 
     document.getElementById("questionText").appendChild(explanationText);
