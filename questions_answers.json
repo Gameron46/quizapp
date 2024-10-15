@@ -81,7 +81,7 @@
         "image_urls": ["./images/q25.png"]}
     ],
     
-    "math" : [
+    "miscmath" : [
         {"question": "Bonnie has twice as many cousins as Robert. George has 5 cousins, which is 11 less than Bonnie has. How many cousins does Robert have?",
         "options": ["A. 17", "B. 21", "C. 4", "D. 8"],
         "answer": "D. 8",
@@ -404,6 +404,327 @@
         }
     ],
     
+    "fractions" : [
+        {"question": "Lori ran 5 1/2 miles Monday, 6 1/4 miles Tuesday, 4 1/2 miles Wednesday, and 2 3/4 miles on Thursday. What is the average number of miles Lori ran?",
+        "options": ["A. 5", "B. 4 1/2", "C. 4", "D. 4 3/4"],
+        "answer": "D. 4 3/4",
+        "explanation": "To find the average, add the miles run each day and divide by the number of days. To add the fractions use a common denominator of 4; 5 2/4+ 6 1/4 + 4 2/4 + 2 3/4 = 17 8/4 = 17 + 2 = 19. Divide the sum by 4; 19/4 = 4 3/4."
+        }, 
+        {"question": "Last year Jonathan was 60 3/4 inches tall. This year he is 65 1/4 inches tall. How many inches did he grow?",
+        "options": ["A. 5 1/2", "B. 4 1/2", "C. 4 1/4", "D. 5 3/4"],
+        "answer": "B. 4 1/2",
+        "explanation": "b. Subtract to find the difference in heights. You will need to borrow 1 whole from 65 and add it to 1/4 to make the fractional part of the mixed number 5/4. 65 1/4 - 60 3/4 = 64 5/4 - 60 3/4 = 4 2/4 = 4 1/2.If you chose a, you did not borrow and simply subtracted the smaller fraction from the larger fraction."
+        },
+        {"question": "Larry spends 3/4 hour twice a day walking and playing with his dog. He also spends 1/6 hour twice a day feeding his dog. How much time does Larry spend on his dog each day?",
+        "options": ["A. 11/12", "B. 1 1/2", "C. 1 5/6", "D. 1 2/5"],
+        "answer": "C. 1 5/6",
+        "explanation": "Add the times together to find the total amount of time. Remember that he walks the dog twice and feeds the dog twice. The common denominator is 12. 3/4 + 3/4 + 1/6 + 1/6 = 9/12 + 9/12 + 2/12 + 2/12 = 22/12 = 1 10/12 = 1 5/6. If you chose a, you did not consider that he walks and feeds the dog TWICE a day."
+        },
+        {"question": "The first section of a newspaper has 16 pages. Advertisements take up 3 3/8 of the pages. How many pages are not advertisements?",
+        "options": ["A. 12 5/8", "B. 19 3/8", "C. 13", "D. 12 1/2"],
+        "answer": "A. 12 5/8",
+        "explanation": "Subtract the number of pages of advertisements from the total number of pages. Use a common denominator of 8 and borrow one whole (8/8) from 16 to do the subtraction. 16 - 3 3/8 = 15 8/8 - 3 3/8 = 12 5/8"
+        },
+        {"question": "Lisa was assigned 64 pages to read for English class. She has finished 3/4 of the assignment. How many more pages must she read?",
+        "options": ["A. 48", "B. 21", "C. 16", "D. 8"],
+        "answer": "C. 16",
+        "explanation": "If Lisa has read 4 of the assignment, she has 1/4 left to go. To find 1/4 of a number, divide the number by 4; 64/4 = 16 pages. If you chose a, you found the number of pages that she already read."
+        },
+        {"question": "Mark has three 4 1/2 oz cans of tomatoes and five 8 1/4 oz cans. How many ounces of tomatoes does Mark have?",
+        "options": ["A. 12 3/4", "B. 54 3/4", "C. 54", "D. 62 1/4"],
+        "answer": "B. 54 3/4",
+        "explanation": "Ignore the fractional parts of the mixed numbers at first and multiply the whole number portion of the ounces by the corresponding number of cans; 4 x 3 = 12 ounces and 8 x 5 = 40 ounces. Adding together 12 and 40, you get a total of 52. Next, find the fractional portion. By multiplying the fractional part by the corresponding number of cans; 1/2 × 3 = 3/2 = 1 1/2 ounces and 1/4 x 5 = 5/4 = 1 1/4 ounces. Add together these fractional parts 1 1/2 + 1 1/4 = 2 3/4. Add this answer to the answer from the whole numbers to get the final answer; 2 3/4 + 52 = 54 3/4 ounces. If you chose a, you did not consider that he has THREE of the smaller cans and FIVE of the larger cans."
+        },
+        {"question": "Joe walked 2 1/2 miles to school, 1/3 mile to work, and 1 1/4 miles to his friend's house. How many miles did Joe walk altogether?",
+        "options": ["A. 3 1/9", "B. 4 1/12", "C. 4 1/9", "D. 4"],
+        "answer": "B. 4 1/12",
+        "explanation": "To find the total distance walked, add the three distances together using a common denominator of 12; 2 6/12+ 4/12 + 1 3/12= 3 13/12 which is simplified to 4 1/12."
+        },
+        {"question": "Justin read 1/8 of a book the first day, 1/3 the second day, and 1/4 the third day. On the fourth day he finished the book. What part of the book did Justin read on the fourth day?",
+        "options": ["A. 2/5", "B. 3/8", "C. 7/24", "D. 17/24"],
+        "answer": "C. 7/24",
+        "explanation": "First, find the fraction of the book that he has read by adding the three fractions using a common denominator of 24; 3/24 + 8/24 + 6/24 = 17/24 Subtract the fraction of the book he has read from one whole, using a common denominator of 24; 24/24 - 17/24 = 7/24. If you chose d, you found the fraction of the book that Justin had already read."
+        },
+        {"question": "Tammi babysat for 4 1/2 hours. She charged $7 an hour. How much should she get paid?",
+        "options": ["A. $28.50", "B. $35", "C. $28", "D. $31.50"],
+        "answer": "D. $31.50",
+        "explanation": "d. Multiply the hours babysat by the charge per hour. Change the mixed number to an improper fraction before multiplying; 9/2 x 7/1 = 63/2 simplifies to 31 1/2 or $31.50."
+        },
+        {"question": "The painting crew has 54 2/3 miles of center lines to paint on the highway. If they have completed 23 1/5 miles, how many miles do they have to go?",
+        "options": ["A. 31 7/15", "B. 31 13/15", "C. 21 4/15", "D. 31 1/2"],
+        "answer": "A. 31 7/15",
+        "explanation": "Subtract the miles completed from the total number of miles they need to paint. Use a common denominator of 15. 54 10/15- 23 3/15 = 31 7/15"
+        },
+        {"question": "Which of the fractions below is greater than 1 1/2?",
+        "options": ["A. 7/5", "B. 31/20", "C. 28/20", "D. 14/11"],
+        "answer": "B. 31/20",
+        "explanation": "Change the answer choices to mixed numbers to compare them to 1 1/2, 31/20 = 1 11/20, which is larger than 1 1/2 because the numerator (11) is more than half the denominator (20)."
+        },
+        {"question": "Allison baked a cake for Guy's birthday; 4/7 of the cake was eaten at the birthday party. The next day, Guy ate half of what was left. How much of the cake did Guy eat the next day?",
+        "options": ["A. 3/14", "B. 1/7", "C. 1/4", "D. 2/7"],
+        "answer": "A. 3/14",
+        "explanation": "Find the uneaten part of the cake by subtracting the eaten part from one whole; 3/7 of the cake was uneaten. To find half of this amount, multiply by 1/2, 3/7 x 1/2 = 3/14"
+        },
+        {"question": "Josh practiced his clarinet for 5/6 of an hour. How many minutes did he practice?",
+        "options": ["A. 83", "B. 50", "C. 8.3", "D. 55"],
+        "answer": "B. 50",
+        "explanation": "b. An hour is 60 minutes. To find the number of minutes in 5/6 of an hour, multiply 60 by 5/6; 60/1 x 5/6 = 300/6 = 50 minutes."
+        },
+        {"question": "Tike Television has six minutes of advertising space every 15 minutes. How many 3/4 minute commercials can they fit in the six-minute block?",
+        "options": ["A. 4 1/2", "B. 8", "C. 20", "D. 11"],
+        "answer": "B. 8",
+        "explanation": "Divide the 6-minute block by 3/4, remembering to take the reciprocal of the second fraction, and multiply; 6÷ 3/4 = 6/1 x 4/3 = 24/3 = 8."
+        },
+        {"question": "Betty grew 3/4 inch over the summer. Her friends also measured themselves and found that Susan grew 2/5 inch, Mike grew 5/8 inch, and John grew 1/2 inch. List the friends in order of who grew the least to who grew the most.",
+        "options": ["A. Betty, John, Mike , Susan", "B. Susan, Mike, John, Betty", "C. John, Mike, Betty, Susan", "D. Susan, John, Mike, Betty"],
+        "answer": "D. Susan, John, Mike, Betty",
+        "explanation": "To compare the fractions, use the common denominator of 40. Therefore, Betty = 30/40, Susan = 16/40, Mike = 25/40, and John = 20/40. To order the fractions, compare their numerators."
+        },
+        {"question": "Darma traveled 12 hours to visit her grandmother; she spent 5/6 of her travel time on the highway. How many hours were not spent on the highway?",
+        "options": ["A. 3 hours", "B. 4 1/3 hours", "C. 1 1/6 hours", "D. 2 hours"],
+        "answer": "D. 2 hours",
+        "explanation": "If 5/6 of the time was spent on the highway, 1/6 was not. To find 1/6 of 12 hours, multiply the two numbers; 1/6 x 12/1 = 12/6 = 2 hours."
+        },
+        {"question": "The Grecos are taking an 8 3/4 mile walk. If they walk at an average speed of 3 1/2 miles per hour, how long will it take them?",
+        "options": ["A. 2 2/3 hours", "B. 30 1/8 hours", "C. 2 1/2 hours", "D. 5 hours"],
+        "answer": "C. 2 1/2 hours",
+        "explanation": "To find the amount of time that it took the Grecos, divide the distance (8 3/4) by the rate (3 1/2). To divide mixed numbers, change them to improper fractions, then take the reciprocal of the second fraction and multiply; 8 3/4 ÷ 3 1/2 = 35/4 ÷ 7/2 = 35/4 x 2/7 = 5/2 x 1/1 = 5/2 = 2 1/2."
+        },
+        {"question": "The town's annual budget totals $32 million. If 2/5 of the budget goes toward education, how many dollars go to education?",
+        "options": ["A. 6 1/2 million", "B. 9 1/5 million", "C. 16 million", "D. 12 4/5 million"],
+        "answer": "D. 12 4/5 million",
+        "explanation": "To find 2/5 of $32 million, multiply the two numbers: 2/5 × 32/1 = 64/5: which simplifies to $12 4/5 million"
+        },
+        {"question": "Amy worked 4/5 of the days last year. How many days did she work? (1 year = 365 days).",
+        "options": ["A. 273", "B. 300", "C. 292", "D. 281"],
+        "answer": "C. 292",
+        "explanation": "To find 4/5 of 365 days, multiply the two numbers; 4/5 x 365/1 = 1,460/5, which simplifies to 292 days."
+        },
+        {"question": "Linus wants to buy ribbon to make three bookmarks. One bookmark will be 12 1/2 inches long and the other two will be 7 1/4 inches long. How much ribbon should he buy?",
+        "options": ["A. 26 inches", "B. 19 inches", "C. 19 3/4 inches", "D. 27 inches"],
+        "answer": "D. 27 inches",
+        "explanation": "Add the needed lengths together using a common denominator of 4; 12 2/4 + 7 1/4 + 7 1/4 = 26 4/4, which simplifies to 27 inches."
+        },
+        {"question": "Rita caught fish that weighed 3 1/4 lb, 8 1/2 lb, and 4 2/3 lb. What was the total weight of all the fish that Rita caught?",
+        "options": ["A. 15 4/9 lb", "B. 14 2/3 lb", "C. 16 5/12 lb", "D. 15 lb"],
+        "answer": "C. 16 5/12 lb",
+        "explanation": "Add the weights together using a common denominator of 12; 3 3/12 + 8 6/12 + 4 8/12 = 15 17/12, which simplifies to 16 5/12 lb."
+        },
+        {"question": "A rectangular garden is 4 1/2 yards by 3 yards. How many yards of fence are needed to surround the garden?",
+        "options": ["A. 16 1/2", "B. 7 1/2", "C. 15", "D. 14"],
+        "answer": "C. 15",
+        "explanation": "Add all four sides of the garden together to find the perimeter. 4 1/2 + 4 1/2 + 3 + 3 = 14 2/2, which simplifies to 15 yards. If you chose b, you added only TWO sides of the garden."
+        },
+        {"question": "The soccer team is making pizzas for a fundraiser. They put 1/3 of a package of cheese on each pizza. If they have 12 packages of cheese, how many pizzas can they make?",
+        "options": ["A. 36", "B. 4", "C. 24", "D. 27"],
+        "answer": "A. 36",
+        "explanation": "Divide the number of packages of cheese (12) by 1/3 to find the number of pizzas that can be made. Remember to take the reciprocal of the second number and multiply; 12/1 ÷ 1/3 = 12/1 x 3/1 = 36/1, which simplifies to 36. If you chose b, you multiplied by 1/3 instead of dividing."
+        },
+        {"question": "Dan purchased 3 1/2 yards of mulch for his garden. Mulch costs $25 a yard. How much did Dan pay for his mulch?",
+        "options": ["A. $75.00", "B. $87.50", "C. $64.25", "D. $81.60"],
+        "answer": "B. $87.50",
+        "explanation": "Multiply the number of yards purchased by the cost per yard. Change the mixed number into an improper fraction; 7/2 x 25/1 = 175/2, which reduces to 87 1/2 or $87.50."
+        },
+        {"question": "Mr. Hamilton owns 2 3/4 acres of land. He plans to buy 1 1/3 more acres. How many acres will he own?",
+        "options": ["A. 4 1/12", "B. 3 4/7", "C. 3 1/12", "D. 4"],
+        "answer": "A. 4 1/12",
+        "explanation": "Add the two plots of land together using a common denominator of 12; 2 9/12 + 1 4/12 = 3 13/12, which simplifies to 4 1/12 acres."
+        },
+        {"question": "Lucy worked 32 1/2 hours last week and earned $195. What is her hourly wage?",
+        "options": ["A. $7.35", "B. $5.00", "C. $6.09", "D. $6.00"],
+        "answer": "D. $6.00",
+        "explanation": "Divide the amount of money Lucy made by the number of hours she worked. Change the mixed number to an improper fraction. When dividing fractions, take the reciprocal of the second number and multiply; 195 ÷ 32 1/2 = 195/1 ÷ 65/2 = 195/1 x 2/65 = 390/65, which simplifies to $6."
+        },
+        {"question": "A sheet of plywood is 4 1/2 feet wide and 6 1/2 feet long. What is the area of the sheet of plywood?",
+        "options": ["A. 29 1/4 sq ft", "B. 58 1/2 sq ft", "C. 21 sq ft", "D. 11 sq ft"],
+        "answer": "A. 29 1/4 sq ft",
+        "explanation": "a. To find the area, multiply the length by the width. When multiplying mixed numbers, change the mixed numbers to improper fractions; 4 1/2 × 6 1/2 = 9/2 x 13/2 = 117/4, which simplifies to 29 1/4 sq ft."
+        },
+        {"question": "Rosa kept track of how many hours she spent reading during the month of August. The first week she read for 4 1/2 hours, the second week for 3 3/4 hours, the third week for 8 1/5 hours, and the fourth week for 1 1/3 hours. How many hours altogether did she spend reading in the month of August?",
+        "options": ["A. 17 47/60", "B. 16", "C. 16 1/8", "D. 18 2/15"],
+        "answer": "A. 17 47/60",
+        "explanation": "Add the number of hours together using a common denominator of 60; 4 30/60 + 3 45/6 + 8 12/60 + 1 20/60 = 16 107/60, which simplifies to 17 47/60 hours."
+        },
+        {"question": "During a commercial break in the Super Bowl, there were three 1/2-minute commercials and five 1/4-minute commercials. How many minutes was the commercial break?",
+        "options": ["A. 2 3/4", "B. 3/4", "C. 3 1/2", "D. 5"],
+        "answer": "A. 2 3/4",
+        "explanation": "First, multiply 3 by 1/2 to find the time taken by the three half-minute commercials; 3 x 1/2= 3/2. Then, multiply 1/4 by 5 to find the time taken by the five quarter-minute commercials; 1/4 x 5 = 5/4. Add the two times together to find the total commercial time. Use a common denominator of 4; 6/4 + 5/4 = 11/4, which simplifies to 2 3/4 minutes. If you chose b, you only calculated for ONE commercial of each length rather than THREE 1/2 minute commercials and FIVE 1/4 minute commercials."
+        },
+        {"question": "Dakota's Restaurant served 715 dinners on Saturday night. On Monday night they only served 2/5 as many. How many dinners did they serve on Monday?",
+        "options": ["A. 143", "B. 286", "C. 429", "D. 385"],
+        "answer": "B. 286",
+        "explanation": "Multiply the number of Saturday dinners (715) by 2/5 to find the number of dinners served on Monday; 715/1 x 2/5 = 1,430/5, which simplifies to 286 dinners."
+        },
+        {"question": "Michelle is making a triple batch of chocolate chip cookies. The original recipe calls for 3/4 cup of brown sugar. How many cups should she use if she is tripling the recipe?",
+        "options": ["A. 1/4", "B. 3", "C. 2 1/4", "D. 1 3/4"],
+        "answer": "C. 2 1/4",
+        "explanation": "Multiply the amount of brown sugar needed for one batch (3/4) by the number of batches (3); 3/4 x 3/1 = 9/4, which simplifies to 2 1/4 cups."
+        },
+        {"question": "The numerator of a fraction is 4 and the denominator of the same fraction is 3. Which of the following statements is true?",
+        "options": ["A. The value of the fraction is less than 1.", "B. The value of the fraction is greater than 1.", "C. The value of the fraction is less than 0.", "D. The value of the fraction is greater than 2."],
+        "answer": "B. The value of the fraction is greater than 1.",
+        "explanation": "Since the numerator is larger than the denominator, the fraction is greater than 1."
+        },
+        {"question": "The Cheshire Senior Center is hosting a bingo night; $2,400 in prize money will be given away. The first winner of the night will receive 1/3 of the money. The next ten winners will receive 1/10 of the remaining amount. How many dollars will each of the ten winners receive?",
+        "options": ["A. $240", "B. $800", "C. $160", "D. $200"],
+        "answer": "C. $160",
+        "explanation": "The prize money is divided into tenths after the first third has been paid out. Find one third of $2,400 by dividing $2,400 by 3; $800 is paid to the first winner, leaving $1,600 for the next ten winners to split evenly ($2,400- $800 = $1,600). Divide $1,600 by 10 to find how much each of the 10 winners will receive; $1,600/10 = $160. Each winner will receive $160."
+        },
+        {"question": "3/8 of the employees in the Acme Insurance Company work in the accounting department. What fraction of the employees does NOT work in the accounting department?",
+        "options": ["A. 10/16", "B. 5/16", "C. 3/4", "D. 1/2"],
+        "answer": "A. 10/16",
+        "explanation": "The entire company is one whole or 8/8. Subtract 3/8 from the whole to find the fraction of the company that is not in accounting; 8/8 - 3/8 = 5/8. Recall that you subtract the numerators and leave the denominators the same when subtracting fractions; 5/8 is equivalent to 10/16"
+        },
+        {"question": "A bag contains 36 cookies. Kyle eats 8 of the cookies. What fraction of the cookies is left?",
+        "options": ["A. 3/4", "B. 7/9", "C. 4/5", "D. 5/6"],
+        "answer": "B. 7/9",
+        "explanation": "If Kyle eats 8 cookies, 28 cookies are left (36- 8 = 28). The part that is left is 28, and the whole is 36. Therefore, the fraction is 28/36. Both the numerator and denominator are divisible by 4. Divide both parts by 4 to simplify the fraction to 7/9."
+        },
+        {"question": "Marci's car has a 12-gallon gas tank. Her fuel gauge says that there is 1/8 of a tank left. How many gallons of gas are left in the tank?",
+        "options": ["A. 3", "B. 1 2/3", "C. 3/4", "D. 1 1/2"],
+        "answer": "D. 1 1/2",
+        "explanation": "Find 1/8 of 12 gallons by multiplying; 1/8 x 12/1 = 12/8. Recall that 12 is equivalent to 12 over 1. To multiply fractions, multiply the numerators and multiply the denominators. Change 12/8 to a mixed number; 8 goes into 12 once, so the whole number is 1. Four remains, so 4/8 or 1/2 is the fractional part; 1 1/2 gallons are left."
+        },
+        {"question": "Joey, Aaron, Barbara, and Stu have been collecting pennies and putting them in identical containers. Joey's container is 3/4 full, Aaron's is 3/5 full, Barbara's is 2/3 full, and Stu's is 2/5 full. Whose container has the most pennies?",
+        "options": ["A. Joey", "B. Aaron", "C. Barbara", "D. Stu"],
+        "answer": "A. Joey",
+        "explanation": "Compare 3/4, 3/5, 2/3, 2/5 by finding a common denominator. The common denominator for 3, 4, and 5 is 60. Multiply the numerator and denominator of a fraction by the same number so that the denominator becomes 60. The fractions then become 45/60, 36/60, 40/60, 24/60. The fraction with the largest numerator is the largest fraction; 45/60 is the largest fraction. It is equivalent to Joey's fraction of 3/4."
+        },
+        {"question": "What fraction of the circle below is shaded?",
+        "options": ["A. 2/3", "B. 1/2", "C. 5/6", "D. 1/3"],
+        "question_urls": ["./images/fractions_q101.png"],
+        "answer": "B. 1/2",
+        "explanation": "Break the circle into sixths as shown below; 3 of the sixths are shaded which is equivalent to 3/6 which is 1/2.",
+        "image_urls": ["./images/fractions_question101answer.png"]
+        },
+        {"question": "Michelle's brownie recipe calls for 1 2/3 cup of sugar. How much sugar does she need if she triples the recipe?",
+        "options": ["A. 3 2/3 cups", "B. 4 1/3 cups", "C. 5 1/3 cups", "D. 5 cups"],
+        "answer": "D. 5 cups",
+        "explanation": "To triple the recipe, multiply by 3; 1 2/3 x 3 = 5/3 x 3/1 = 15/3 = 5. When multiplying a mixed number, change it to an improper fraction first. To find the numerator of the improper fraction, multiply the whole number by the denominator and add the product to the numerator. Keep the denominator the same."
+        },
+        {"question": "What fraction of the figure below is shaded?",
+        "options": ["A. 1/3", "B. 3/4", "C. 3/8", "D. 5/16"],
+        "question_urls": ["./images/fractions_q103.png"],
+        "answer": "C. 3/8",
+        "explanation": "Break the block into equal regions as shown below; 3 out of the 8 blocks are shaded. This corresponds to the fraction 3/8.",
+        "image_urls": ["./images/fractions_question103answer.png"]
+        },
+        {"question": "Mr. Reynolds owns 1 3/4 acres of land. He plans to buy the property next to his, which is 2 3/4 acres. How many acres will Mr. Reynolds own after the purchase?",
+        "options": ["A. 5 1/4", "B. 3 3/4", "C. 3 1/2", "D. 4 1/2"],
+        "answer": "D. 4 1/2",
+        "explanation": "Add the two pieces of land together; 1 3/4 + 2 3/4 = 3 6/4. Add the whole numbers. Since the denominators are already the same, just add the numerators and keep the denominator the same; 6/4 can be simplified to 1 2/4 or 1 1/2. Add this to the whole number to get 4 1/2 acres."
+        },
+        {"question": "What fraction of the figure below is shaded?",
+        "options": ["A. 5/8", "B. 1/2", "C. 3/4", "D. 7/16"],
+        "question_urls": ["./images/fractions_q105.png"],
+        "answer": "A. 5/8",
+        "explanation": "Ten of the 16 blocks are shaded. This is represented by the fraction 10/16. Both the numerator and the denominator can be divided by 2 to simplify the fraction. This yields 5/8."
+        },
+        {"question": "How many eighths are in 4 3/8?",
+        "options": ["A. 43", "B. 48", "C. 35", "D. 7"],
+        "answer": "C. 35",
+        "explanation": "Every whole has 8 eighths. Since there are 8 eighths in each of the 4 wholes, there are 32 eighths in the whole number portion. There are 3 eighths in the fraction portion. Adding the two parts together, you get 35 eighths (32 + 3 = 35)."
+        },
+        {"question": "Kim is baking cookies for a large party and wants to double the recipe. The original recipe calls for 2/3 cup of sugar. How many cups should she use for the double batch?",
+        "options": ["A. 5/6", "B. 1 2/3", "C. 1 1/3", "D. 4/6"],
+        "answer": "C. 1 1/3",
+        "explanation": "To double the recipe, multiply by 2; 2/3 x 2 = 2/3 x 2/1 = 4/3. Recall that 2 can be written as 2/1, 4/3 is an improper fraction. To change it to a mixed number, determine how many times 3 goes into 4. It goes in one time, so the whole number is 1. There is one third left over, so the mixed number is 1 1/3."
+        },
+        {"question": "Mr. Johnson owns 4 3/4 acres. He sells half of his land. How many acres does he own after the sale?",
+        "options": ["A. 2 1/4", "B. 2 3/16", "C. 2 1/2", "D. 2 3/8"],
+        "answer": "D. 2 3/8",
+        "explanation": "Divide Mr. Johnson's land by two, which is the same as multiplying by 1/2, 4 3/4 x 1/2 = 19/4 x 1/2 = 19/8 = 2 3/8 acres. In the second step of the multiplication, 4 3/4 was changed to an improper fraction, 19/4. And in the last step, the improper fraction 19/8 was converted to a mixed number."
+        },
+        {"question": "Which of the following is NOT equivalent to 3/5?",
+        "options": ["A. 6/15", "B. 0.6", "C. 15/25", "D. 60%"],
+        "answer": "A. 6/15",
+        "explanation": "To get from 3/5 to 6/15 the numerator was multiplied by 2 and the denominator by 3. This does not give you an equivalent fraction. In order for the fractions to be equivalent, the numerator and denominator must be multiplied by the same number. Choice b is equivalent because 3/5 = 0.6. Choice c is equivalent because the numerator and denominator of 3/5 have both been multiplied by 5. Choice d is equivalent because 3/5 = 0.60, which is equivalent to 60%."
+        },
+        {"question": "The local firefighters are doing a 'fill the boot' fundraiser. Their goal is to raise $3,500. After 3 hours, they have raised $2,275. Which statement below is accurate?",
+        "options": ["A. They have raised 35% of their goal.", "B. They have 7/20 of their goal left to raise.", "C. They have raised less than 1/2 of their goal.", "D. They have raised more than 3/4 of their goal."],
+        "answer": "B. They have 7/20 of their goal left to raise.",
+        "explanation": "The part of their goal that they have raised is $2,275 and the whole goal is $3,500. The fraction for this is 2,275/3,500. The numerator and denominator can both be divided by 175 to get a simplified fraction of 13/20. They have completed 13/20 of their goal, which means that they have 7/20 left to go (20/20 - 13/20 = 7/20)."
+        },
+        {"question": "Lori has half a pizza left over from dinner last night. For breakfast, she eats 1/3 of the leftover pizza. What fraction of the original pizza remains after Lori eats breakfast?",
+        "options": ["A. 1/4", "B. 1/6", "C. 1/3", "D. 3/8"],
+        "answer": "C. 1/3",
+        "explanation": "Refer to the drawing below. If half is broken into thirds, each third is one sixth of the whole. Therefore, she has 2/6 or 1/3 of the pizza left.",
+        "image_urls": ["./images/fractions_question111answer.png"]
+        },
+        {"question": "Which fraction below is closest to 1/2?",
+        "options": ["A. 2/3", "B. 7/10", "C. 5/6", "D. 3/5"],
+        "answer": "D. 3/5",
+        "explanation": "The easiest way to determine which fraction is closest to 1/2 is to change each of them to a decimal and compare the decimals to 0.5 which is equivalent to 1/2. To find the decimal equivalents, divide the numerator by the denominator. 2/3 = 0.666... 7/10 = 0.7 5/6 = 0.83 3/5 = 0.6. The decimal closest to 0.5 is 0.6. Therefore, is 3/5 closest to 1/2."
+        },
+        {"question": "A large coffee pot holds 120 cups. It is about two-thirds full. About how many cups are in the pot?",
+        "options": ["A. 40 cups", "B. 80 cups", "C. 60 cups", "D. 90 cups"],
+        "answer": "B. 80 cups",
+        "explanation": "Multiply 120 by 2/3. Thus, 120/1 x 2/3 = 240/3 = 80; 120 is written as a fraction with a denominator of 1. The fraction 240/3 is simplified by dividing 240 by 3 to get 80 cups."
+        },
+        {"question": "An airport is backlogged with planes trying to land and has ordered planes to circle until they are told to land. A plane is using fuel at the rate of 9 1/2 gallons per hour, and it has 6 1/3 gallons left in its tank. How long can the plane continue to fly?",
+        "options": ["A. 1 1/2 hours", "B. 2/3 hours", "C. 2 3/4 hours", "D. 3/4 hours"],
+        "answer": "B. 2/3 hours",
+        "explanation": "Use a proportion comparing gallons used to time. The plane uses 9 1/2 gallons in 1 hour and the problem asks how many hours it will take to use 6 1/3 gallons (see Figure 1 below). To solve the proportion for x, cross multiply, set the cross-products equal to each other and solve as shown below (see Figure 2 below). To divide the mixed numbers, change them into improper fractions (see Figure 3 below). The 19s cancel. Multiply the numerators straight across and do the same for the denominators. The final answer is 2/3 hour.",
+        "image_urls": ["./images/fractions_question114answer1.png", "./images/fractions_question114answer2.png", "./images/fractions_question114answer3.png"]
+        },
+        {"question": "A carpenter receives measurements from a homeowner for a remodeling project. The homeowner lists the length of a room as 12 3/4 feet, but the carpenter would prefer to work in feet and inches. What is the measurement in feet and inches?",
+        "options": ["A. 12 feet 9 inches", "B. 12 feet 8 inches", "C. 12 feet 6 inches", "D. 12 feet 3 inches"],
+        "answer": "A. 12 feet 9 inches",
+        "explanation": "There are 12 inches in a foot; 3/4 of a foot is 9 inches (3/4 x 12 = 9). The length of the room is 12 feet 9 inches."
+        },
+        {"question": "The state of Connecticut will pay two fifths of the cost of a new school building. If the city of New Haven is building a school that will cost a total of $15,500,000, what will the state pay?",
+        "options": ["A. $3,100,000", "B. $7,750,000", "C. $6,200,000", "D. $4,550,000"],
+        "answer": "C. $6,200,000",
+        "explanation": "Multiply $15,500,000 by 2/5; 15,500,000/1 x 2/5 = 31,000,000/5 = $6,200,000"
+        },
+        {"question": "One-fourth of an inch on a map represents 150 miles. The distance on the map from Springfield to Oakwood is 3 1/2 inches. How many miles is it from Springfield to Oakwood?",
+        "options": ["A. 600 miles", "B. 2,100 miles", "C. 1,050 miles", "D. 5,250 miles"],
+        "answer": "B. 2,100 miles",
+        "explanation": "Every 1/4 inch on the map represents 150 miles in real life. There are 4 fourths in every whole (4 x 3 = 12) and 2 fourths in 1/2 for a total of 14 fourths (12 + 2 =14) in 3 1/2 inches. Every fourth equals 150 miles. Therefore, there are 2,100 miles (14 x 150 = 2,100)."
+        },
+        {"question": "Robert brings a painting to the framing store to be framed. He chooses a frame with a 8 in by 10 in opening. The painting is 4 1/2 in by 6 1/2 in. A mat will be placed around the painting to fill the 8 in by 10 in opening. If the painting is perfectly centered, what will the width of the mat be on each side of the painting? See the diagram below.",
+        "options": ["A. 3 1/2", "B. 2 1/4", "C. 1 1/2", "D. 1 3/4"],
+        "question_urls": ["./images/fractions_q118.png"],
+        "answer": "D. 1 3/4",
+        "explanation": "The width of the opening of the frame is 8 inches. The painting only fills 4 1/2 inches of it. There is an extra 3 1/2 inches (8 - 4 1/2 = 3 1/2) to be filled with the mat. There will be an even amount of space on either side of the painting. So, divide the extra space by 2 to find the amount of space on each side; 3 1/2 ÷ 2 = 1 3/4 inches. To divide a mixed number by a whole number, change the mixed number to an improper fraction; 3 1/2 becomes 7/2. Also, change 2 to a fraction (2/1). Then take the reciprocal of 2 and multiply; 7/2 x 1/2 = 7/4 = 1 3/4 inches."
+        },
+        {"question": "Mrs. Johnston's class broke into teams of three students each to play a game. The winning team received a 1/2 pound jar of jellybeans. How many pounds of jellybeans will each team member get if the 1/2 pound jar is shared equally among the three teammates?",
+        "options": ["A. 1/3 pound", "B. 1/6 pound", "C. 2/5 pound", "D. 2/9 pound"],
+        "answer": "B. 1/6 pound",
+        "explanation": "Divide pound by 3. Recall that 3 can be written as 3/1, 1/2 ÷ 3/1 . When dividing fractions, take the reciprocal of the second fraction and multiply; 1/2 x 1/3 = 1/6 pound of jellybeans."
+        },
+        {"question": "Chuck is making a patio using 1 1/2 foot cement squares. The patio will be 10 cement squares by 10 cement squares. If the cement squares are placed right next to each other without any space in between, what will the dimensions of the patio be?",
+        "options": ["A. 10 ft by 10 ft", "B. 20 ft by 20 ft", "C. 12 1/2 ft by 12 1/2 ft", "D. 15 ft by 15 ft"],
+        "answer": "D. 15 ft by 15 ft",
+        "explanation": "Multiply 1 1/2 by 10. Change 1 1/2 to an improper fraction (3/2) and make 10 into a fraction by placing it over 1 (10/1); 3/2 x 10/1 = 30/2 = 15 feet. Each side is 15 feet long, so the dimensions are 15 ft by 15 ft."
+        },
+        {"question": "Samantha's Girl Scout troop is selling holiday wreaths. Each wreath has a bow that uses 2/3 yard of ribbon. How many bows can Samantha make from a spool of ribbon that is 10 yards long?",
+        "options": ["A. 15", "B. 12", "C. 9", "D. 8"],
+        "answer": "A. 15",
+        "explanation": "Divide 10 by 2/3. Recall that 10 can be written as 10/1, 10/1 ÷ 2/3. When dividing fractions, take the reciprocal of the second fraction and multiply; 10/1 x 3/2 = 30/2 = 15 bows. If you can't figure out what operation to use in this problem, consider what you would do if you had 10 yards of ribbon and each bow took 2 yards. You would divide 10 by 2. This is the same for problem 58, except that the bow takes a fraction of a yard."
+        },
+        {"question": "Lindsay and Mark purchased a 3/4 acre plot of land to build a house. Zoning laws require that houses built on less than 1 acre take up no more than half the land. What is the largest amount of land that Lindsay and Mark's house can cover?",
+        "options": ["A. 3/8 acre", "B. 1/2 acre", "C. 1/4 acre", "D. 5/8 acre"],
+        "answer": "A. 3/8 acre",
+        "explanation": "Multiply 3/4 by 1/2 to find half of the land; 3/4 x 1/2 = 3/8 acre."
+        },
+        {"question": "Mr. Grove was watching the price of a stock he recently bought. On Monday, the stock was at 26 3/8. By Friday, the stock had fallen to 24 3/16. How much did the stock price decline?",
+        "options": ["A. 1 5/8", "B. 2 3/16", "C. 1 3/16", "D. 2 1/16"],
+        "answer": "B. 2 3/16",
+        "explanation": "Subtract Friday's price from Monday's price; 26 3/8 - 24 3/16. In order to subtract, you need a common denominator. The common denominator is 16. Multiply the first fraction by 2 in the numerator and 2 in the denominator (3x2)/(8x2) = 6/16. Then subtract; 26 6/16 - 24 3/16 = 2 3/16"
+        },
+        {"question": "Where 3/7=x/42, what is the value of x?",
+        "options": ["A. 21", "B. 6", "C. 7", "D. 18"],
+        "answer": "D. 18",
+        "explanation": "Determine what number 7 was multiplied by to get 42 and multiply the numerator by the same number. Seven was multiplied by six, so 3 x 6 = 18. The value of x is 18."
+        },
+        {"question": "Land in a development is selling for $60,000 per acre. If Jack purchases 1 3/4 acres, how much will he pay?",
+        "options": ["A. $45,000", "B. $135,000", "C. $105,000", "D. $120,000"],
+        "answer": "C. $105,000",
+        "explanation": "Multiply the cost per acre by the number of acres; $60,000 x 1 3/4. Change 60,000 to a fraction by putting it over 1 and change the mixed number to an improper fraction; 60,000/1 x 7/4 = 420000/4 = $105,000."
+        }
+    ],
+
     "empty": [
         {"question": "",
         "options": ["A. ", "B. ", "C. ", "D. "],

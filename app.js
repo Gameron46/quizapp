@@ -11,7 +11,10 @@ function startQuestions(quizNum) {
                 questions = data.logic
             }
             else if (quizSelection === 'Misc. Math Quiz') {
-                questions = data.math
+                questions = data.miscmath
+            }
+            else if (quizSelection === 'Fractions Quiz') {
+                questions = data.fractions
             }
             document.getElementById("quizzes").remove()
             document.getElementById("quiz").innerHTML += `<button id="nextButton" onclick=nextQuestion()>Next</button>`
@@ -29,6 +32,7 @@ function continueQuestions() {
         let selectionBox = document.createElement('select');
         selectionBox.id = 'selectionBox';
         let options = [];
+        let images = [];
 
         for (let option in questions[questionnumber-1].options) {
             options.push(questions[questionnumber-1].options[option]);
@@ -40,8 +44,20 @@ function continueQuestions() {
             selectionBox.appendChild(optionElement);
         }
 
+        if ('question_urls' in questions[questionnumber-1]) {
+            for (let image in questions[questionnumber-1].question_urls) {
+              images.push(questions[questionnumber-1].question_urls[image])
+            }
+          }
+
         document.getElementById("questionNum").innerHTML = `Question ${questionnumber}`;
         document.getElementById("questionText").innerHTML = `${questions[questionnumber-1].question} <br>`;
+        for (let i = 0; i < images.length; i++) {
+            let img = document.createElement('img')
+            img.src = images[i];
+            document.getElementById("questionText").appendChild(img)
+            document.getElementById("questionText").innerHTML += `<br>`
+        }
         document.getElementById("questionText").appendChild(selectionBox);
         document.getElementById("nextButton").setAttribute("onclick", "nextQuestion()");
     }
