@@ -7,18 +7,9 @@ function startQuestions(quizNum) {
     fetch('./questions_answers.json')
         .then((res) => res.json())
         .then((data) => {
-            if (quizSelection === 'Logic Quiz') {
-                questions = data.logic
-            }
-            else if (quizSelection === 'Misc. Math Quiz') {
-                questions = data.miscmath
-            }
-            else if (quizSelection === 'Fractions Quiz') {
-                questions = data.fractions
-            }
-            else if (quizSelection === 'Decimals Quiz') {
-                questions = data.decimals
-            }
+            const quizMap = {'Logic Quiz': data.logic, 'Misc. Math Quiz': data.miscmath, 'Fractions Quiz': data.fractions,
+                'Decimals Quiz': data.decimals}
+            questions = quizMap[quizSelection]
             document.getElementById("quizzes").remove()
             document.getElementById("quiz").innerHTML += `<button id="nextButton" onclick=nextQuestion()>Next</button>`
             continueQuestions();
@@ -35,7 +26,6 @@ function continueQuestions() {
         let selectionBox = document.createElement('select');
         selectionBox.id = 'selectionBox';
         let options = [];
-        let images = [];
 
         for (let option in questions[questionnumber-1].options) {
             options.push(questions[questionnumber-1].options[option]);
@@ -47,20 +37,9 @@ function continueQuestions() {
             selectionBox.appendChild(optionElement);
         }
 
-        if ('question_urls' in questions[questionnumber-1]) {
-            for (let image in questions[questionnumber-1].question_urls) {
-              images.push(questions[questionnumber-1].question_urls[image])
-            }
-          }
-
         document.getElementById("questionNum").innerHTML = `Question ${questionnumber}`;
         document.getElementById("questionText").innerHTML = `${questions[questionnumber-1].question} <br>`;
-        for (let i = 0; i < images.length; i++) {
-            let img = document.createElement('img')
-            img.src = images[i];
-            document.getElementById("questionText").appendChild(img)
-            document.getElementById("questionText").innerHTML += `<br>`
-        }
+        generateImages(0)
         document.getElementById("questionText").appendChild(selectionBox);
         document.getElementById("nextButton").setAttribute("onclick", "nextQuestion()");
     }
@@ -72,13 +51,6 @@ function nextQuestion() {
     let explanation = questions[questionnumber-1].explanation
     let explanationText = document.createElement('p')
     explanationText.innerHTML = '<b>Explanation: </b>' + explanation
-    let images = []
-
-    if ('image_urls' in questions[questionnumber-1]) {
-      for (let image in questions[questionnumber-1].image_urls) {
-        images.push(questions[questionnumber-1].image_urls[image])
-      }
-    }
         
     document.getElementById("questionNum").innerHTML = "";
     if (isCorrect) {
@@ -90,6 +62,27 @@ function nextQuestion() {
     }
 
     document.getElementById("questionText").appendChild(explanationText);
+    generateImages(1);
+    document.getElementById("nextButton").setAttribute("onclick", "continueQuestions()");
+}
+
+function generateImages(whichImages) {
+    let images = []
+    if (whichImages === 0) {
+        if ('question_urls' in questions[questionnumber-1]) {
+            for (let image in questions[questionnumber-1].question_urls) {
+              images.push(questions[questionnumber-1].question_urls[image])
+            }
+        }
+    }
+    else {
+        if ('image_urls' in questions[questionnumber-1]) {
+            for (let image in questions[questionnumber-1].image_urls) {
+              images.push(questions[questionnumber-1].image_urls[image])
+            }
+        }
+    }
+
     for (let i = 0; i < images.length; i++) {
         let img = document.createElement('img')
         let caption = document.createElement('figcaption')
@@ -98,7 +91,7 @@ function nextQuestion() {
         document.getElementById("questionText").appendChild(img)
         document.getElementById("questionText").appendChild(caption)
     }
-    document.getElementById("nextButton").setAttribute("onclick", "continueQuestions()");
+
 }
 
 function checkAnswer(answer) {
