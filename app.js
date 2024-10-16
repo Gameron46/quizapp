@@ -16,6 +16,9 @@ function startQuestions(quizNum) {
             else if (quizSelection === 'Fractions Quiz') {
                 questions = data.fractions
             }
+            else if (quizSelection === 'Decimals Quiz') {
+                questions = data.decimals
+            }
             document.getElementById("quizzes").remove()
             document.getElementById("quiz").innerHTML += `<button id="nextButton" onclick=nextQuestion()>Next</button>`
             continueQuestions();

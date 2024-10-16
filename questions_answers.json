@@ -6,7 +6,7 @@
         "explanation": "Most people find it helpful to draw a diagram for this kind of problem. Let an initial stand for each name. Write tallest on the left-hand side of your scratch paper. Then diagram the first statement. Tallest: F L M After reading the second statement, you can put Jodi into the diagram, but not Noah. All we know about Noah is that he goes somewhere to the left of Mickey; we don't know how his height compares with that of Fernando or Lisa. Tallest: F L M J After reading the third statement, we are still not sure about Noah's position. We know he is shorter than Fernando, but he could fit on either side of Lisa. However, we can now answer the question. Noah is either second or third, but his exact position cannot be determined from the information given."},
         
         {"question": "People who graduate from North College are expected to donate at least $500 per year to the school. Sydney donates $100 per year to North College. Based only on the information above, which of the following must be true?",
-        "options": ["F. Sydney did not graduate from North College.", "G. If Sydney earned more money, she would donate more to the college.","H.  If all graduates donated only $100 per year, North College could not continue to operate.","J. If Sydney graduated from North College, she does not do what is expected of her.","K. Sydney contributes other services to North College to compensate for her lower financial contribution"],
+        "options": ["F. Sydney did not graduate from North College.", "G. If Sydney earned more money, she would donate more to the college.","H. If all graduates donated only $100 per year, North College could not continue to operate.","J. If Sydney graduated from North College, she does not do what is expected of her.","K. Sydney contributes other services to North College to compensate for her lower financial contribution"],
         "answer": "J. If Sydney graduated from North College, she does not do what is expected of her.",
         "explanation": "We must check each option against the facts presented to determine which option is valid. We know nothing about Sydney except the size of her donation to North College. Thus, Option F, although it might be true, cannot be validly concluded. Options G and H also might be true, but we don't know that from the information given. The same is true for Option K. Option J is a valid conclusion, since we are told that graduates are expected to donate more than Sydney donates, and Sydney might or might not be a graduate."},
         
@@ -16,7 +16,7 @@
         "explanation": "According to the definition given, a species is extinct when no more members are living. Therefore, Option B is impossible. Option C is incorrect because there is no statement to suggest that the species will soon be extinct. Option D may be true, but it cannot be deduced from the given statements. The question says nothing about other living species that are thought to be extinct. Option E is false; nothing can be living and extinct at the same time. Option A is correct; if a living fish were caught, it was never extinct."},
         
         {"question": "John will not go to the party if Sarah goes. Sarah will go to the party if Peter's mother comes home in time. Based only on the information above, which of the following must be true?",
-        "options": ["F. If Peter's mother comes home in time, then John will not go to the party.", "G. If John does not go to the party, then Sarah will go.","H. If Peter's mother does not come home in time, Sarah will not go to the party.","J. Sarah will not go to the party unless John goes.","K.  If John goes to the party, then Peter will go."],
+        "options": ["F. If Peter's mother comes home in time, then John will not go to the party.", "G. If John does not go to the party, then Sarah will go.","H. If Peter's mother does not come home in time, Sarah will not go to the party.","J. Sarah will not go to the party unless John goes.","K. If John goes to the party, then Peter will go."],
         "answer": "F. If Peter's mother comes home in time, then John will not go to the party.",
         "explanation": "This question contains two conditional statements. It is important that you read each statement carefully. The first sentence may be restated as, 'If Sarah goes to the party, then John will not go.' This is simply a rearrangement of the two clauses of the first condi- tion and there is no change in meaning. Note that the sentence only tells us what will happen if Sarah goes to the party. It says nothing about what will happen if Sarah does not go to the party. Therefore, it is incor- rect to conclude that John will go to the party if Sarah does not go. It is also incorrect to conclude that John will not go to the party if Sarah does not go. We simply do not know what will happen. Likewise, the second sentence can be restated as, 'If Peter's mother comes home in time, then Sarah will go.' However, it does not tell us what will happen if Peter's mother does not come home in time. Option F is correct; if Peter's mother comes home in time, Sarah will go to the party and, if she goes, John will not go. Option G is wrong because the first condi- tion does not say what will happen if John does not go to the party. Sarah may or may not go to the party, while John does not. The previous paragraph explains why Option H is wrong. Option J contradicts the first statement, and Option K can be ruled out because no information is given about Peter going to the party."},
         
@@ -50,7 +50,7 @@
         {"question": "At the race track, four race car drivers stood side by side, their backs toward you. Each driver stood facing his or her race car. 1) The brown car was to the right of the orange car. 2) Jorge stood immediately to Anya's right. 3) Marquise, who was to Jorge's right, owned the white car. 4) Patrick did not own the silver car. 5) Anya owned the orange car. Which race car driver stood at the far right?",
         "options": ["F. Jorge","G. Anya","H. Marquise","J. Patrick","K. Cannot be determined from the information given."],
         "answer": "K. Cannot be determined from the information given.",
-        "explanation": " This question provides information about two relationships: matching each driver with a car color, and putting the drivers in order. Because the question asks for the driver at the far right, start with the infor- mation about the drivers. According to Statements 2 and 3, Marquise stands to the right of both Anya and Jorge. There is no information about Patrick's posi- tion. Based only on this information, there are several possible orders (using the first initial of each driver). PAJM AJMP AJPM Maybe the colors of the cars will help to place Patrick. Patrick did not drive the white car (Statement 3), the silver car (Statement 4), or the orange car (Statement 5). Therefore, Patrick must drive the brown car. The brown car was to the right of the orange car (Statement 1), but that leaves two possible orders of cars, with an initial standing for each color. OSBW OSWB Thus, we cannot determine who stands at the far right, Patrick (the brown car) or Marquise (the white car), so the answer cannot be determined (Option K)."},
+        "explanation": "This question provides information about two relationships: matching each driver with a car color, and putting the drivers in order. Because the question asks for the driver at the far right, start with the infor- mation about the drivers. According to Statements 2 and 3, Marquise stands to the right of both Anya and Jorge. There is no information about Patrick's posi- tion. Based only on this information, there are several possible orders (using the first initial of each driver). PAJM AJMP AJPM Maybe the colors of the cars will help to place Patrick. Patrick did not drive the white car (Statement 3), the silver car (Statement 4), or the orange car (Statement 5). Therefore, Patrick must drive the brown car. The brown car was to the right of the orange car (Statement 1), but that leaves two possible orders of cars, with an initial standing for each color. OSBW OSWB Thus, we cannot determine who stands at the far right, Patrick (the brown car) or Marquise (the white car), so the answer cannot be determined (Option K)."},
         
         {"question": "Charlie has a headache. The doctor told Charlie that type X flu always comes with fever and a headache, while type Y flu always comes with a headache but no fever. Based only on the information above, which of the following must be true?",
         "options": ["A. If Charlie has a fever, then he must have type X flu.","B. If Charlie does not have a fever, then he must have type Y flu","C. If Charlie has a fever, then he may have type X flu.","D. A headache always means that a person has the flu.","E. If Charlie has a fever, then he may have type Y flu."],
@@ -60,13 +60,13 @@
         {"question": "In the country of Cordovia, all the teachers are left-handed. Every Cordovian teacher is near- sighted. Based only on the information above, which of the following must be true?",
         "options": ["F. At least some left-handed Cordovians are near-sighted.","G. At least some right-handed Cordovians are teachers","H. Every left-handed Cordovian is a teacher.","J. Every near-sighted Cordovian is left-handed.","K. Every near-sighted Cordovian is a teacher."],
         "answer": "F. At least some left-handed Cordovians are near-sighted.",
-        "explanation": " Represent the first sentence in a diagram like this. (Everyone who is not left-handed can be considered right-handed. See Figure 1 below). The second sentence states that every Cordovian teacher is also near-sighted. However, the problem does not provide enough information to determine where to place near-sightedness on the diagram. We do not know whether all near-sighted Cordovians are teachers (Option K) or are left-handed (Option J). Similarly, we do not know whether all left-handed Cordovians are teachers (Option H). Option G is incor- rect-the first sentence states that all Cordovian teach- ers are left-handed. Only Option F must be correct.",
+        "explanation": "Represent the first sentence in a diagram like this. (Everyone who is not left-handed can be considered right-handed. See Figure 1 below). The second sentence states that every Cordovian teacher is also near-sighted. However, the problem does not provide enough information to determine where to place near-sightedness on the diagram. We do not know whether all near-sighted Cordovians are teachers (Option K) or are left-handed (Option J). Similarly, we do not know whether all left-handed Cordovians are teachers (Option H). Option G is incor- rect-the first sentence states that all Cordovian teach- ers are left-handed. Only Option F must be correct.",
         "image_urls": ["./images/q22.png"]},
         
         {"question": "In a cartoon, four trolls stood in a line. Their names were Banto, Gretchen, Snowflake, and Holly. One had green eyes, another had purple ears, another had red teeth, and another had white hair. 1) The troll with red teeth was directly in front of Snowflake, who had white hair. 2) Banto, who did not have green eyes, was behind Gretchen. 3) Gretchen had purple ears. 4) Snowflake was behind Holly. If the troll with green eyes stood behind Gretchen, then what was Gretchen's position? ",
         "options": ["A. first","B. second","C. third","D. fourth","E. Cannot be determined from the information given."],
         "answer": "A. first",
-        "explanation": " This question requires you to solve two relation- ships: matching each troll with a colorful characteris- tic, and putting the trolls in order. Start by matching the trolls and their characteristics. According to Statement 1, Snowflake has white hair. According to Statement 3, Gretchen has purple ears. Statement 2 states that Banto did not have green eyes, so Holly must have the green eyes. This leaves Banto with the red teeth (see Figure 1 below). Now, put the trolls in order. From Statements 1 and 2, we can conclude that Banto was in front of Snowflake and behind Gretchen. The question says that Holly ('green eyes') was behind Gretchen. Thus, every troll is behind Gretchen, which is Option A.",
+        "explanation": "This question requires you to solve two relation- ships: matching each troll with a colorful characteris- tic, and putting the trolls in order. Start by matching the trolls and their characteristics. According to Statement 1, Snowflake has white hair. According to Statement 3, Gretchen has purple ears. Statement 2 states that Banto did not have green eyes, so Holly must have the green eyes. This leaves Banto with the red teeth (see Figure 1 below). Now, put the trolls in order. From Statements 1 and 2, we can conclude that Banto was in front of Snowflake and behind Gretchen. The question says that Holly ('green eyes') was behind Gretchen. Thus, every troll is behind Gretchen, which is Option A.",
         "image_urls": ["./images/q23.png"]},
         
         {"question": "When Tomas wears his white shirt, he also wears a tie. When he wears a tie, he also wears his black shoes. Based only on the information above, which of the following statements is a valid conclusion?",
@@ -81,7 +81,7 @@
         "image_urls": ["./images/q25.png"]}
     ],
     
-    "miscmath" : [
+    "miscmath": [
         {"question": "Bonnie has twice as many cousins as Robert. George has 5 cousins, which is 11 less than Bonnie has. How many cousins does Robert have?",
         "options": ["A. 17", "B. 21", "C. 4", "D. 8"],
         "answer": "D. 8",
@@ -404,7 +404,7 @@
         }
     ],
     
-    "fractions" : [
+    "fractions": [
         {"question": "Lori ran 5 1/2 miles Monday, 6 1/4 miles Tuesday, 4 1/2 miles Wednesday, and 2 3/4 miles on Thursday. What is the average number of miles Lori ran?",
         "options": ["A. 5", "B. 4 1/2", "C. 4", "D. 4 3/4"],
         "answer": "D. 4 3/4",
@@ -722,6 +722,324 @@
         "options": ["A. $45,000", "B. $135,000", "C. $105,000", "D. $120,000"],
         "answer": "C. $105,000",
         "explanation": "Multiply the cost per acre by the number of acres; $60,000 x 1 3/4. Change 60,000 to a fraction by putting it over 1 and change the mixed number to an improper fraction; 60,000/1 x 7/4 = 420000/4 = $105,000."
+        }
+    ],
+
+    "decimals": [
+        {"question": "Round 14.851 to the nearest tenth.",
+        "options": ["A. 14.85", "B. 10", "C. 14.9", "D. 15"],
+        "answer": "C. 14.9",
+        "explanation": "The tenths place is the first number to the right of the decimal. The number 8 is in the tenths place. To decide whether to round up or stay the same, look at the number to the right of the tenths place. Since that number is 5 or above, round the tenths place up to 9 and drop the digits after the tenths place."
+        },
+        {"question": "Kara brought $23 with her when she went shopping. She spent $3.27 for lunch and $14.98 on a shirt. How much money does she have left?",
+        "options": ["A. $8.02", "B. $4.75", "C. $18.25", "D. $7.38"],
+        "answer": "B. $4.75",
+        "explanation": "The two items that Kara bought must be subtracted from the amount of money she had in the beginning; $23.00 - $3.27 - $14.98 = $4.75."
+        },
+        {"question": "Lucas purchased his motorcycle for $5,875.98 and sold it for $7,777.77. What was his profit?",
+        "options": ["A. $1,901.79", "B. $2,902.89", "C. $1,051.79", "D. $1,911.89"],
+        "answer": "A. $1,901.79",
+        "explanation": "To find the profit, you must subtract what Lucas paid for the motorcycle from the sale price; $7,777.77 – $5,875.98 = $1,901.79."
+        },
+        {"question": "Mike, Dan, Ed, and Sy played together on a baseball team. Mike’s batting average was 0.349, Dan’s was 0.2, Ed’s was 0.35, and Sy’s was 0.299. Who had the highest batting average?",
+        "options": ["A. Mike", "B. Dan", "C. Ed", "D. Sy"],
+        "answer": "C. Ed",
+        "explanation": "If you add zeros to the end of Dan's and Ed's averages to make them have three decimal places, it will be easy to compare the batting averages. The four averages are: 0.349, 0.200, 0.350, and 0.299; 0.350 is the largest."
+        },
+        {"question": "Price Cutter sold 85 beach towels for $6.95 each. What were the total sales?",
+        "options": ["A. $865.84", "B. $186.19", "C. $90.35", "D. $590.75"],
+        "answer": "D. $590.75",
+        "explanation": "You must multiply the number of towels sold by the price of each towel; 85 x $6.95 = $590.75."
+        },
+        {"question": "Rob purchased picnic food for $33.20 to share with three of his friends. They plan to split the cost evenly between the four friends. How much does each person need to pay Rob?",
+        "options": ["A. $8.05", "B. $8.30", "C. $7.26", "D. $11.07"],
+        "answer": "B. $8.30",
+        "explanation": "You must divide the cost of the food by 4 to split the cost evenly among the four friends; $33.20 ÷ 4 = $8.30. If you chose d, you divided by 3, and that does not take into account Rob's part of the bill."
+        },
+        {"question": "Katie ran 11.1 miles over the last three days. How many miles did she average per day?",
+        "options": ["A. 3.7", "B. 3.0", "C. 2.4", "D. 3.3"],
+        "answer": "A. 3.7",
+        "explanation": "To find the average number of miles, you should divide the total number of miles by the number of days; 11.1 ÷ 3 = 3.7."
+        },
+        {"question": "Sharon purchased six adult movie tickets. She spent $43.50 on the tickets. How much was each ticket?",
+        "options": ["A. $4.35", "B. $7.75", "C. $6.00", "D. $7.25"],
+        "answer": "D. $7.25",
+        "explanation": "To find the price of each individual ticket, you should divide the total cost by the number of tickets purchased; $43.50 ÷ 6 = $7.25."
+        },
+        {"question": "Millie purchased six bottles of soda at $1.15 each. How much did she pay?",
+        "options": ["A. $6.15", "B. $6.90", "C. $6.60", "D. $5.90"],
+        "answer": "B. $6.90",
+        "explanation": "To find the total cost of six bottles, you must multiply the cost per bottle by 6; $1.15 × 6 = $6.90."
+        },
+        {"question": "Round 468.235 to the nearest hundredth.",
+        "options": ["A. 500", "B. 568.235", "C. 468.24", "D. 468.2"],
+        "answer": "C. 468.24",
+        "explanation": "The hundredths place is the second digit to the right of the decimal point (3). To decide how to round, you must look at the digit to the right of the hundredths place (5). Since this digit is 5 or greater, the hundredths place is rounded up to 4, producing the number 468.24."
+        },
+        {"question": "Kenny used a micrometer to measure the thickness of a piece of construction paper. The paper measured halfway between 0.24 millimeters and 0.25 millimeters. What is the thickness of the paper?",
+        "options": ["A. 0.05", "B. 0.245", "C. 0.255", "D. 0.3"],
+        "answer": "B. 0.245",
+        "explanation": "Find the difference between 0.24 and 0.25 mm by subtracting: 0.25 - 0.24 = 0.01 mm. Half of this is 0.01 ÷ 2 = 0.005. Add to 0.24 to get 0.245 mm."
+        },
+        {"question": "In her last gymnastics competition Keri scored a 5.6 on the floor exercise, 5.85 on the vault, and 5.90 on the balance beam. What was Keri’s total score?",
+        "options": ["A. 17.35", "B. 12.31", "C. 15.41", "D. 13.5"],
+        "answer": "A. 17.35",
+        "explanation": "Keri's three scores need to be added to find the total score. To add decimals, line up the numbers and decimal points vertically and add normally; 5.6 + 5.85 + 5.90 = 17.35."
+        },
+        {"question": "Linda bought 35 yards of fencing at $4.88 a yard. How much did she spend?",
+        "options": ["A. $298.04", "B. $248.80", "C. $91.04", "D. $170.80"],
+        "answer": "D. $170.80",
+        "explanation": "To multiply decimals, multiply normally, count the number of decimal places in the problem, then use the same number of decimal places in the answer; 35 × $4.88 = $170.80, since there are two decimal places in the problem, there should be two in the answer."
+        },
+        {"question": "Divide 6.8 x 10^5 by 2.0 x 10^2 . Write your answer in scientific notation.",
+        "options": ["A. 4.8 x 10^3", "B. 4.8 x 10^2.5", "C. 3.4 x 10^3", "D. 3.4 x 10^4"],
+        "answer": "C. 3.4 x 10^3",
+        "explanation": "To divide numbers written in scientific notation, divide the first numbers (6.8 ÷ 2.0 = 3.4); then divide the powers of 10, which means you subtract the exponents of 10 (10^5 ÷ 10^2 = 10^3). The answer is 3.4 × 10^3."
+        },
+        {"question": "Leslie ordered a slice of pizza for $1.95, a salad for $2.25, and a soda for $1.05. What was the total cost of her order?",
+        "options": ["A. $5.25", "B. $5.35", "C. $6.25", "D. $5.05"],
+        "answer": "A. $5.25",
+        "explanation": "The cost of each item must be added together; $1.95 + $2.25 + $1.05 = $5.25."
+        },
+        {"question": "Last year’s budget was 12.5 million dollars. This year’s budget is 14.1 million dollars. How much did the budget increase?",
+        "options": ["A. 2.5 million", "B. 1.6 million", "C. 1.4 million", "D. 2.2 million"],
+        "answer": "B. 1.6 million",
+        "explanation": "Last year's budget must be subtracted from this year's budget; 14.1 million - 12.5 million = 1.6 million. Since both numbers are millions, the 14.1 and 12.5 can simply be subtracted and million is added to the answer."
+        },
+        {"question": "Mrs. Hartill drove 3.1 miles to the grocery store, then 4.25 miles to the salon, and 10.8 miles to her son’s house. How many miles did she drive altogether?",
+        "options": ["A. 18.15", "B. 56.4", "C. 8.43", "D. 14.65"],
+        "answer": "A. 18.15",
+        "explanation": "The three distances must be added together. To add decimals, line the numbers up vertically so that the decimal points are aligned. Then, add normally; 3.1 + 4.25 + 10.8 = 18.15."
+        },
+        {"question": "The following are four times from a 400-meter race. Which is the fastest time?",
+        "options": ["A. 10.1", "B. 10.14", "C. 10.2", "D. 10.09"],
+        "answer": "D. 10.09",
+        "explanation": "The fastest time is the smallest number. If you chose c, you chose the slowest time since it is the largest number (this person took the longest amount of time to finish the race). To compare decimals easily, make the numbers have the same number of decimal places; 10.09 < 10.10 < 10.14 < 10.20. (Note: adding zeros to the end of a number, to the right of the decimal point, does not change the value of the number.)"
+        },
+        {"question": "It takes the moon an average of 27.32167 days to circle the earth. Round this number to the nearest thousandth.",
+        "options": ["A. 27.322", "B. 27.3", "C. 27.32", "D. 27.321"],
+        "answer": "A. 27.322",
+        "explanation": "The thousandths place is the third digit to the right of the decimal point (1). To decide whether to round up or to stay the same, look at the digit to the right of the thousandths place (6). Since 6 is greater than or equal to 5, you round up to 27.322."
+        },
+        {"question": "Joe’s batting average is between 0.315 and 0.32. Which of the following could be Joe’s average?",
+        "options": ["A. 0.311", "B. 0.309", "C. 0.321", "D. 0.317"],
+        "answer": "D. 0.317",
+        "explanation": "To compare decimals, you can add zeros to the end of the number after the decimal point (this will not change the value of the number); 0.315 < 0.317 < 0.320. Choice a is incorrect because 0.311 is smaller than 0.315. Choice b is incorrect because 0.309 is smaller than 0.315. Choice c is incorrect because 0.321 is larger than 0.32."
+        },
+        {"question": "Find the product of 5.2 x 10^3 and 6.5 x 10^7. Write your answer in scientific notation.",
+        "options": ["A. 33.8 x 10^21", "B. 3.38 x 10^11", "C. 33.8 x 10^10", "D. 3.38 x 10^9"],
+        "answer": "B. 3.38 x 10^11",
+        "explanation": "To multiply numbers written in scientific notation, multiply the first numbers (5.2 x 6.5 = 33.8). Then, multiply the powers of ten by adding the exponents (10^3 × 10^7 = 10^10); 33.8 × 10^10 is the answer, except it is not in scientific notation. The decimal in 33.8 must be moved to create a number between 1 and 10. Placing the decimal between the 3's will accomplish this (3.38). Since the decimal has been moved once to the left, the exponent of ten must be increased by 1. The answer is 3.38 × 10^11."
+        },
+        {"question": "Brian’s 100-yard dash time was 2.68 seconds more than the school record. Brian’s time was 13.4 seconds. What is the school record?",
+        "options": ["A. 10.72 seconds", "B. 11.28 seconds", "C. 10.78 seconds", "D. 16.08 seconds"],
+        "answer": "A. 10.72 seconds",
+        "explanation": "The school record is less than Brian's time. Therefore, 2.68 must be subtracted from 13.4; 13.4 - 2.68 = 10.72. To subtract decimals, line up the numbers vertically so that the decimal points are aligned. Since 13.4 has one less decimal place than 2.68, you must add a zero after the 4 (13.40) before subtracting. After you have done this, subtract normally. If you chose d, you added instead of subtracted."
+        },
+        {"question": "Ryan’s gym membership costs him $390 per year. He pays this in twelve equal installments a year. How much is each installment?",
+        "options": ["A. $1,170", "B. $42.25", "C. $4,680", "D. $32.50"],
+        "answer": "D. $32.50",
+        "explanation": "To find each installment, the total yearly cost ($390) must be divided by the number of payments (12); 390 ÷ 12 = $32.50. Choices a and c do not make sense because they would mean that each monthly installment (payment) is more than the total yearly cost."
+        },
+        {"question": "How much greater is 0.0543 than 0.002?",
+        "options": ["A. 0.0343", "B. 0.0072", "C. 0.0523", "D. 0.0563"],
+        "answer": "C. 0.0523",
+        "explanation": "To find out how much greater a number is, you need to subtract; 0.0543 - 0.002 = 0.0523. To subtract decimals, line the numbers up vertically so that the decimal points align. Then, subtract normally. If you chose a, you did not line up the decimal places correctly. The 2 should go under the 4. If you chose d, you added instead of subtracted."
+        },
+        {"question": "Kevin ran 6.8 miles yesterday and 10.4 miles today. How many more miles did he run today?",
+        "options": ["A. 3.6", "B. 4.6", "C. 4.4", "D. 5.9"],
+        "answer": "A. 3.6",
+        "explanation": "To find out how many more miles he ran today, subtract yesterday's miles from today's miles. 10.4 - 6.8. To subtract decimals, line the numbers up vertically so that the decimal points align. Then, subtract normally. If you chose b, you made an error in borrowing. You forgot to change the 10 to a 9 when borrowing 1 for the 4."
+        },
+        {"question": "Jay bought twenty-five $0.37 stamps. How much did he spend?",
+        "options": ["A. $5.19", "B. $7.34", "C. $2.38", "D. $9.25"],
+        "answer": "D. $9.25",
+        "explanation": "To find how much Jay spent, you must multiply the cost of each stamp ($0.37) by the number of stamps purchased (25); $0.37 × 25 = $9.25. To multiply decimals, multiply normally, then count the number of decimal places in the problem. Place the decimal point in the answer so that it contains the same number of decimal places as the problem does."
+        },
+        {"question": "Which number falls between 5.56 and 5.81?",
+        "options": ["A. 5.54", "B. 5.87", "C. 5.6", "D. 5.27"],
+        "answer": "C. 5.6",
+        "explanation": "If you add a zero to the end of 5.6 to get 5.60, it is easier to see that 5.56 < 5.60 < 5.81. Choice a is less than 5.56. Choice b is greater than 5.81. Choice d is less than 5.56."
+        },
+        {"question": "Hanna’s sales goal for the week is $5,000. So far she has sold $3,574.38 worth of merchandise. How much more does she need to sell to meet her goal?",
+        "options": ["A. $2,425.38", "B. $1,329.40", "C. $2,574.38", "D. $1,425.62"],
+        "answer": "D. $1,425.62",
+        "explanation": "You must find the difference (subtraction) between her goal and what she has already sold. Add a decimal and two zeros to the end of $5,000 ($5,000.00) to make the subtraction easier; $5,000.00 - $3,574.38 = $1,425.62."
+        },
+        {"question": "Which of the following decimals is the greatest number?",
+        "options": ["A. 0.064", "B. 0.007", "C. 0.1", "D. 0.04236"],
+        "answer": "C. 0.1",
+        "explanation": "If you add zeros to the end of each of the numbers so that each number has 5 places after the decimal point, it is easier to compare the numbers; 0.00700 < 0.04236 < 0.06400 < 0.10000."
+        },
+        {"question": "Andy earned the following grades on his four math quizzes: 97, 78, 84, and 86. What is the average of his four quiz grades?",
+        "options": ["A. 82.5", "B. 86.25", "C. 81.5", "D. 87"],
+        "answer": "B. 86.25",
+        "explanation": "To find the average, you must add the items (97 + 78 +84 + 86 = 345) and divide the sum by the total number of items (4); 345 ÷ 4 = 86.25. Remember to add a decimal point and zeros after the decimal when dividing (345.00 ÷ 4)."
+        },
+        {"question": "Luis runs at a rate of 11.7 feet per second. How far does he run in 5 seconds?",
+        "options": ["A. 585 feet", "B. 490.65 feet", "C. 58.5 feet", "D. 55.5 feet"],
+        "answer": "C. 58.5 feet",
+        "explanation": "You must multiply 11.7 by 5; 11.7 × 5 = 58.5. To multiply decimals, multiply normally, then count the total number of decimal places in the problem and move the decimal point in the answer so that it contains the same number of decimal places. If you chose a, you forgot to add the decimal point after you multiplied. If you chose d, you forgot to carry a 3 after multiplying 7 by 5 (35, place the 5 below and carry the 3)."
+        },
+        {"question": "Nancy, Jennifer, Alex, and Joy ran a race. Nancy’s time was 50.24 seconds, Jennifer’s was 50.32, Alex’s was 50.9, and Joy’s was 50.2. Whose time was the fastest?",
+        "options": ["A. Nancy", "B. Jennifer", "C. Alex", "D. Joy"],
+        "answer": "D. Joy",
+        "explanation": "The fastest time is the smallest time. To easily compare decimals, add a zero to the end of 50.9 and 50.2 so that they read 50.90 and 50.20. Then compare the four numbers. The times are listed from smallest to largest: 50.20 < 50.24 < 50.32 < 50.90. The smallest time is 50.20 seconds."
+        },
+        {"question": "Mike can jog 6.5 miles per hour. At this rate, how many miles will he jog in 30 minutes?",
+        "options": ["A. 3.25 miles", "B. 13 miles", "C. 3 miles", "D. 4.25 miles"],
+        "answer": "A. 3.25 miles",
+        "explanation": "Thirty minutes is half an hour. Therefore, divide the number of miles Mike can jog in one hour by 2 to find the number he can jog in half an hour; 6.5 ÷ 2 = 3.25 miles."
+        },
+        {"question": "What decimal is represented by point A on the number line?",
+        "options": ["A. 0.77", "B. 0.752", "C. 0.765", "D. 0.73"],
+        "question_urls": ["./images/decimals_q159.png"],
+        "answer": "A. 0.77",
+        "image_urls": ["./images/decimal_q159answer.png"],
+        "explanation": "The hash marks indicate units of 0.01 between 0.75 and 0.80. Point A is 0.77. See the figure below."
+        },
+        {"question": "Nicole is making 20 gift baskets. She has 15 pounds of chocolates to distribute equally among the baskets. If each basket gets the same amount of chocolates, how many pounds should Nicole put in each basket?",
+        "options": ["A. 1.3 pounds", "B. 0.8 pounds", "C. 0.75 pounds", "D. 3 pounds"],
+        "answer": "C. 0.75 pounds",
+        "explanation": "Nicole has 15 pounds to divide into 20 baskets. Divide 15 by 20; 15 ÷ 20 = 0.75 pounds per basket."
+        },
+        {"question": "A librarian is returning library books to the shelf. She uses the call numbers to determine where the books belong. She needs to place a book about perennials with a call number of 635.93. Between which two call numbers should she place the book?",
+        "options": ["A. 635.8 and 635.9", "B. 635.8 and 635.95", "C. 635.935 and 635.94", "D. 635.99 and 636.0"],
+        "answer": "B. 635.8 and 635.95",
+        "explanation": "Quickly compare decimals by adding zeros to the end of a decimal so that all numbers being compared have the same number of decimal places (see Figure 1 Below).",
+        "image_urls": ["./images/decimal_q161answer.png"]
+        },
+        {"question": "Michael made 19 out of 30 free-throws this basketball season. Larry’s freethrow average was 0.745 and Charles’ was 0.81. John made 47 out of 86 free-throws. Who is the best free-throw shooter?",
+        "options": ["A. Michael", "B. Larry", "C. Charles", "D. John"],
+        "answer": "C. Charles",
+        "explanation": "Change all of the comparisons to decimals by dividing the number of free-throws made by the number attempted. Michael's average is 19 ÷ 30 = 0.633, John's is 0.546, Larry's was given as 0.745, and Charles' was given as 0.81. The largest decimal is the best free-throw shooter. Add zeros to the ends of the decimals to compare easily. The shooters are listed from best to worst: 0.810 Charles > 0.745 Larry > 0.633 Michael > 0.546 John."
+        },
+        {"question": "Which number below is described by the following statements? The hundredths digit is 4 and the tenths digit is twice the thousandths digit.",
+        "options": ["A. 0.643", "B. 0.0844", "C. 0.446", "D. 0.0142"],
+        "answer": "A. 0.643",
+        "explanation": "From left to right, the first decimal place is the tenths, the second is the hundredths, and the third is the thousandths. The first criterion is that the hundredths digit is 4. The second decimal place is 4, only in choice a and choice c. The second criterion is that the first decimal place is twice the third decimal place. This is only true in choice a, in which 6 is twice 3."
+        },
+        {"question": "If a telephone pole weighs 11.5 pounds per foot, how much does a 32-foot pole weigh?",
+        "options": ["A. 368 pounds", "B. 357 pounds", "C. 346 pounds", "D. 338.5 pounds"],
+        "answer": "A. 368 pounds",
+        "explanation": "Multiply 11.5 by 32; 11.5 x 32 = 368 pounds."
+        },
+        {"question": "Amy purchased 6 books at $4.79 each. How much did the books cost altogether?",
+        "options": ["A. $24.24", "B. $24.96", "C. $28.74", "D. $29.54"],
+        "answer": "C. $28.74",
+        "explanation": "Multiply 6 by $4.79; 6 × $4.79 = $28.74."
+        },
+        {"question": "Bill traveled 117 miles in 2.25 hours. What was his average speed?",
+        "options": ["A. 26.3 miles per hour", "B. 5.2 miles per hour", "C. 46 miles per hour", "D. 52 miles per hour"],
+        "answer": "D. 52 miles per hour",
+        "explanation": "Use the formula d = rt (distance = rate × time). Substitute 117 miles for d. Substitute 2.25 hours for t and solve for r (see Figure 1 Below). The rate is 52 miles per hour.",
+        "image_urls": ["./images/decimal_q166answer.png"]
+        },
+        {"question": "Tom is cutting a piece of wood to make a shelf. He cut the wood to 3.5 feet, but it is too long to fit in the bookshelf he is making. He decides to cut 0.25 feet off the board. How long will the board be after he makes the cut?",
+        "options": ["A. 3.25 feet", "B. 3.75 feet", "C. 3.025 feet", "D. 2.75 feet"],
+        "answer": "A. 3.25 feet",
+        "explanation": "Subtract 0.25 from 3.5; 3.5 - 0.25 = 3.25 feet."
+        },
+        {"question": "A bricklayer estimates that he needs 6.5 bricks per square foot. He wants to lay a patio that will be 110 square feet. How many bricks will he need?",
+        "options": ["A. 650", "B. 7,150", "C. 6,500", "D. 715"],
+        "answer": "D. 715",
+        "explanation": "Multiply 6.5 by 110; 6.5 x 110 = 715 bricks."
+        },
+        {"question": "Find the area of a circle with a radius of 6 inches. The formula for the area of a circle is A=πr^2. Use 3.14 for π.",
+        "options": ["A. 37.68 square inches", "B. 113.04 square inches", "C. 9.42 square inches", "D. 75.36 square inches"],
+        "answer": "B. 113.04 square inches",
+        "explanation": "Substitute 6 for r in the formula А = r2 and solve for A. A = (3.14)(6^2) = (3.14)(36) = 113.04. The area of the circle is 113.04 square inches. A common mistake in this problem is to say that 6^2 is 12. This is NOT true; 6^2 means 6×6 which equals 36."
+        },
+        {"question": "Mary made 34 copies at the local office supply store. The copies cost $0.06 each. What was the total cost of the copies?",
+        "options": ["A. $2.04", "B. $1.84", "C. $1.68", "D. $1.80"],
+        "answer": "A. $2.04",
+        "explanation": "Multiply 34 by $0.06 to find the total cost; 34 × $0.06 = $2.04."
+        },
+        {"question": "Tammi’s new printer can print 13.5 pages a minute. How many pages can it print in 4 minutes?",
+        "options": ["A. 52", "B. 48", "C. 64", "D. 54"],
+        "answer": "D. 54",
+        "explanation": "Multiply 13.5 by 4 to find the number of copies made; 13.5 × 4 = 54 copies."
+        },
+        {"question": "The price of gasoline is $1.349 cents per gallon. If the price increases by three tenths of a cent, what will the price of gasoline be?",
+        "options": ["A. $1.649", "B. $1.352", "C. $1.449", "D. $1.379"],
+        "answer": "B. $1.352",
+        "explanation": "Three tenths of a cent can be written as 0.3¢, or changed to dollars by moving the decimal point two places to the left, $0.003. If $0.003 is added to $1.349 the answer is $1.352."
+        },
+        {"question": "Louise is estimating the cost of the groceries in her cart. She rounds the cost of each item to the nearest dollar to make her calculations. If an item costs $1.45, to what amount will Louise round the item?",
+        "options": ["A. $1.00", "B. $1.50", "C. $2.00", "D. $1.40"],
+        "answer": "A. $1.00",
+        "explanation": "$1.45 is rounded to $1.00. You are rounding to the ones place, so look at the place to the right (the tenths place) to decide whether to round up or stay the same. Since 4 is less than 5, the 1 stays the same and the places after the 1 become zero."
+        },
+        {"question": "A pipe has a diameter of 2.5 inches. Insulation that is 0.5 inches thick is placed around the pipe. What is the diameter of the pipe with the insulation around it?",
+        "options": ["A. 3.0 inches", "B. 4.5 inches", "C. 2.0 inches", "D. 3.5 inches"],
+        "answer": "D. 3.5 inches",
+        "image_urls": ["./images/decimal_q174answer.png"],
+        "explanation": "The insulation surrounds the whole pipe. If the diameter is 2.5 inches, the insulation will add 0.05 inches on both sides of the diameter. See the diagram below; 2.5 + 0.5 + 0.5 = 3.5 inches."
+        },
+        {"question": "A 64-ounce bottle of detergent costs $3.20. What is the cost per ounce of detergent?",
+        "options": ["A. $0.20", "B. $0.64", "C. $0.05", "D. $0.32"],
+        "answer": "C. $0.05",
+        "explanation": "To find the cost per ounce, divide the cost by the number of ounces; $3.20 ÷ 64 = $0.05 per ounce."
+        },
+        {"question": "George worked from 7:00 A.M. to 3:30 P.M. with a 45-minute break. If George earns $10.50 per hour and does not get paid for his breaks, how much will he earn? (Round to the nearest cent.)",
+        "options": ["A. $89.25", "B. $84.00", "C. $97.13", "D. $81.38"],
+        "answer": "D. $81.38",
+        "explanation": "First, find the number of hours George worked. From 7:00 A.M. to 3:30 P.M. is 8 hours. Take away his hour break and he works 72 hours. To find what George is paid, multiply the hours worked, 7.75 (changed from the fraction), by the pay per hour, $10.50; 7.75 × $10.50 = $81.375. The directions say to round to the nearest cent. Therefore, the answer is $81.38."
+        },
+        {"question": "Marci filled her car’s gas tank on Monday, and the odometer read 32,461.3 miles. On Friday when the car’s odometer read 32,659.7 miles, she filled the car’s tank again. It took 12.4 gallons to fill the tank. How many miles to the gallon does Marci’s car get?",
+        "options": ["A. 16 miles per gallon", "B. 18.4 miles per gallon", "C. 21.3 miles per gallon", "D. 14 miles per gallon"],
+        "answer": "A. 16 miles per gallon",
+        "explanation": "Since the tank was full on Monday, whatever it takes to fill the tank is the amount of gas that she has used. Therefore, she has used 12.4 gallons of gas. Next, find the number of miles Marci traveled by subtracting Monday's odometer reading from Friday's odometer reading; 32,659.7 - 32,461.3 = 198.4 miles. Divide the miles driven by the gas used to find the miles per gallon; 198.4 ÷ 12.4 = 16 miles per gallon."
+        },
+        {"question": "Martha has $20 to spend and would like to buy as many calculators as possible with the money. The calculators that she wants to buy are $4.50 each. How much money will she have left over after she purchases the greatest possible number of calculators?",
+        "options": ["A. $0.45", "B. $1.25", "C. $2.65", "D. $2.00"],
+        "answer": "D. $2.00",
+        "explanation": "Divide the $20 by $4.50 to find the number of calculators she can buy; $20 ÷ $4.50 = 4.444. She can buy 4 calculators. She doesn't have enough to buy a fifth calculator. This means that she has spent $18 on calculators because $4.5 x 4 = $18. To find how much she has left, subtract $20 and $18. The answer is $2."
+        },
+        {"question": "What is the smallest possible number that can be created with four decimal places using the numbers 3, 5, 6, and 8?",
+        "options": ["A. 0.8653", "B. 0.3568", "C. 0.6538", "D. 0.5368"],
+        "answer": "B. 0.3568",
+        "explanation": "Place the smallest number in the largest place value and work your way down, putting the digits in ascending order. Thus, the answer is 0.3568."
+        },
+        {"question": "Which of the following numbers is equivalent to 12.087?",
+        "options": ["A. 12.0087", "B. 120.087", "C. 12.0870", "D. 102.087"],
+        "answer": "C. 12.0870",
+        "explanation": "Zeros can be added to the end (right) of the decimal portion of a number without changing the value of the number; 12.0870 is equivalent to 12.087-a 0 has just been added to the end of the number."
+        },
+        {"question": "Which of the following numbers will yield a number larger than 23.4 when it is multiplied by 23.4?",
+        "options": ["A. 0.999", "B. 0.0008", "C. 0.3", "D. 1.0002"],
+        "answer": "D. 1.0002",
+        "explanation": "When multiplying by a number less than 1, you get a product that is less than the number you started with. Multiplying by a number greater than 1 gives you a larger number than you started with. Therefore, multiplying by 1.0002 will yield a number larger than the one you started with."
+        },
+        {"question": "Kelly plans to fence in her yard. The Fabulous Fence Company charges $3.25 per foot of fencing and $15.75 an hour for labor. If Kelly needs 350 feet of fencing and the installers work a total of 6 hours installing the fence, how much will she owe the Fabulous Fence Company?",
+        "options": ["A. $1,153.25", "B. $1,232.00", "C. $1,069.00", "D. $1,005.50"],
+        "answer": "B. $1,232.00",
+        "explanation": "First, figure out the cost of the fence by multiplying the number of feet of fence by $3.25; 350 × $3.25 = $1,137.50. Next, find the cost of the labor by multiplying the hours of labor by $15.75; 6 × $15.75 = $94.50. Add the two costs together to find what Kelly owes Fabulous Fence; $1,137.50 + $94.50 = $1,232."
+        },
+        {"question": "Thomas is keeping track of the rainfall in the month of May for his science project. The first day, 2.6 cm of rain fell. On the second day, 3.4 cm fell. On the third day, 2.1 cm fell. How many more cm are needed to reach the average monthly rainfall in May, which is 9.7 cm?",
+        "options": ["A. 8.1 cm", "B. 0.6 cm", "C. 1.6 cm", "D. 7.4 cm"],
+        "answer": "C. 1.6 cm",
+        "explanation": "Find the amount of rain that has fallen so far; 2.6 + 3.4 + 2.1 = 8.1 cm. Find the difference between this amount and the average rainfall by subtracting; 9.7 - 8.1 = 1.6 cm."
+        },
+        {"question": "How will the decimal point move when 245.398 is multiplied by 100?",
+        "options": ["A. It will move three places to the right.", "B. It will move three places to the left.", "C. It will move two places to the right.", "D. It will move two places to the left."],
+        "answer": "C. It will move two places to the right.",
+        "explanation": "It is moved two places to the right. When multiplying by multiples of 10, the decimal point is moved to the right according to the number of zeros. For example: Multiply by 10 and move the decimal one place; multiply by 1,000 and move the decimal three places."
+        },
+        {"question": "Mona purchased one and a half pounds of turkey at the deli for $6.90. What did she pay per pound?",
+        "options": ["A. $4.60", "B. $10.35", "C. $3.45", "D. $5.70"],
+        "answer": "A. $4.60",
+        "explanation": "Divide the cost of the turkey by the weight; $6.90 ÷ 1.5 = $4.60."
+        },
+        {"question": "Lucy’s Lunch is sending out flyers and pays a bulk rate of 14.9 cents per piece of mail. If she mails 1,500 flyers, what will she pay?",
+        "options": ["A. $14.90", "B. $29.80", "C. $256.50", "D. $223.50"],
+        "answer": "D. $223.50",
+        "explanation": "Multiply the price per piece by the number of pieces; 14.9 × 1,500 = 22,350 cents. Change the cents into dollars by dividing by 100 (move the decimal point two places to the left); 22,350 cents = $223.50."
+        },
+        {"question": "If 967.234 is divided by 10, how will the decimal point move?",
+        "options": ["A. It will move one place to the right.", "B. It will move one place to the left.", "C. It will move two places to the right.", "D. It will move two places to the left."],
+        "answer": "B. It will move one place to the left.",
+        "explanation": "It will move one place to the left. When dividing by multiples of 10, the decimal point is moved to the left according to the number of zeros. For example: Divide by 100 and move the decimal two places; divide by 1,000 and move the decimal three places."
         }
     ],
 
