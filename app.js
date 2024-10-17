@@ -100,15 +100,18 @@ function nextQuestion() {
 }
 
 function generateImages(whichImages) {
-    let images = whichImages
+    let images = []
+    images = whichImages
 
-    for (let i = 0; i < images.length; i++) {
-        let img = document.createElement('img')
-        let caption = document.createElement('figcaption')
-        img.src = images[i];
-        caption.textContent = "Figure " + (i+1)
-        document.getElementById("questionText").appendChild(img)
-        document.getElementById("questionText").appendChild(caption)
+    if (images !== undefined) {
+        for (let i = 0; i < images.length; i++) {
+            let img = document.createElement('img')
+            let caption = document.createElement('figcaption')
+            img.src = images[i];
+            caption.textContent = "Figure " + (i+1)
+            document.getElementById("questionText").appendChild(img)
+            document.getElementById("questionText").appendChild(caption)
+        }
     }
 }
 
