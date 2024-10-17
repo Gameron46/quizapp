@@ -72,7 +72,7 @@ function continueQuestions() {
 
         document.getElementById("questionNum").innerHTML = `Question ${questionnumber}`;
         document.getElementById("questionText").innerHTML = `${questions[questionnumber-1].question} <br>`;
-        generateImages(0)
+        generateImages(questions[questionnumber-1].question_urls)
         document.getElementById("questionText").appendChild(selectionBox);
         document.getElementById("nextButton").setAttribute("onclick", "nextQuestion()");
     }
@@ -95,22 +95,12 @@ function nextQuestion() {
     }
 
     document.getElementById("questionText").appendChild(explanationText);
-    generateImages(1);
+    generateImages(questions[questionnumber-1].image_urls);
     document.getElementById("nextButton").setAttribute("onclick", "continueQuestions()");
 }
 
 function generateImages(whichImages) {
-    let images = []
-    if (whichImages === 0) {
-        if ('question_urls' in questions[questionnumber-1]) {
-            images = questions[questionnumber-1].question_urls
-        }
-    }
-    else {
-        if ('image_urls' in questions[questionnumber-1]) {
-            images = questions[questionnumber-1].image_urls
-        }
-    }
+    let images = whichImages
 
     for (let i = 0; i < images.length; i++) {
         let img = document.createElement('img')
