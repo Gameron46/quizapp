@@ -2,6 +2,39 @@ let questionnumber = 0;
 let numPoints = 0;
 let questions = [];
 
+function initiate() {
+    const quizHtml = `
+        <div id="quiz">
+            <h1 id="questionNum">Quiz App</h1>
+            <p id="questionText">Welcome to the quiz app. Select the quiz you want to take and click "Start Quiz".</p>
+            <div id="quizzes">
+                <div id="specificQuiz">
+                    <select id="quizSelect">
+                        <option value="Logic Quiz">Logic Quiz</option>
+                    </select>
+                    <br>
+                    <button id="startButton1">Start Quiz</button>
+                </div>
+                <div id="specificQuiz">
+                    <select id="quizSelect">
+                        <option value="Misc. Math Quiz">Misc. Math Quiz</option>
+                        <option value="Fractions Quiz">Fractions Quiz</option>
+                        <option value="Decimals Quiz">Decimals Quiz</option>
+                    </select>
+                    <br>
+                    <button id="startButton2">Start Quiz</button>
+                </div>
+                <br>
+            </div>
+        </div>
+    `;
+    document.body.innerHTML = quizHtml;
+    
+    document.getElementById("startButton1").addEventListener('click', () => startQuestions(0));
+    document.getElementById("startButton2").addEventListener('click', () => startQuestions(1));
+}
+window.onload = initiate;
+
 function startQuestions(quizNum) {
     let quizSelection = document.querySelectorAll("#quizSelect")[quizNum].value
     fetch('./questions_answers.json')
@@ -70,16 +103,12 @@ function generateImages(whichImages) {
     let images = []
     if (whichImages === 0) {
         if ('question_urls' in questions[questionnumber-1]) {
-            for (let image in questions[questionnumber-1].question_urls) {
-              images.push(questions[questionnumber-1].question_urls[image])
-            }
+            images = questions[questionnumber-1].question_urls
         }
     }
     else {
         if ('image_urls' in questions[questionnumber-1]) {
-            for (let image in questions[questionnumber-1].image_urls) {
-              images.push(questions[questionnumber-1].image_urls[image])
-            }
+            images = questions[questionnumber-1].image_urls
         }
     }
 
@@ -91,7 +120,6 @@ function generateImages(whichImages) {
         document.getElementById("questionText").appendChild(img)
         document.getElementById("questionText").appendChild(caption)
     }
-
 }
 
 function checkAnswer(answer) {
