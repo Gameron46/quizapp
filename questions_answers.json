@@ -1043,6 +1043,326 @@
         }
     ],
 
+    "percents": [
+        {"question": "A pair of pants costs $24. The cost was reduced by 8%. What is the new cost of the pants?",
+        "options": ["A. $25.92", "B. $21.06", "C. $22.08", "D. $16.00"],
+        "answer": "C. $22.08",
+        "explanation": "If the cost of the pants is reduced by 8%, the cost of the pants is 92% of the original cost (100% - 8% = 92%). To find 92% of the original cost, multiply the original cost of the pants by the decimal equivalent of 92%; $24 × 0.92 = $22.08."
+        },
+        {"question": "Michael scored 260 points during his junior year on the school basketball team. He scored 20% more points during his senior year. How many points did he score during his senior year?",
+        "options": ["A. 208", "B. 52", "C. 312", "D. 345"],
+        "answer": "C. 312",
+        "explanation": "If the number of points is increased by 20%, the number of points in his senior year is 120% of the number of points in his junior year (100% + 20% = 120%). To find 120% of the number of points in his junior year, multiply the junior year points by the decimal equivalent of 120%; 260 × 1.20 = 312. If you chose a, you calculated what his points would be if he scored 20% LESS than he did in his junior year."
+        },
+        {"question": "Brian is a real estate agent. He makes a 2.5% commission on each sale. During the month of June he sold three houses. The houses sold for $153,000, $299,000, and $121,000. What was Brian's total commission on these three sales?",
+        "options": ["A. $143,250", "B. $11,460", "C. $3,825", "D. $14,325"],
+        "answer": "D. $14,325",
+        "explanation": "First, find the total of Brian's sales; $153,000+ $299,000 + $121,000 = $573,000. To find 2.5% of $573,000, multiply by the decimal equivalent of 2.5%; $573,000 × 0.025 = $14,325. If you chose a, you used the decimal 0.25, which is 25%, NOT 2.5%."
+        },
+        {"question": "Cory purchased a frying pan that was on sale for 30% off. She saved $3.75 with the sale. What was the original price of the frying pan?",
+        "options": ["A. $10.90", "B. $9.25", "C. $12.50", "D. $11.25"],
+        "answer": "C. $12.50",
+        "explanation": "Use a proportion to find the original cost of the frying pan; part/whole = %/100 The $3.75 that was saved is part of the original price. The whole price is what we are looking for, so call it x. The % is 30 (the percent off); 3.75/X = 30/100. To solve the proportion, cross-multiply. (3.75)(100) = 30x. Divide both sides by 30 to solve for x; 375/30 = 30x/30; x= $12.50."
+        },
+        {"question": "Peter purchased 14 new baseball cards for his collection. This increased the size of his collection by 35%. How many baseball cards does Peter now have?",
+        "options": ["A. 5", "B. 54", "C. 40", "D. 34"],
+        "answer": "B. 54",
+        "explanation": "First, you must find how many baseball cards Peter had originally. Use a proportion to find the original number of baseball cards; part/whole = %/100. The 14 baseball cards that he added to his collection is the part. The whole number of baseball cards is what we are looking for, so call it x. The % is 35 (the percent of increase); 14/x = 35/100. To solve the proportion, cross-multiply; (14)(100) = 35x. Divide both sides by 35 to solve for x; 1,400/35 = 35x/35; x=40. The original number of baseball cards was 40, and 14 more were added to the collection for a total of 54 cards."
+        },
+        {"question": "Joey has 30 pages to read for history class tonight. He decided that he would take a break when he finished reading 70% of the pages assigned. How many pages must he read before he takes a break?",
+        "options": ["A. 7", "B. 21", "C. 9", "D. 18"],
+        "answer": "B. 21",
+        "explanation": "To find 70% of 30, you must multiply 30 by the decimal equivalent of 70% (0.70); 30 × 0.70 = 21. If you chose c, you calculated how many pages he has left to read after his break."
+        },
+        {"question": "Julie had $500. She spent 20% of it on clothes and then 25% of the remaining money on CDs. How much money did Julie spend?",
+        "options": ["A. $225", "B. $300", "C. $200", "D. $250"],
+        "answer": "C. $200",
+        "explanation": "Find 20% of $500 by multiplying $500 by the decimal equivalent of 20% (0.20); $500 × 0.20 = $100. She spent $100 on clothes, leaving her with $400. Find 25% of $400; 0.25 x 400 = $100. Julie spent $100 on CDs. $100 on clothes plus $100 on CDs totals $200 spent. If you chose a, you found 45% (20% + 25%) of the total without taking into account that the 25% was on the amount of money Julie had AFTER spending the original 20%."
+        },
+        {"question": "Nick paid $68.25 for a coat, including sales tax of 5%. What was the original price of the coat before tax?",
+        "options": ["A. $63.25", "B. $65.25", "C. $65.00", "D. $64.84"],
+        "answer": "C. $65.00",
+        "explanation": "Since 5% sales tax was added to the cost of the coat, $68.25 is 105% of the original price of the coat. Use a proportion to find the original cost of the coat; part/whole = %/100. Part is the price of the coat with the sales tax, $68.25. Whole is the original price on the coat that we are looking for. Call it x. The % is 105; 68.25/x=105/100. To solve for x, cross-multiply; (68.25) (100) = 105x. Divide both sides by 105; 6,825/105 = 105x/105; x = $65.00."
+        },
+        {"question": "The Dow Jones Industrial Average fell 2% today. The Dow began the day at 8,800. What was the Dow at the end of the day after the 2% drop?",
+        "options": ["A. 8,600", "B. 8,976", "C. 8,624", "D. 8,720"],
+        "answer": "C. 8,624",
+        "explanation": "The Dow lost 2%, so it is worth 98% of what it was worth at the beginning of the day (100% - 2% = 98%). To find 98% of 8,800, multiply 8,800 by the decimal equivalent of 98%; 8,800 × 0.98 = 8,624."
+        },
+        {"question": "The population of Hamden was 350,000 in 1990. By 2000, the population had decreased to 329,000. What percent of decrease is this?",
+        "options": ["A. 16%", "B. 7.5%", "C. 6%", "D. 6.4%"],
+        "answer": "C. 6%",
+        "explanation": "First, find the number of residents who left Hamden by subtracting the new population from the old population; 350,000 - 329,000 = 21,000. The population decreased by 21,000. To find what percent this is of the original population, divide 21,000 by the original population of 350,000; 21,000 ÷ 350,000 = 0.06; 0.06 is equivalent to 6%. If you chose d, you found the decrease in relation to the NEW population (2000) when the decrease must be in relation to the original population (1990)."
+        },
+        {"question": "Connecticut state sales tax is 6%. Lucy purchases a picture frame that costs $10.50. What is the Connecticut sales tax on this item?",
+        "options": ["A. $0.60", "B. $6.30", "C. $0.63", "D. $1.05"],
+        "answer": "C. $0.63",
+        "explanation": "Find 6% of $10.50 by multiplying $10.50 by 0.06 (the decimal equivalent of 6%); $10.50 × 0.06 = $0.63. If you chose b, you found 60% (0.6) instead of 6% (0.06)."
+        },
+        {"question": "Wendy brought $16 to the mall. She spent $6 on lunch. What percent of her money did she spend on lunch?",
+        "options": ["A. 60%", "B. 37.5%", "C. 26%", "D. 62.5%"],
+        "answer": "B. 37.5%",
+        "explanation": "Divide $6 by $16 to find the percent; $6 ÷ $16 = 0.375; 0.375 is equivalent to 37.5%."
+        },
+        {"question": "Donald sold $5,250 worth of new insurance policies last month. If he receives a commission of 7% on new policies, how much did Donald earn in commissions last month?",
+        "options": ["A. $4,882.50", "B. $367.50", "C. $3,675.00", "D. $263.00"],
+        "answer": "B. $367.50",
+        "explanation": "To find 7% of $5,250, multiply $5,250 by the decimal equivalent of 7% (0.07); $5,250 × 0.07 = $367.50."
+        },
+        {"question": "Kara borrowed $3,650 for one year at an annual interest rate of 16%. How much did Kara pay in interest?",
+        "options": ["A. $1,168.00", "B. $584.00", "C. $4,234.00", "D. $168.00"],
+        "answer": "B. $584.00",
+        "explanation": "To find 16% of $3,650, multiply $3,650 by the decimal equivalent of 16% (0.16); $3,650 x 0.16 = $584."
+        },
+        {"question": "Rebecca is 12.5% taller than Debbie. Debbie is 64 inches tall. How tall is Rebecca?",
+        "options": ["A. 42 inches", "B. 8 inches", "C. 56 inches", "D. 72 inches"],
+        "answer": "D. 72 inches",
+        "explanation": "Since Rebecca is 12.5% taller than Debbie, she is 112.5% of Debbie's height (100% +12.5% = 112.5%). To find 112.5% of Debbie's height, multiply Debbie's height by the decimal equivalent of 112.5% (1.125); 64 × 1.125 = 72 inches. If you chose c, you found what Rebecca's height would be if she were 12.5% SHORTER than Debbie (you subtracted instead of added)."
+        },
+        {"question": "Kyra receives a 5% commission on every car she sells. She received a $1,325 commission on the last car she sold. What was the cost of the car?",
+        "options": ["A. $26,500.00", "B. $66.25", "C. $27,825.00", "D. $16,250.00"],
+        "answer": "A. $26,500.00",
+        "explanation": "Use the proportion part/whole = %/100 to solve the problem; $1,325 is the part and 5% is the %. We are looking for the whole so we will call it x; 1,325/x= 5/100. Cross multiply; (1,325)(100) = 5x. Divide both sides by 5 to solve for x; 132,500/5 = 5x/5;x = $26,500. If you chose b, you found 5% of her commission (5% of $1,325)."
+        },
+        {"question": "A tent originally sold for $260 and has been marked down to $208. What is the percent of discount?",
+        "options": ["A. 20%", "B. 25%", "C. 52%", "D. 18%"],
+        "answer": "A. 20%",
+        "explanation": "Find the number of dollars off. $260 - $208 = $52. Next, determine what percent of the original price $52 is by dividing $52 by the original price, $260; $52 ÷ $260 = 0.20; 0.20 is equivalent to 20%."
+        },
+        {"question": "The football boosters club had 80 T-shirts made to sell at football games. By mid-October, they had only 12 left. What percent of the shirts had been sold?",
+        "options": ["A. 85%", "B. 15%", "C. 60%", "D. 40%"],
+        "answer": "A. 85%",
+        "explanation": "Determine the number of T-shirts sold; 80-12 = 68. To find what percent of the original number of shirts 68 is, divide 68 by 80; 68 ÷ 80 = 0.85; 0.85 is equivalent to 85%. If you chose b, you found the percent of T-shirts that were LEFT instead of the percent that had been SOLD."
+        },
+        {"question": "A printer that sells for $190 is on sale for 20% off. What is the sale price of the printer?",
+        "options": ["A. $152", "B. $170", "C. $140", "D. $136"],
+        "answer": "A. $152",
+        "explanation": "The printer is 20% off. That means that it is 80% of its original price (100% - 20% = 80%). To find 80% of $190, multiply $190 by the decimal equivalent of 80% (0.80); $190 × 0.80 = $152."
+        },
+        {"question": "What is 19% of 26?",
+        "options": ["A. 21.06", "B. 4.94", "C. 19", "D. 5"],
+        "answer": "B. 4.94",
+        "explanation": "To find 19% of 26, multiply 26 by the decimal equivalent of 19% (0.19); 26 × 0.19 = 4.94."
+        },
+        {"question": "There are 81 women teachers at Russell High. If 45% of the teachers in the school are women, how many teachers are there at Russell High?",
+        "options": ["A. 180", "B. 36", "C. 165", "D. 205"],
+        "answer": "A. 180",
+        "explanation": "Use the proportion part/whole= %/100 Part is the number of female teachers (81). Whole is what we are looking for; call it x; the % is 45; 81/x = 45/100. Cross multiply; (81)(100) = 45x. Divide both sides by 45 to solve for x; 8,100/45=45x/45;x=180."
+        },
+        {"question": "Kim is a medical supplies salesperson. Each month she receives a 5% commission on all her sales of medical supplies up to $20,000 and 8.5% on her total sales over $20,000. Her total commission for May was $3,975. What were her sales for the month of May?",
+        "options": ["A. $79,500", "B. $64,250", "C. $46,764", "D. $55,000"],
+        "answer": "D. $55,000",
+        "explanation": "Kim sold over $20,000 in May. She received a 5% commission on the first $20,000 of sales. To find 5%, multiply by the decimal equivalent of 5% (0.05); $20,000 × 0.05 = $1,000. Since her total commission was $3,975, $3,975 - $1,000 = $2,975 is the amount of commission she earned on her sales over $20,000. $2,975 is 8.5% of her sales over $20,000. To find the amount of her sales over $20,000, use a proportion; part/whole =  %/100. Part is $2,975, and whole is what we are looking for, so let's call it x. The % is 8.5; 2.975/x =8.5/100. To solve for x, cross multiply; (2,975)(100) = 8.5x. Divide both sides by 8.5 to solve; 297,500/8.5 = 8.5x/8.5. x =  $35,000. Her sales over $20,000 were $35,000. Her total sales were $55,000 ($20,000+ $35,000)."
+        },
+        {"question": "64% of the students in the school play are boys. If there are 75 students in the play, how many are boys?",
+        "options": ["A. 64", "B. 45", "C. 27", "D. 48"],
+        "answer": "D. 48",
+        "explanation": "To find 64% of 75, multiply 75 by the decimal equivalent of 64% (0.64); 75 × 0.64 = 48. If you chose c, you found the number of girls."
+        },
+        {"question": "Christie purchased a scarf marked $15.50 and gloves marked $5.50. Both items were on sale for 20% off the marked price. Christie paid 5% sales tax on her purchase. How much did she spend?",
+        "options": ["A. $25.20", "B. $16.80", "C. $26.46", "D. $17.64"],
+        "answer": "D. $17.64",
+        "explanation": "First, find the sale price of the scarf and the gloves. They are both 20% off, which means that Christie paid 80% of the original price (100% - 20% 80% ). To find 80% of each price, multiply the price by the decimal equivalent of 80% (0.80); $15.50 × 0.80 = $12.40. $5.50 × 0.80 = $4.40. Together the two items cost $16.80 ($12.40 + $4.40 = $16.80). There is 5% sales tax on the total price. To find 5% of $16.80, multiply $16.80 by the decimal equivalent of 5% (0.05); $16.80 × 0.05 $0.84. The tax is $0.84. Christie paid a total of $17.64 ($16.80 + $0.84 = $17.64)."
+        },
+        {"question": "Last year, a math textbook cost $54. This year the cost is 107% of what it was last year. What is this year's cost?",
+        "options": ["A. $59.78", "B. $57.78", "C. $61.00", "D. $50.22"],
+        "answer": "B. $57.78",
+        "explanation": "To find 107% of $54, multiply $54 by the decimal equivalent of 107% (1.07); $54 × 1.07 = $57.78. If you chose d, you found what the cost of the book would be if it was 7% LESS next year."
+        },
+        {"question": "Larry earned $32,000 per year. Then he received a 34% raise. What is Larry's salary after the raise?",
+        "options": ["A. $33,040", "B. $35,000", "C. $32,140", "D. $32,960"],
+        "answer": "A. $33,040",
+        "explanation": "If Larry earns a 3 1/4% (or 3.25%) raise, he will earn 103.25% of his original salary. To find 103.35% of $32,000, multiply $32,000 by the decimal equivalent of 103.25% (1.0325); $32,000 × 1.0325 = $33,040. If you chose d, you found his salary with a 3% raise when multiplying by 1.03 or 0.03 and then adding that answer to his original salary."
+        },
+        {"question": "Bill spent 50% of his savings on school supplies, then he spent 50% of what was left on lunch. If he had $6 left after lunch, how much did he have in savings at the beginning?",
+        "options": ["A. $24", "B. $12", "C. $18", "D. $30"],
+        "answer": "A. $24",
+        "explanation": "Work backwards to find the answer. After lunch Bill had $6. He had spent 50% (or 1/2) of what he had on lunch and 50% is what is left. Since $6 is 50% of what he had before lunch, he had $12 before lunch. Using the same reasoning, $12 is 50% of what he had before buying school supplies. Therefore, he had $24 when he began shopping."
+        },
+        {"question": "A coat that costs $72 is marked up 22%. What is the new price of the coat?",
+        "options": ["A. $78.22", "B. $96.14", "C. $56.16", "D. $87.84"],
+        "answer": "D. $87.84",
+        "explanation": "If a coat is marked up 22%, it is 122% of its original cost (100% +22% = 122%). To find 122% of the original cost, multiply $72 by the decimal equivalent of 122% (1.22); $72 x 1.22 = $87.84."
+        },
+        {"question": "Kristen earns $550 each week after taxes. She deposits 10% of her income in a savings account and 7% in a retirement fund. How much does Kristen have left after the money is taken out for her savings account and retirement fund?",
+        "options": ["A. $505.25", "B. $435.50", "C. $533.00", "D. $456.50"],
+        "answer": "D. $456.50",
+        "explanation": "Kristen has a total of 17% taken out of her check. Therefore, she is left with 83% of what she started with (100% - 17% = 83% ). To find 83% of $550, multiply $550 by the decimal equivalent of 83%; $550 × 0.83 = $456.50."
+        },
+        {"question": "Coastal Cable had 1,440,000 customers in January of 2002. During the first half of 2002 the company launched a huge advertising campaign. By the end of 2002 they had 1,800,000 customers. What is the percent of increase?",
+        "options": ["A. 36%", "B. 21%", "C. 20%", "D. 25%"],
+        "answer": "D. 25%",
+        "explanation": "Coastal Cable gained a total of 360,000 customers (1,800,000 - 1,440,000 360,000). To find out what percent of the original number of customers 360,000 represents, divide 360,000 by 1,440,000; 360,000 ÷ 1,440,000 = 0.25; 0.25 is equivalent to 25%. If you chose c, you found the percent of increase in relation to the new number of customers (1,800,000) rather than the original number of customers (1,440,000)."
+        },
+        {"question": "The price of heating oil rose from $1.10 per gallon to $1.43 per gallon. What is the percent of increase?",
+        "options": ["A. 30%", "B. 33%", "C. 23%", "D. 27%"],
+        "answer": "A. 30%",
+        "explanation": "The price of heating oil rose $0.33 ($1.43 - $1.10 = $0.33). To find the percent of increase, divide $0.33 by the original cost of $1.10; $0.33 ÷ $1.10 0.3; 0.3 is equivalent to 30%. If you chose c, you found the percent of increase in relation to the new price ($1.43) rather than the original price ($1.10)."
+        },
+        {"question": "450 girls were surveyed about their favorite sport, 24% said that basketball is their favorite sport, 13% said that ice hockey is their favorite sport, and 41% said that softball is their favorite sport. The remaining girls said that field hockey is their favorite sport. What percent of the girls surveyed said that field hockey is their favorite sport?",
+        "options": ["A. 37%", "B. 22%", "C. 78%", "D. 35%"],
+        "answer": "B. 22%",
+        "explanation": "The percents must add to 100%; 24% +13% +41% = 78%. If 78% of the girls surveyed have been accounted for, the remainder of the girls must have said that field hockey is their favorite sport. To find the percent that said field hockey is their favorite sport, subtract 78% from 100%; 100% -78% = 22%; 22% of the girls said that field hockey is their favorite sport."
+        },
+        {"question": "25% of babies born at Yale New Haven Hospital weigh less than 6 pounds and 78% weigh less than 8.5 pounds. What percent of the babies born at Yale New Haven Hospital weigh between 6 and 8.5 pounds?",
+        "options": ["A. 22%", "B. 24%", "C. 53%", "D. 2.5%"],
+        "answer": "C. 53%",
+        "explanation": "78% weigh less than 8.5 pounds, but you must subtract the 25% that are below 6 pounds; 78% -25% = 53%. 53% of the babies weigh between 6 and 8.5 pounds."
+        },
+        {"question": "An $80.00 coat is marked down 20%. It does not sell, so the shop owner marks it down an additional 15%. What is the new price of the coat?",
+        "options": ["A. $64.00", "B. $68.60", "C. $52.00", "D. $54.40"],
+        "answer": "D. $54.40",
+        "explanation": "Find 20% of the original price of the coat and subtract it from the original price. To find 20%, multiply by 0.20; $80 x 0.20 = $16. Take $16 off the original price; $80 - $16 = $64. The first sale price is $64. Take 15% off this using the same method; $64 × 0.15 = $9.60; $64– $9.60 = $54.40. The new price of the coat is $54.40. Another way of solving this problem is to look at the percent that is left after the discount has been taken. For example, if 20% is taken off, 80% is left (100% - 20%). Therefore, 80% of the original price is $80 × 0.80= $64. If 15% is taken off this price, 85% is left; $64 × 0.85 = $54.40. This method eliminates the extra step of subtracting."
+        },
+        {"question": "3/5 of the soda purchased at the football game was cola. What percentage of the soda purchased was cola?",
+        "options": ["A. 60%", "B. 40%", "C. 30%", "D. 70%"],
+        "answer": "A. 60%",
+        "explanation": "Change the fraction to a decimal by dividing the numerator by the denominator (top + bottom); 3 ÷ 5 = 0.6. Change 0.6 to a percent by multiplying by 100; 0.6 × 100 = 60%. Recall that multiplying by 100 means that the decimal point is moved two places to the right."
+        },
+        {"question": "In a recent survey of 700 people, 15% said that red was their favorite color. How many people said that red was their favorite color?",
+        "options": ["A. 15", "B. 75", "C. 125", "D. 105"],
+        "answer": "D. 105",
+        "explanation": "Find 15% of 700 by multiplying 700 by the decimal equivalent of 15% (0.15); 700 x 0.15 = 105; 105 people said that red is their favorite color. Another way of looking at this problem is to recall that 15% means '15 out of 100.' Since 700 is 7 times 100, multiply 15 by 7 to find the number of people out of 700 who said red was their favorite color; 15 x 7 = 105."
+        },
+        {"question": "In Kimmi's fourth grade class, 8 out of the 20 students walk to school. What percent of the students in her class walk to school?",
+        "options": ["A. 40%", "B. 50%", "C. 45%", "D. 35%"],
+        "answer": "A. 40%",
+        "explanation": "Write the relationship as a fraction; part/whole or walkers/total = 8/20. Find the decimal equivalent by dividing the numerator by the denominator (top + bottom); 8 ÷ 20 = 0.4. Change 0.4 to a percent by multiplying by 100; 0.4 × 100 = 40%. Recall that multiplying by 100 means that the decimal point is moved two places to the right. Another way to look at this problem is using a proportion; part/whole = %/100. You are looking for the percent, so that will be the variable; 8/20=x/100. To solve the proportion, cross-multiply and set the answers equal to each other; (8)(100) = 20x. Solve for x by dividing both sides by 20. 800 = 20x. 800/20 = 20x/20. x = 40.  40% of the students are walkers."
+        },
+        {"question": "In Daniel's fifth grade class, 37.5% of the 24 students walk to school. One- third of the walkers got a ride to school today from their parents. How many walkers got a ride to school from their parents today?",
+        "options": ["A. 9", "B. 12", "C. 2", "D. 3"],
+        "answer": "D. 3",
+        "explanation": "First, find the number of walkers and then find one third of that number. Find 37.5% of 24 by multiplying 24 by the decimal equivalent of 37.5%. To find the decimal equivalent, move the decimal point two places to the left; 37.5% = 0.375. Now, multiply 24 × 0.375 = 9. Find one third of 9 by dividing 9 by 3; 9 ÷ 3 = 3. Three walkers got rides."
+        },
+        {"question": "Lindsay purchased a pocketbook for $45 and a pair of shoes for $55. The sales tax on the items was 6%. How much sales tax did she pay?",
+        "options": ["A. $2.70", "B. $3.30", "C. $6.00", "D. $6.60"],
+        "answer": "C. $6.00",
+        "explanation": "Find the price of the two items together (without tax); $45 +$55 = $100. Next, find 6% of $100. You can multiply $100 by 0.06, but it is easier to realize that 6% means '6 out of 100,' so 6% of $100 is $6. The sales tax is $6. A common mistake is to use 0.6 for 6% instead of 0.06; 0.6 is 60%. To find the decimal equivalent of a percent, you must move the decimal point two places to the left."
+        },
+        {"question": "Wendy bought a book and the sales tax on the book was $2.12. If the sales tax is 8%, what was the price of the book?",
+        "options": ["A. $26.50", "B. $16.96", "C. $24.76", "D. $265.00"],
+        "answer": "A. $26.50",
+        "explanation": "A proportion can be used to solve this problem; part/whole = %/100. In this example, the part is the tax, the % is 8, and the whole is x. To solve the proportion, cross-multiply, set the cross-products equal to each other, and solve as shown. 2.12/x = 8/100. (2.12)(100) = 8x. 212 = 8x. 212/8 = 8x/8. x = 26.5. The price of the book is $26.50."
+        },
+        {"question": "Mr. Pelicas took his family out to dinner. The bill was $65.00. He would like to leave a 20% tip. How much should he leave?",
+        "options": ["A. $20", "B. $3.25", "C. $13", "D. $16.25"],
+        "answer": "C. $13",
+        "explanation": "Find 20% by multiplying $65 by the decimal equivalent of 20% (0.20); $650.20 $13.00. The tip is $13. Another method for solving this problem is to find 10% of $65.00 by dividing $65.00 by 10 (which means moving the decimal point one place to the left); $65.00 ÷ 10 = $6.50. Once you have 10%, just double it to find 20%; $6.50 x 2 = $13.00."
+        },
+        {"question": "The Daily News reported that 54% of people surveyed said that they would vote for Larry Salva for mayor. Based on the survey results, if 23,500 people vote in the election, how many people are expected to vote for Mr. Salva?",
+        "options": ["A. 12,690", "B. 4,350", "C. 10,810", "D. 18,100"],
+        "answer": "A. 12,690",
+        "explanation": "Find 54% of 23,500 by multiplying 23,500 by the decimal equivalent of 54% (0.54); 23,500 × 0.54 = 12,690; 12,690 people are expected to vote for Mr. Salva."
+        },
+        {"question": "Bikes are on sale for 30% off the original price. What percent of the original price will the customer pay if he gets the bike at the sale price?",
+        "options": ["A. 130%", "B. 60%", "C. 70%", "D. 97%"],
+        "answer": "C. 70%",
+        "explanation": "The original price of the bike is 100%. If the sale takes 30% off the price, it will leave 70% of the original price (100% - 30% = 70%)."
+        },
+        {"question": "A pair of mittens has been discounted 12.5%. The original price of the mittens was $10. What is the new price?",
+        "options": ["A. $8.80", "B. $8.75", "C. $7.50", "D. $9.88"],
+        "answer": "B. $8.75",
+        "explanation": "Find 12.5% of $10 and subtract it from $10. Find 12.5% of $10 by multiplying $10 by the decimal equivalent of 12.5% (0.125); $10 × 0.125 = $1.25; $1.25 is taken off the price of the mittens. Subtract $1.25 from $10 to find the sale price; $10-$1.25 = $8.75. The sale price is $8.75. Another way to compute the sale price is to find what percent is left after taking the discount. The original price was 100% and 12.5% is taken off; 87.5% is left (100% - 12.5% = 87.5%). Find 87.5% of the original cost by multiplying $10 by the decimal equivalent of 87.5% (0.875); $10 x 0.875 = $8.75."
+        },
+        {"question": "John's youth group is trying to raise $1,500 at a car wash. So far, they have raised $525. What percent of their goal have they raised?",
+        "options": ["A. 35%", "B. 52%", "C. 3%", "D. 28%"],
+        "answer": "A. 35%",
+        "explanation": "Use a proportion to solve the problem; part/whole = %/100. The whole is $1,500 and the part is $525. You are looking for the %, so it is x. To solve the proportion, cross-multiply, set the cross-products equal to each other, and solve as shown. 525/1,500 = x/100.  (1,500) x = (525) (100). 1,500x = 52,500. 1,500x/1,500 = 52,500/1,500. x = 35%. They have raised 35% of the goal. Another way to find the percent is to divide the part by the whole, which gives you a decimal. Convert the decimal into a percent by multi- plying by 100 (move the decimal point two places to the right); 525/1,500 = 0.35 = 35%."
+        },
+        {"question": "The freshman class is participating in a fundraiser. Their goal is to raise $5,000. After the first two days of the fundraiser, they have raised 32% of their goal. How many dollars did they raise the first two days?",
+        "options": ["A. $160", "B. $32", "C. $1,600", "D. $3,400"],
+        "answer": "C. $1,600",
+        "explanation": "Find 32% of $5,000 by multiplying $5,000 by the decimal equivalent of 32% (0.32); $5,000 × 0.32 = $1,600."
+        },
+        {"question": "1,152 out of 3,600 people surveyed said that they work more than 40 hours per week. What percent of the people surveyed said that they work more than 40 hours per week?",
+        "options": ["A. 32%", "B. 3.1%", "C. 40%", "D. 24%"],
+        "answer": "A. 32%",
+        "explanation": "Divide the part by the whole; 1,152 ÷ 3,600 = 0.32. Change the decimal to a percent by multiplying by 100 (move the decimal point two places to the right); 32% of the people surveyed said that they work more than 40 hours a week. Another way to find the answer is to use a proportion; part/whole = %/100. The part is 1,152, the whole is 3,600, and the % is x. To solve the pro- portion, cross-multiply, set the cross-products equal to each other, and solve as shown. 1,152/3,600 = x/100. 3,600x = (1,152)(100). 3,600x = 115,200. 3,600x/3,600 = 115,200/3,600. x = 32."
+        },
+        {"question": "Peter was 60 inches tall on his thirteenth birthday. By the time he turned 15, his height had increased 15%. How tall was Peter when he turned 15?",
+        "options": ["A. 75 inches", "B. 69 inches", "C. 72 inches", "D. 71 inches"],
+        "answer": "B. 69 inches",
+        "explanation": "Find 15% of 60 inches and add it to 60 inches. Find 15% by multiplying 60 by the decimal equivalent of 15% (0.15); 60 × 0.159. Add 9 inches to 60 inches to get 69 inches."
+        },
+        {"question": "Laura paid $17 for a pair of jeans. The ticketed price was 20% off the original price plus the sign on the rack said, 'Take an additional 15% off the ticketed price.' What was the original price of the jeans?",
+        "options": ["A. $30", "B. $28", "C. $25", "D. $21"],
+        "answer": "C. $25",
+        "explanation": "Call the original price of the jeans x. First 20% is deducted from the original cost (the original cost is 100%); 80% of the original cost is left (100%-20% = 80% ) ; 80% of x is 0.80x. The cost of the jeans after the first discount is 0.80x. This price is then discounted 15%. Remember 15% is taken off the discounted price; 85% of the discounted price is left. Multiply the discounted price by 0.85 to find the price of the jeans after the second discount; (0.85)(0.80.x) is the cost of the jeans after both discounts. We are told that this price is $17. Set the two expressions for the cost of the jeans equal to each other (0.85)(0.80x) = $17 and solve for x (the original cost of the jeans). (0.85)(0.80x) = 17. 0.68x = 17. 0.68x/0.68 = 17/0.68. x = 25. The original price of the jeans was $25."
+        },
+        {"question": "The 5% sales tax on a basket was $0.70. What was the price of the basket?",
+        "options": ["A. $14", "B. $35", "C. $17", "D. $24.50"],
+        "answer": "A. $14",
+        "explanation": "Use a proportion to solve the problem; part/whole = %/100. The whole is the price of the basket (which is unknown, so call it x), the part is the tax of $0.70, and the % is 5. The proportion is 0.70/x = 5/100.  Solve the proportion by cross-multiplying, setting the cross-products equal to each other, and solving as shown. 0.70/x = 5/100. (100)(0.70) = 5x. 70 = 5x. 70/5 = 5x/5. x = 14. The price of the basket was $14."
+        },
+        {"question": "What percent of the figure below is shaded?",
+        "options": ["A. 50%", "B. 65%", "C. 75%", "D. 80%"],
+        "question_urls": ["./images/percents_q238.png"],
+        "answer": "C. 75%",
+        "explanation": "Break the rectangle into eighths as shown below. The shaded part is 6/8 or 3/4; 3/4 is 75%.",
+        "image_urls": ["./images/percents_q238answer.png"]
+        },
+        {"question": "Melisa and Jennifer threw a fiftieth birthday party for their father at a local restaurant. When the bill came, Melisa added a 15% tip of $42. Jennifer said that the service was wonderful and they should leave a 20% tip instead. How much is a 20% tip?",
+        "options": ["A. $56", "B. $45", "C. $47", "D. $60"],
+        "answer": "A. $56",
+        "explanation": "To find 20%, add 5% to 15%. Since 15% is known to be $42, 5% can be found by dividing $42 by 3 (15% ÷ 3 = 5% ); $42 ÷ 3 = $14. To find 20%, add the 5% ($14) to the 15% ($42); $14+ $42 = $56; 20% is $56."
+        },
+        {"question": "The Hamden Town Manager wants to know what percent of the snow removal budget has already been spent. The budget for snow removal is $130,000. It has been an exceptionally snowy year, and they have already spent $100,000 for snow removal. What percent of the budget has already been spent? (round to the nearest percent)",
+        "options": ["A. 30%", "B. 70%", "C. 72%", "D. 77%"],
+        "answer": "D. 77%",
+        "explanation": "Use a proportion to solve the problem; part/whole = %/100. The part is $100,000, the whole is $130,000, and the % is a because it is unknown; 100,000/130,000 = x/100. To solve the proportion, cross-multiply, set the cross-products equal to each other, and solve as shown. 100,000/130,000 = x/100. (100)(100,000) = 130,000x. 10,000,000 = 130,000x.  10,000,000/130,000 = 130,000x/130,000. x = 77. 77% of the budget has been spent."
+        },
+        {"question": "A real estate agent makes a 1.5% commission on her sales. What is her commission if she sells a $359,000 house?",
+        "options": ["A. $53,850", "B. $5,385", "C. $23,933", "D. $1,500"],
+        "answer": "B. $5,385",
+        "explanation": "Multiply $359,000 by the decimal equivalent of 1.5% (0.015) to find her commission; $359,000 × 0.015 = $5,385; $5,385 is the commission. A common mistake is to use 0.15 for the decimal equivalent of 1.5%; 0.15 is equivalent to 15%. Remember, to find the decimal equiva- lent of a percent, move the decimal point two places to the left."
+        },
+        {"question": "The manager of a specialty store marks up imported products 110%. If a vase imported from Italy costs him $35, what price tag will he put on the item?",
+        "options": ["A. $70", "B. $83.50", "C. $65", "D. $73.50"],
+        "answer": "D. $73.50",
+        "explanation": "To find the price he sells it for, add the mark-up to his cost ($35). The mark-up is 110%. To find 110% of his cost, multiply by the decimal equivalent of 110% (1.10); $35 × 1.10 = $38.50. The mark-up is $38.50. Add the mark-up to his cost to find the price the vase sells for; $38.50 + $35.00 = $73.50."
+        },
+        {"question": "Michelle purchased a vacation home with her sisters. Michelle has $125,000 invested in the property, which is worth $400,000. What percent of the property does Michelle own?",
+        "options": ["A. 3.2%", "B. 43%", "C. 31.25%", "D. 26.5%"],
+        "answer": "C. 31.25%",
+        "explanation": "Use a proportion to solve the problem; part/whole = %/100. The part is $125,000 (the part Michelle owns), the whole is $400,000 (the whole value of the house), and the % is a because it is unknown.125,000/400,000 = x/100.  To solve the proportion, cross-multiply, set the cross-products equal to each other, and solve as shown. 125,000/400,000 = x/100.  (100)(125,000) = 400,000x. 12,500,000 = 400,000x. 12,500,000/400,000 = 400,000x/400,000.  x = 31.25. Michelle owns 31.25% of the vacation home."
+        },
+        {"question": "Kyra's weekly wages are $895. A Social Security tax of 7.51% and a State Disability Insurance of 1.2% are taken out of her wages. What is her weekly paycheck, assuming there are no other deductions?",
+        "options": ["A. $827.79", "B. $884.26", "C. $962.21", "D. $817.05"],
+        "answer": "D. $817.05",
+        "explanation": "Find the Social Security tax and the State Disability Insurance, and then subtract the answers from Kyra's weekly wages. To find 7.51% of $895, multiply by the decimal equivalent of 7.51% (0.0751); $895 × 0.0751 = $67.21 (rounded to the nearest cent). Next, find 1.2% of her wages by multiplying by the decimal equivalent of 1.2% (0.012); $895 × 0.012 = $10.74. Subtract $67.21 and $10.74 from Kyra's weekly wages of $895 to find her weekly paycheck; $895 - $67.21-$10.74 $817.05. Her weekly paycheck is $817.05."
+        },
+        {"question": "Oscar's Oil Company gives customers a 5% discount if they pay their bill within 10 days. The Stevens' oil bill is $178. How much do they save if they pay the bill within 10 days?",
+        "options": ["A. $8.90", "B. $5.00", "C. $17.80", "D. $14.60"],
+        "answer": "A. $8.90",
+        "explanation": "Find 5% of the bill by multiplying by the decimal equivalent of 5% (0.05); $178 × 0.05 = $8.90. They will save $8.90. A common mistake is to use 0.5 instead of 0.05 for 5%; 0.5 is 50%."
+        },
+        {"question": "Josephine is on an 1,800 calorie per day diet. She tries to keep her intake of fat to no more than 30% of her total calories. Based on an 1,800 calorie a day diet, what is the maximum number of calories that Josephine should consume from fats per day to stay within her goal?",
+        "options": ["A. 600", "B. 640", "C. 580", "D. 540"],
+        "answer": "D. 540",
+        "explanation": "Find 30% of 1,800 by multiplying by the decimal equivalent of 30% (0.30); 1,800 × 0.30 = 540. The maximum number of calories from fats per day is 540."
+        },
+        {"question": "A family may deduct 24% of their childcare expenses from their income tax owed. If a family had $1,345 in childcare expenses, how much can they deduct?",
+        "options": ["A. $1,022.20", "B. $345.00", "C. $322.80", "D. $789.70"],
+        "answer": "C. $322.80",
+        "explanation": "Find 24% of $1,345 by multiplying by the decimal equivalent of 24% (0.24); $1,345 × 0.24 = $322.80. $322.80 can be deducted."
+        },
+        {"question": "A factory that is working at 90% capacity is shipping 450 cars per week. If the factory works at 100% capacity, how many cars can it ship per week?",
+        "options": ["A. 650", "B. 500", "C. 495", "D. 405"],
+        "answer": "B. 500",
+        "explanation": "Use the proportion part/whole = %/100. You are looking for the whole (100% is the whole capacity of the plant). The part you know is 450 and it is 90% of the whole; 450/x = 90/100. To solve the proportion, cross multiply, set the cross-products equal to each other, and solve as shown. (450)(100) = 90x. 45,000 = 90x. 45,000/90 = 90x/90. x = 500. 100% capacity is 500 cars. Another way to look at the problem is to find 10% and multiply it by 10 to get 100%. Given 90%, divide by 9 to find 10%; 450 ÷ 9 = 50. Multiply 10% (50) by 10 to find 100%; 50 × 10 = 500."
+        },
+        {"question": "Sales increased by only 2% last month. If the sales from the previous month were $152,850, what were last month's sales?",
+        "options": ["A. $229,275.00", "B. $153,614.25", "C. $152,849.05", "D. $151,397.92"],
+        "answer": "B. $153,614.25",
+        "explanation": "Multiply by the decimal equivalent of 1/2% (0.005) to find the amount of increase; $152,850 × 0.005 = $764.25. This is how much sales increased. To find the actual amount of sales, add the increase to last month's total; $152,850 + $764.25 = $153,614.25. A common mistake is to use 0.5 (50%) or 0.05 (5%) for 1/2%. Re- write 1/2% as 0.5%. To find the decimal equivalent, move the decimal point two places to the left. This yields 0.005."
+        },
+        {"question": "Laura is planning her wedding. She expects 230 people to attend the wedding, but she has been told that approximately 5% typically don't show. About how many people should she expect not to show?",
+        "options": ["A. 46", "B. 5", "C. 12", "D. 23"],
+        "answer": "C. 12",
+        "explanation": "Find 5% of 230 by multiplying 230 by the decimal equivalent of 5% (0.05); 230 × 0.05 = 11.5 people. Since you cannot have .5 of a person, round up to 12 people. A common mistake is to use 0.5 for 5%; 0.5 is actually 50%."
+        }
+    ],
+
     "empty": [
         {"question": "",
         "options": ["A. ", "B. ", "C. ", "D. "],
