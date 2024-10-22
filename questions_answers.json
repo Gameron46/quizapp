@@ -1399,7 +1399,7 @@
         "explanation": "To calculate the total she received, multiply x dollars per hour times b, the number of hours she worked. This becomes xh. Divide this amount by 2 since she gave half to her friend. Thus, xh/2 is how much money she has left."
         },
         {"question": "A long distance call costs x cents for the first minute and y cents for each additional minute. How much would a 5-minute call cost?",
-        "options": ["A. 5xy", "B. x + 5y", "C. xy/6", "D. x + 4y"],
+        "options": ["A. 5xy", "B. x + 5y", "C. xy/5", "D. x + 4y"],
         "answer": "D. x + 4y",
         "explanation": "The cost of the call is a cents plus y times the additional minutes. Since the call is 5 minutes long, she will pay x cents for 1 minute and y cents for the other four. Therefore the expression is 1x+4y, or x + 4y, since it is not necessary to write a 1 in front of a variable."
         },
