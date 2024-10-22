@@ -21,6 +21,7 @@ function initiate() {
                         <option value="Fractions Quiz">Fractions Quiz</option>
                         <option value="Decimals Quiz">Decimals Quiz</option>
                         <option value="Percents Quiz">Percents Quiz</option>
+                        <option value="Algebra Quiz">Algebra Quiz</option>
                     </select>
                     <br>
                     <button id="startButton2">Start Quiz</button>
@@ -42,7 +43,7 @@ function startQuestions(quizNum) {
         .then((res) => res.json())
         .then((data) => {
             const quizMap = {'Logic Quiz': data.logic, 'Misc. Math Quiz': data.miscmath, 'Fractions Quiz': data.fractions,
-                'Decimals Quiz': data.decimals, 'Percents Quiz': data.percents}
+                'Decimals Quiz': data.decimals, 'Percents Quiz': data.percents, 'Algebra Quiz': data.algebra}
             questions = quizMap[quizSelection]
             document.getElementById("quizzes").remove()
             document.getElementById("quiz").innerHTML += `<button id="nextButton" onclick=nextQuestion()>Next</button>`

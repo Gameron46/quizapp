@@ -1362,6 +1362,634 @@
         "explanation": "Find 5% of 230 by multiplying 230 by the decimal equivalent of 5% (0.05); 230 × 0.05 = 11.5 people. Since you cannot have .5 of a person, round up to 12 people. A common mistake is to use 0.5 for 5%; 0.5 is actually 50%."
         }
     ],
+    "algebra": [
+        {"question": "Assume that the number of hours Katie spent practicing soccer is represented by x. Michael practiced 4 hours more than 2 times the number of hours that Katie practiced. How long did Michael practice?",
+        "options": ["A. 2x + 4", "B. 2x-4", "C. 2x + 8", "D. 4x + 4"],
+        "answer": "A. 2x + 4",
+        "explanation": "The translation of 'two times the number of hours' is 2x. Four hours more than 2x becomes 2x + 4."
+        },
+        {"question": "Patrick gets paid three dollars less than four times what Kevin gets paid. If the number of dollars that Kevin gets paid is represented by x, what does Patrick get paid?",
+        "options": ["A. 3-4x", "B. 3x-4", "C. 4x-3", "D. 4-3x"],
+        "answer": "C. 4x-3",
+        "explanation": "When the key words less than appear in a sentence, it means that you will subtract from the next part of the sentence, so it will appear at the end of the expression. 'Four times a number' is equal to 4x in this problem. Three less than 4x is 4x - 3."
+        },
+        {"question": "If the expression 9y- 5 represents a certain number, which of the following could NOT be the translation?",
+        "options": ["A. five less than nine times y", "B. five less than the sum of 9 and y", "C. the difference between 9y and 5", "D. the product of nine and y, decreased by 5"],
+        "answer": "B. five less than the sum of 9 and y",
+        "explanation": "Each one of the answer choices would translate to 9y-5 except for choice b. The word sum is a key word for addition, and 9y means '9 times y.'"
+        },
+        {"question": "Susan starts work at 4:00 and Dee starts at 5:00. They both finish at the same time. If Susan works x hours, how many hours does Dee work?",
+        "options": ["A. x+1", "B. x-1", "C. x", "D. 2x"],
+        "answer": "B. x-1",
+        "explanation": "Since Susan started 1 hour before Dee, Dee has been working for one less hour than Susan had been working. Thus, x-1."
+        },
+        {"question": "Frederick bought six books that cost d dollars each. What is the total cost of the books?",
+        "options": ["A. d + 6", "B. d + d", "C. 6d", "D. d/6"],
+        "answer": "C. 6d",
+        "explanation": "Frederick would multiply the number of books, 6, by how much each one costs, d. For example, if each one of the books cost $10, he would multiply 6 times $10 and get $60. Therefore, the answer is 64."
+        },
+        {"question": "There are m months in a year, w weeks in a month and d days in a week. How many days are there in a year?",
+        "options": ["A. mwd", "B. m + w + d", "C. mw/d", "D. d + w/d"],
+        "answer": "A. mwd",
+        "explanation": "In this problem, multiply d and w to get the total days in one month and then multiply that result by m, to get the total days in the year. This can be expressed as mwd, which means m times w times d."
+        },
+        {"question": "Carlie received x dollars each hour she spent babysitting. She babysat a total of 1⁄2 hours. She then gave half of the money to a friend who had stopped by to help her. How much money did Carlie have after she had paid her friend?",
+        "options": ["A. hx/2", "B. x/2 + h", "C. h/2 + x", "D. 2hx"],
+        "answer": "A. hx/2",
+        "explanation": "To calculate the total she received, multiply x dollars per hour times b, the number of hours she worked. This becomes xh. Divide this amount by 2 since she gave half to her friend. Thus, xh/2 is how much money she has left."
+        },
+        {"question": "A long distance call costs x cents for the first minute and y cents for each additional minute. How much would a 5-minute call cost?",
+        "options": ["A. 5xy", "B. x + 5y", "C. xy/6", "D. x + 4y"],
+        "answer": "D. x + 4y",
+        "explanation": "The cost of the call is a cents plus y times the additional minutes. Since the call is 5 minutes long, she will pay x cents for 1 minute and y cents for the other four. Therefore the expression is 1x+4y, or x + 4y, since it is not necessary to write a 1 in front of a variable."
+        },
+        {"question": "Melissa is four times as old as Jim. Pat is 5 years older than Melissa. If Jim is y years old, how old is Pat?",
+        "options": ["A. 4y + 5", "B. 5y + 4", "C. 4 x 5y", "D. y + 5"],
+        "answer": "A. 4y + 5",
+        "explanation": "Start with Jim's age, y, since he appears to be the youngest. Melissa is four times as old as he is, so her age is 4y. Pat is 5 years older than Melissa, so Pat's age would be Melissa's age, 4y, plus another 5 years. Thus, 4y+ 5."
+        },
+        {"question": "Sally gets paid a dollars per hour for a 40-hour work week and y dollars for each hour she works over 40 hours. How much did Sally earn if she worked 48 hours?",
+        "options": ["A. 48xy", "B. 40y + 8x", "C. 40x + 8y", "D. 48x + 48y"],
+        "answer": "C. 40x + 8y",
+        "explanation": "Since she worked 48 hours, Sally will get paid her regular amount, x dollars, for 40 hours and a different amount, y, for the additional 8 hours. This becomes 40 times x plus 8 times y, which translates to 40x +8y."
+        },
+        {"question": "Eduardo is combining two 6-inch pieces of wood with a piece that measures 4 inches. How many total inches of wood does he have?",
+        "options": ["A. 10 inches", "B. 16 inches", "C. 8 inches", "D. 12 inches"],
+        "answer": "B. 16 inches",
+        "explanation": "This problem translates to the expression 6 × 2 + 4. Using order of operations, do the multiplication first; 6 × 2 = 12 and then add 12 + 4 = 16 inches."
+        },
+        {"question": "Mary has $2 in her pocket. She does yard work for four different neighbors and earns $3 per yard. She then spends $2 on a soda. How much money does she have left?",
+        "options": ["A. $18", "B. $10", "C. $12", "D. $14"],
+        "answer": "C. $12",
+        "explanation": "This translates to the expression 2 + 3 x 4 - 2. Using order of operations, multiply 3 x 4 first; 2 + 12 - 2. Add and subtract the numbers in order from left to right; 2 + 12 = 14; 14 − 2 = 12."
+        },
+        {"question": "Ten is decreased by four times the quantity of eight minus three. One is then added to that result. What is the final answer?",
+        "options": ["A. -5", "B. -9", "C. 31", "D. -8"],
+        "answer": "B. -9",
+        "explanation": "This problem translates to the expression 10 - 4 (8-3) + 1. Using order of operations, do the operation inside the parentheses first; 10-4 (5) + 1. Since multiplication is next, multiply 4 × 5; 10-20+ 1. Add and subtract in order from left to right; 10-20=-10; -10 + 1 = -9."
+        },
+        {"question": "The area of a square whose side measures four units is added to the difference of eleven and nine divided by two. What is the total value?",
+        "options": ["A. 9", "B. 16", "C. 5", "D. 17"],
+        "answer": "D. 17",
+        "explanation": "This problem translates to the expression 4^2 + (11 −9) ÷ 2. Using order of operations, do the operation inside the parentheses first; 4^2 + (2) ÷ 2. Evaluate the exponent; 16+ (2) ÷ 2. Divide 2 ÷ 2; 16 + 1. Add; 16 + 1 = 17."
+        },
+        {"question": "Four is added to the quantity two minus the sum of negative seven and six. This answer is then multiplied by three. What is the result?",
+        "options": ["A. 15", "B. -21", "C. 21", "D. 57"],
+        "answer": "C. 21",
+        "explanation": "This problem translates to the expression 3 {[2 − (−7+6)] + 4}. When dealing with multiple grouping symbols, start from the innermost set and work your way out. Add and subtract in order from left to right inside the brackets. Remember that subtraction is the same as adding the opposite so 2 - (−1) becomes 2 + (+1) = 3; 3 {[2 − (−1)] + 4]}; 3 [3 + 4]. Multiply 3 × 7 to finish the problem; 3 [7] = 21."
+        },
+        {"question": "John and Charlie have a total of 80 dollars. John has x dollars. How much money does Charlie have?",
+        "options": ["A. 80", "B. 80 + x", "C. 80 - x", "D. x - 80"],
+        "answer": "C. 80 - x",
+        "explanation": "If the total amount for both is 80, then the amount for one person is 80 minus the amount of the other person. Since John has x dollars, Charlie's amount is 80-x."
+        },
+        {"question": "The temperature in Hillsville was 20° Celsius. What is the equivalent of this temperature in degrees Fahrenheit?",
+        "options": ["A. 4°", "B. 43.1°", "C. 68°", "D. 132°"],
+        "answer": "C. 68°",
+        "explanation": "Use the formula F = 9/5C + 32. Substitute the Celsius temperature of 20° for C in the formula. This results in the equation F = 9/5(20) + 32. Following the order of operations, multiply 9/5 and 20 to get 36. The final step is to add 36 + 32 for an answer of 68°."
+        },
+        {"question": "Peggy's town has an average temperature of 23° Fahrenheit in the winter. What is the average temperature on the Celsius scale?",
+        "options": ["A. -16.2°", "B. 16.2°", "C. 5°", "D. -5°"],
+        "answer": "D. -5°",
+        "explanation": "Use the formula C = 5/9(F-32). Substitute the Fahrenheit temperature of 23° for F in the formula. This results in the equation C = 5/9(23-32). Following the order of operations, begin calculations inside the parentheses first and subtract 23 - 32 to get -9. Multiply 5/9 times -9 to get an answer of -5°."
+        },
+        {"question": "Celine deposited $505 into her savings account. If the interest rate of the account is 5% per year, how much interest will she have made after 4 years?",
+        "options": ["A. $252.50", "B. $606", "C. $10,100", "D. $101"],
+        "answer": "D. $101",
+        "explanation": "Using the simple interest formula Interest = principal × rate x time, or I = prt, substitute p = $505, r = .05 (the interest rate as a decimal) and t = 4; I = (505)(.05)(4). Multiply to get a result of I = $101."
+        },
+        {"question": "A certain bank pays 3.4% interest per year for a certificate of deposit, or CD. What is the total balance of an account after 18 months with an initial deposit of $1,250?",
+        "options": ["A. $765", "B. $2,015", "C. $63.75", "D. $1,313.75"],
+        "answer": "D. $1,313.75",
+        "explanation": "Using the simple interest formula Interest = principal × rate × time, or I = prt, substitute p = $1,250, r = 0.034 (the interest rate as a decimal), and t = 1.5 (18 months is equal to 1.5 years); I = (1,250)(.034)(1.5). Multiply to get a result of I= $63.75. To find the total amount in the account after 18 months, add the interest to the initial principal. $63.75 + $1,250 = $1313.75."
+        },
+        {"question": "Joe took out a car loan for $12,000. He paid $4,800 in interest at a rate of 8% per year. How many years will it take him to pay off the loan?",
+        "options": ["A. 5", "B. 2.5", "C. 8", "D. 4"],
+        "answer": "A. 5",
+        "explanation": "Using the simple interest formula Interest = principal × rate time, or I = prt, substitute I = $4,800, p = $12,000, and r = .08 (the interest rate as a decimal); 4,800 = (12,000)(.08)(t). Multiply 12,000 and .08 to get 960, so 4,800 = 960t. Divide both sides by 960 to get 5 = t. Therefore, the time is 5 years."
+        },
+        {"question": "What is the annual interest rate on an account that earns $948 in simple interest over 36 months with an initial deposit of $7,900?",
+        "options": ["A. 40%", "B. 4%", "C. 3%", "D. 3.3%"],
+        "answer": "B. 4%",
+        "explanation": "Using the simple interest formula Interest = principal × rate x time, or I = prt, substitute I = $948, p = $7,900, and t= 3 (36 months is equal to 3 years); 948 = (7,900)(r)(3). Multiply 7,900 and 3 on the right side to get a result of 948 = 23,700r. Divide both sides by 23,700 to get r = .04, which is a decimal equal to 4%."
+        },
+        {"question": "Marty used the following mathematical statement to show he could change an expression and still get the same answer on both sides: 10 × (6 × 5) = (10×6)×5. Which mathematical property did Marty use?",
+        "options": ["A. Identity Property of Multiplication", "B. Commutative Property of Multiplication", "C. Distributive Property of Multiplication over Addition", "D. Associative Property of Multiplication"],
+        "answer": "D. Associative Property of Multiplication",
+        "explanation": "In the statement, the order of the numbers does not change; however, the grouping of the numbers in parentheses does. Each side, if simplified, results in an answer of 300, even though both sides look different. Changing the grouping in a problem like this is an example of the associative property of multiplication."
+        },
+        {"question": "Tori was asked to give an example of the commutative property of addition. Which of the following choices would be correct?",
+        "options": ["A. 3 + (4+6) = 3+4)+6", "B. 3(4+6)=3(4)+3(6)", "C. 3+4 = 4+3", "D. 3 + 0 = 3"],
+        "answer": "C. 3+4 = 4+3",
+        "explanation": "Choice a is an example of the associative property of addition, where changing the grouping of the numbers will still result in the same answer. Choice b is an example of the distributive property of multiplication over addition. Choice d is an example of the additive identity, where any number added to zero equals itself. Choice e is an example of the commutative property of addition, where we can change the order of the numbers that are being added and the result is always the same."
+        },
+        {"question": "Jake needed to find the perimeter of an equilateral triangle whose sides measure x + 4 cm each. Jake realized that he could multiply 3 (x + 4) = 3x + 12 to find the total perimeter in terms of x. Which property did he use to multiply?",
+        "options": ["A. Associative Property of Addition", "B. Distributive Property of Multiplication over Addition", "C. Commutative Property of Multiplication", "D. Inverse Property of Addition"],
+        "answer": "B. Distributive Property of Multiplication over Addition",
+        "explanation": "In the statement, 3 is being multiplied by the quantity in the parentheses, x + 4. The distributive property allows you to multiply 3 × x and add it to 3 x 4, simplifying to 3x + 12."
+        },
+        {"question": "The product of -5 and a number is 30. What is the number?",
+        "options": ["A. 35", "B. 25", "C. -6", "D. -35"],
+        "answer": "C. -6",
+        "explanation": "Let y = the number. The word product is a key word for multiplication. Therefore the equation is -5y = 30. To solve this, divide each side of the equation by -5; -5y/y=30/5. The variable is now alone: y = -6."
+        },
+        {"question": "When ten is subtracted from the opposite of a number, the difference between them is five. What is the number?",
+        "options": ["A. 15", "B. -15", "C. -5", "D. 5"],
+        "answer": "B. -15",
+        "explanation": "Let x = the number. The opposite of this number is -x. The words subtraction and difference both tell you to subtract, so the equation becomes-x-10= 5. To solve this, add 10 to both sides of the equation; -x-10 + 10 = 5 + 10. Simplify to -x = 15. Divide both sides of the equation by -1. Remember that x = -1x; -x/-1 = 15/-1. The variable is now alone: x= -15."
+        },
+        {"question": "The sum of 4 and a number is equal to -48. What is the number?",
+        "options": ["A. -12", "B. -44", "C. 12", "D. -52"],
+        "answer": "B. -44",
+        "explanation": "Let x = the number. Since sum is a key word for addition, the equation is 4+x=-48. Add 4 to both sides of the equation; 4+4 + x = −48 +4. The variable is now alone: x = -44."
+        },
+        {"question": "Twice a number increased by 11 is equal to 32 less than three times the number. Find the number.",
+        "options": ["A. -21", "B. 21/5", "C. 43", "D. 43/5"],
+        "answer": "C. 43",
+        "explanation": "Let x = the number. Now translate each part of the sentence. Twice a number increased by 11 is 2x + 11; 32 less than 3 times a number is 3x-32. Set the expressions equal to each other: 2x+11=3x-32. Subtract 2.x from both sides of the equation: 2x - 2x+11=3x-2x-32. Simplify: 11 x 32. Add 32 to both sides of the equation: 11 + 32 = x - 32 + 32. The variable is now alone: x = 43."
+        },
+        {"question": "If one is added to the difference when 10x is subtracted from -18x, the result is 57. What is the value of x?",
+        "options": ["A. -2", "B. -7", "C. 2", "D. 7"],
+        "answer": "A. -2",
+        "explanation": "The statement, 'If one is added to the difference when 10x subtracted from -18x, the result is 57,' translates to the equation -18x10x+1=57. Combine like terms on the left side of the equation: -28x + 1 = 57. Subtract 1 from both sides of the equation: -28x + 1-1 = 57 - 1. Divide each side of the equation by -28: -28x/-28 = 56-28. The variable is now alone: x = −2."
+        },
+        {"question": "If 0.3 is added to 0.2 times the quantity x-3, the result is 2.5. What is the value of x?",
+        "options": ["A. 1.7", "B. 26", "C. 14", "D. 17"],
+        "answer": "C. 14",
+        "explanation": "The statement, 'If 0.3 is added to 0.2 times the quantity x − 3, the result is 2.5,' translates to the equation 0.2(x-3)+0.3 = 2.5. Remember to use parentheses for the expression when the words the quantity are used. Use the distributive property on the left side of the equation: 0.2x -0.6 + 0.3 = 2.5. Combine like terms on the left side of the equation: 0.2x + -0.3 = 2.5. Add 0.3 to both sides of the equation: 0.2x + -0.3 + 0.3 = 2.5 +0.3. Simplify: 0.2x = 2.8. Divide both sides by 0.2: 0.2x/0.2 = 2.8/0.2. The variable is now alone: x = 14."
+        },
+        {"question": "If twice the quantity x + 6 is divided by negative four, the result is 5. Find the number.",
+        "options": ["A. -18", "B. -16", "C. -13", "D. -0.5"],
+        "answer": "B. -16",
+        "explanation": "Let x = the number. The sentence, 'If twice the quantity x + 6 is divided by negative four, the result is 5,' translates to 2(x+6)/-4 = 5. Remember to use parentheses for the expression when the words the quantity are used. There are different ways to approach solving this problem. Method I: Multiply both sides of the equation by -4: -4x(2(x+6))/-4=5 This simplifies to: 2(x+6)=-20. Divide each side of the equation by 2: 2(x+6)=-20/2. This simplifies to: x+6= -10. Subtract 6 from both sides of the equation: x + 6-6 = -10-6. The variable is now alone: x = -16. Method II: Another way to look at the problem is to multiply each side by 4 in the first step to get: 2(x+6)=-20. Then use distributive property on the left side: 2x + 12 = -20. Subtract 12 from both sides of the equation: 2x + 12-12=20-12 Simplify: 2x = -32. Divide each side by 2: 2x/2= -32/2. The variable is now alone: x = -16."
+        },
+        {"question": "The difference between six times the quantity 6x + 1 and three times the quantity 1 is 108. What is the value of x?",
+        "options": ["A. 12/11", "B. 35/11", "C. 12", "D. 3"],
+        "answer": "D. 3",
+        "explanation": "Translating the sentence, 'The difference between six times the quantity 6x + 1 minus three times the quantity x - 1 is 108,' into symbolic form results in the equation: 6(6x+1)-3(x-1)=108. Remember to use parentheses for the expression when the words the quantity are used. Perform the distributive property twice on the left side of the equation: 36x+6-3x+3= 108. Combine like terms on the left side of the equation: 33x+9= 108. Subtract 9 from both sides of the equation: 33x+9-9108-9. Simplify: 33x=99. Divide both sides of the equation by 33: 33x/33 = 99/33. The variable is now alone: x = 3."
+        },
+        {"question": "Negative four is multiplied by the quantity a + 8. If 6x is then added to this, the result is 2x + 32. What is the value of x?",
+        "options": ["A. No solution", "B. Identity", "C. 0", "D. 16"],
+        "answer": "A. No solution",
+        "explanation": "This problem translates to the equation -4(x+8) + 6x = 2x + 32. Remember to use parentheses for the expression when the words the quantity are used. Use distributive property on the left side of the equation: -4x-32+6x=2x + 32. Combine like terms on the left side of the equation: 2x-32 = 2x + 32. Subtract 2x from both sides of the equation: 2x-2x-32 = 2x-2x+32. The two sides are not equal. There is no solution: -32 does not equal 32."
+        },
+        {"question": "Patrice has worked a certain amount of hours so far this week. Tomorrow she will work four more hours to finish out the week with a total of 10 hours. How many hours has she worked so far?",
+        "options": ["A. 40", "B. 14", "C. 6", "D. 2.5"],
+        "answer": "C. 6",
+        "explanation": "Let x = the amount of hours worked so far this week. Therefore, the equation is x + 4 = 10. To solve this equation, subtract 4 from both sides of the equation; x + 4 − 4 = 10 - 4. The variable is now alone: x = 6."
+        },
+        {"question": "Michael has 16 CDs. This is four more than twice the amount that Kathleen has. How many CDs does Kathleen have?",
+        "options": ["A. 10", "B. 6", "C. 4", "D. 12"],
+        "answer": "B. 6",
+        "explanation": "Let x = the number of CDs Kathleen has. Four more than twice the number can be written as 2x + 4. Set this amount equal to 16, which is the number of CDs Michael has. To solve this, subtract 4 from both sides of the equation: 2x+4-416-4. Divide each side of the equation by 2: 2x/2=12/2. The variable is now alone: x = 6."
+        },
+        {"question": "The perimeter of a square can be expressed as x + 4. If one side of the square is 24, what is the value of x?",
+        "options": ["A. 2", "B. 7", "C. 5", "D. 92"],
+        "answer": "D. 92",
+        "explanation": "Since the perimeter of the square is x + 4, and a square has four equal sides, we can use the perimeter formula for a square to find the answer to the question: P = 4s where P = perimeter and s = side length of the square. Substituting the information given in the problem, P = x+4 and s = 24, gives the equation: x + 4 = 4(24). Simplifying yields x + 4 = 96. Subtract 4 from both sides of the equation: x + 4-4 = 96-4. Simplify: x = 92."
+        },
+        {"question": "The perimeter of a rectangle is 21 inches. What is the measure of its width if its length is 3 inches greater than its width?",
+        "options": ["A. 9", "B. 3.75", "C. 4.5", "D. 3"],
+        "answer": "B. 3.75",
+        "explanation": "Let x = the width of the rectangle. Let x + 3 = the length of the rectangle, since the length is '3 more than' the width. Perimeter is the distance around the rectangle. The formula is length + width + length + width, P = 1 + w +/+ w, or P = 21+ 2w. Substitute the let statements for / and w and the perimeter (P) equal to 21 into the formula: 21 = 2(x+3)+ 2(x). Use the distributive property on the right side of the equation: 21 = 2x + 6 + 2x. Combine like terms of the right side of the equation: 21 = 4x + 6. Subtract 6 from both sides of the equation: 21 - 6 = 4x + 6−6. Simplify: 15 = 4x. Divide both sides of the equation by 4: 15/4=4x/4. The variable is now alone: 3.75 = x."
+        },
+        {"question": "The sum of two consecutive integers is 41. What are the integers?",
+        "options": ["A. 20, 21", "B. 21, 22", "C. 20, 22", "D. 10.5, 10.5"],
+        "answer": "A. 20, 21",
+        "explanation": "Two consecutive integers are numbers in order like 4 and 5 or -30 and -29, which are each 1 number apart. Let x = the first consecutive integer. Let x + 1 = the second consecutive integer. Sum is a key word for addition so the equation becomes: (x)+ (x + 1) = 41. Combine like terms on the left side of the equation: 2x + 1 = 41. Subtract 1 from both sides of the equation: 2x + 1 - 1 = 41 – 1. Simplify: 2x = 40. Divide each side of the equation by 2: 2x/2=40/2. The variable is now alone: x = 20. Therefore the larger integer is: x + 1 = 21. The two integers are 20 and 21."
+        },
+        {"question": "The sum of two consecutive even integers is 126. What are the integers?",
+        "options": ["A. 62, 64", "B. 62, 63", "C. 60, 66", "D. 2, 63"],
+        "answer": "A. 62, 64",
+        "explanation": "Two consecutive even integers are numbers in order, such as 4 and 6 or -30 and -32, which are each 2 numbers apart. Let x = the first consecutive even integer. Let x + 2 = the second (and larger) consecutive even integer. Sum is a key word for addition so the equation becomes (x)+(x+2)= 126. Combine like terms on the left side of the equation: 2x + 2 = 126. Subtract 2 from both sides of the equation: 2x + 2 − 2 = 126-2; simplify: 2x = 124. Divide each side of the equation by 2: 22/x= 124/2. The variable is now alone: a = 62. Therefore the larger integer is: x + 2 = 64."
+        },
+        {"question": "The sum of two consecutive odd integers is -112. What is the larger integer?",
+        "options": ["A. -55", "B. -57", "C. 55", "D. 57"],
+        "answer": "A. -55",
+        "explanation": "Two consecutive odd integers are numbers in order like 3 and 5 or -31 and -29, which are each 2 numbers apart. In this problem you are looking for 2 consecutive odd integers. Let x = the first and smallest consecutive odd integer. Let x + 2 = the second (and larger) consecutive negative odd integer. Sum is a key word for addition so the equation becomes (x)+(x+2)=-112. Combine like terms on the left side of the equation: 2x + 2 = -112. Subtract 2 from both sides of the equation: 2x + 2-2 = -112 -2; simplify: 2x = -114. Divide each side of the equation by 2: 2x/2=-114/2. The variable is now alone: x = -57. Therefore the larger value is: x + 2 = -55."
+        },
+        {"question": "The sum of three consecutive even integers is 102. What is the value of the largest consecutive integer?",
+        "options": ["A. 32", "B. 34", "C. 36", "D. 38"],
+        "answer": "C. 36",
+        "explanation": "Three consecutive even integers are numbers in order like 4, 6, and 8 or -30,-28 and -26, which are each 2 numbers apart. Let x = the first and smallest consecutive even integer. Let x + 2 = the second consecutive even integer. Let x + 4 = the third and largest consecutive even integer. Sum is a key word for addition so the equation becomes (x)+(x+2)+(x+4)= 102. Combine like terms on the left side of the equation: 3x+6= 102. Subtract 6 from both sides of the equation: 3x + 6-6=102-6; simplify: 3x = 96. Divide each side of the equation by 3: 3x/3=96/3. The variable is now alone: x = 32; therefore the next larger integer is: x + 2 = 34. The largest even integer would be: x+4=36."
+        },
+        {"question": "Two commuters leave the same city at the same time but travel in opposite directions. One car is traveling at an average speed of 63 miles per hour, and the other car is traveling at an average speed of 59 miles per hour. How many hours will it take before the cars are 610 miles apart?",
+        "options": ["A. 4", "B. 6", "C. 30", "D. 5"],
+        "answer": "D. 5",
+        "explanation": "Let t = the amount of time traveled. Using the formula distance = rate × time, substitute the rates of each car and multiply by t to find the distance traveled by each car. Therefore, 63t = distance traveled by one car and 59t = distance traveled by the other car. Since the cars are traveling in opposite directions, the total distance traveled by both cars is the sum of these distances: 63t+ 59t. Set this equal to the total distance of 610 miles: 63+ + 59t=610. Combine like terms on the left side of the equation: 122t = 610. Divide each side of the equation by 122: 122t/122 = 610/122, the variable is now alone: t = 5. In 5 hours, the cars will be 610 miles apart."
+        },
+        {"question": "Two trains leave the same city at the same time, one going east and the other going west. If one train is traveling at 65 mph and the other at 72 mph, how many hours will it take for them to be 822 miles apart?",
+        "options": ["A. 9", "B. 7", "C. 8", "D. 6"],
+        "answer": "D. 6",
+        "explanation": "Use the formula distance = rate × time for each train and add these values together so that the distance equals 822 miles. For the first train, d = 65t and for the second train d = 72t, where d is the distance and t is the time in hours. Add the distances and set them equal to 822: 65t + 72t = 822. Combine like terms on the left side of the equation: 1377 822; divide both sides of the equation by 137: 137t/137= 822/137. The variable is now alone: t = 6. In 6 hours, they will be 822 miles apart."
+        },
+        {"question": "Two trains leave two different cities 1,029 miles apart and head directly toward each other on parallel tracks. If one train is traveling at 45 miles per hour and the other at 53 miles per hour, how many hours will it take before the trains pass?",
+        "options": ["A. 9.5", "B. 11", "C. 11.5", "D. 10.5"],
+        "answer": "D. 10.5",
+        "explanation": "Use the formula distance = rate time for each train and add these values together so that the distance equals 1,029 miles. For the first train, d = 45t and for the second train d = 53t, where d is the distance and t is the time in hours. Add the distances and set them equal to 1,029: 45t + 53t= 1,029. Combine like terms on the left side of the equation: 987 = 1,029; divide both sides of the equation by 98: 98t/98 = 1,029/98. The variable is now alone: t = 10.5 hours. The two trains will pass in 10.5 hours."
+        },
+        {"question": "Nine minus five times a number, x, is no less than 39. Which of the following expressions represents all the possible values of the number?",
+        "options": ["A. x ≤ 6", "B. x ≥ -6", "C. x ≤-6", "D. x ≥ 6"],
+        "answer": "C. x ≤-6",
+        "explanation": "Translate the sentence, 'Nine minus five times a number is no less than 39,' into symbols: 9-5x ≥ 39. Subtract 9 from both sides of the inequality: 99-5x ≥ 39-9. Simplify: -5x ≥ 30; divide both sides of the inequality by -5. Remember that when dividing or multiplying each side of an inequality by a negative number, the inequality symbol changes direction: -5x/5≤30/-35. The variable is now alone: x ≤-6."
+        },
+        {"question": "Will has a bag of gumdrops. If he eats 2 of his gumdrops, he will have between 2 and 6 of them left. Which of the following represents how many gumdrops, x, were originally in his bag?",
+        "options": ["A. 4 < x < 8", "B. 0 < x < 4", "C. 0 > x > 4", "D. 4 > x > 8"],
+        "answer": "A. 4 < x < 8",
+        "explanation": "This problem is an example of a compound inequality, where there is more than one inequality in the question. In order to solve it, let x = the total amount of gumdrops Will has. Set up the compound inequality, and then solve it as two separate inequalities. Therefore, the second sentence in the problem can be written as: 2 <x-2 < 6. The two inequalities are: 2 <x-2 and x-2 < 6. Add 2 to both sides of both inequalities: 2 + 2 <x-2+2 and x-2+2 <6+ 2; simplify: 4 < x and x < 8. If x is greater than four and less than eight, it means that the solution is between 4 and 8. This can be shortened to: 4 < x < 8."
+        },
+        {"question": "The value of y is between negative three and positive eight inclusive. Which of the following represents y?",
+        "options": ["A. -3 ≤ y ≤8", "B. -3 < y ≤ 8", "C. -3 ≤ y < 8", "D. -3 ≥ y ≥ 8"],
+        "answer": "A. -3 ≤ y ≤8",
+        "explanation": "This inequality shows a solution set where y is greater than or equal to 3 and less than or equal to eight. Both -3 and 8 are in the solution set because of the word inclusive, which includes them. The only choice that shows values between -3 and 8 and also includes them is choice a."
+        },
+        {"question": "Five more than the quotient of a number and 2 is at least that number. What is the greatest value of the number?",
+        "options": ["A. 7", "B. 10", "C. 5", "D. 2"],
+        "answer": "B. 10",
+        "explanation": "Let x = the number. Remember that quotient is a key word for division, and at least means greater than or equal to. From the question, the sentence would translate to: x/2 + 5 -5 ≥ x-5. Subtract 5 from both sides of the inequality: x/2+5 - 5  ≥ x-5; simplify: ≥x-5. Multiply both sides of the inequality by 2: x/2×2≥(x-5) × 2; simplify: x ≥ (x-5)2. Use the distributive property on the right side of the inequality: x≥ 2x-10. Add 10 to both sides of the inequality: x + 10 ≥ 2x-10 + 10; simplify: x + 10 > 2x. Subtract x from both sides of the inequality: x-x + 10 ≥2x-x. The variable is now alone: 10 ≥x. The number is at most 10."
+        },
+        {"question": "Carl worked three more than twice as many hours as Cindy did. What is the maximum amount of hours Cindy worked if together they worked 48 hours at most?",
+        "options": ["A. 17", "B. 33", "C. 37", "D. 15"],
+        "answer": "D. 15",
+        "explanation": "Let x = the amount of hours Cindy worked. Let 2x + 3 = the amount of hours Carl worked. Since the total hours added together was at most 48, the inequality would be (x) + (2x+3) ≤ 48. Combine like terms on the left side of the inequality: 3x + 3 ≤ 48. Subtract 3 from both sides of the inequality: 3x + 3-3≤48-3; simplify: 3x ≤ 45. Divide both sides of the inequality by 3: 3x/3 ≤ 45/3, the variable is now alone: x ≤ 15. The maximum amount of hours Cindy worked was 15."
+        },
+        {"question": "The cost of renting a bike at the local bike shop can be represented by the equation y = 2x + 2, where y is the total cost and a is the number of hours the bike is rented. Which of the following ordered pairs would be a possible number of hours rented, x, and the corresponding total cost, y?",
+        "options": ["A. (0,-2)", "B. (2,6)", "C. (6, 2)", "D. (-2, -6)"],
+        "answer": "B. (2,6)",
+        "explanation": "Choices a and d should be omitted because the negative values should not make sense for this problem using time and cost. Choice b substituted would be 6 = 2(2) + 2 which simplifies to 6 = 4 + 2. Thus, 6 = 6. The coordinates in choice c are reversed from choice b and will not work if substituted for x and y."
+        },
+        {"question": "A telephone company charges $.35 for the first minute of a phone call and $.15 for each additional minute of the call. Which of the following represents the cost y of a phone call lasting x minutes?",
+        "options": ["A. y=0.15(x-1)+0.35", "B. x = 0.15(y-1)+0.35", "C. y=0.15x+0.35", "D. x = 0.15y+0.35"],
+        "answer": "A. y=0.15(x-1)+0.35",
+        "explanation": "Let x = the total minutes of the call. Therefore, x - 1 = the additional minutes of the call. This choice is correct because in order to calculate the cost, the charge is 35 cents plus 15 cents times the number of additional minutes. If y represents the total cost, then y equals 0.35 plus 0.15 times the quantity - 1. This translates to y = 0.35 +0.15(x- 1) or y = 0.15(x-1)+0.35."
+        },
+        {"question": "A ride in a taxicab costs $1.25 for the first mile and $1.15 for each additional mile. Which of the following could be used to calculate the total cost y of a ride that was a miles?",
+        "options": ["A. x = 1.25(y-1)+ 1.15", "B. x = 1.15(y-1) +1.25", "C. y=1.25(x-1) + 1.15", "D. y = 1.15(x-1)+1.25"],
+        "answer": "D. y = 1.15(x-1)+1.25",
+        "explanation": "Let x = the total miles of the ride. Therefore, x - 1 = the additional miles of the ride. The correct equation takes $1.25 and adds it to $1.15 times the number of additional miles, x-1. Translating, this becomes y (the total cost) = 1.25 +1.15(x-1), which is the same equation as y = 1.15(x-1)+1.25."
+        },
+        {"question": "The cost of shipping a package through Shipping Express is $4.85 plus $2 per ounce of the weight of the package. Sally only has $10 to spend on shipping costs. Which of the following could Sally use to find the maximum number of ounces she can ship for $10?",
+        "options": ["A. 4.85x+2 ≤ 10", "B. 4.85x + 2 ≥ 10", "C. 2x+4.85 ≤ 10", "D. 2x + 4.85 ≥ 10"],
+        "answer": "C. 2x+4.85 ≤ 10",
+        "explanation": "The total amount will be $4.85 plus two times the number of ounces, x. This translates to 4.85 + 2x, which is the same as 2x + 4.85. This value needs to be less than or equal to $10, which can be written as 2x + 4.85 ≤ 10."
+        },
+        {"question": "Green Bank charges a monthly fee of $3 for a checking account and $.10 per check. Savings-R-Us bank charges a $4.50 monthly fee and $.05 per check. How many checks need to be used for the monthly costs to be the same for both banks?",
+        "options": ["A. 25", "B. 30", "C. 35", "D. 100"],
+        "answer": "B. 30",
+        "explanation": "Let x = the number of checks written that month. Green Bank's fees would therefore be represented by .10x + 3 and Savings-R-Us would be represented by .05x + 4.50. To find the value for which the banks charge the same amount, set the two expressions equal to each other: .10x + 3 = .05.x + 4.50. Subtract 3 from both sides: .10x+3-3= .05x + 4.50 -3. This now becomes: .10x= .05x + 1.50. Subtract .05x from both sides of the equation: .10x-.05x= .05x-.05x+1.50; this simplifies to: .05x = 1.50. Divide both sides of the equation by .05: 0.005x/0.05 = 150/0.05. The variable is now alone: x = 30. Costs would be the same if 30 checks were written."
+        },
+        {"question": "Easy Rider taxi service charges a pick-up fee of $2 and $1.25 for each mile. Luxury Limo taxi service charges a pick-up fee of $3.25 and $1 per mile. How many miles need to be driven for both services to cost the same amount?",
+        "options": ["A. 24", "B. 12", "C. 10", "D. 5"],
+        "answer": "D. 5",
+        "explanation": "Let x = the number of miles traveled in the taxi. The expression for the cost of a ride with Easy Rider would be 1.25x + 2. The expression for the cost of a ride with Luxury Limo is 1x + 3.25. To solve, set the two expressions equal to each other: 1.25x + 2 = 1x+3.25. Subtract 2 from both sides: 1.25x + 2-2 = 1x+3.25 -2. This simplifies to: 1.25x = 1x + 1.25; subtract 1x from both sides: 1.25x-1x=1x- 1x + 1.25. Divide both sides of the equation by .25: .25x/.25 =  1.25/.25. The variable is now alone: x = 5; the cost would be the same if the trip were 5 miles long."
+        },
+        {"question": "The sum of two integers is 36, and the difference is 6. What is the smaller of the two numbers?",
+        "options": ["A. 21", "B. 15", "C. 16", "D. 18"],
+        "answer": "B. 15",
+        "explanation": "Let x = the first integer and let y = the second integer. The equation for the sum of the two integers is a + y = 36, and the equation for the difference between the two integers is x - y = 6. To solve these by the elimination method, combine like terms vertically and the variable of y cancels out. The result of this is in figure 1 below. Substitute the value of x into the first equation to get 21+ y = 36. Subtract 21 from both sides of this equation to get an answer of y = 15.",
+        "image_urls": ["./images/algebra_question307answer.png"]
+        },
+        {"question": "One integer is two more than another. The sum of the lesser integer and twice the greater is 7. What is the greater integer?",
+        "options": ["A. 1", "B. 2", "C. 3", "D. 7"],
+        "answer": "C. 3",
+        "explanation": "Let x = the greater integer and y = the lesser integer. From the first sentence in the question we get the equation x = y + 2. From the second sentence in the question we get y + 2x = 7. Substitute x = y + 2 into the second equation: y + 2(y + 2) = 7; use the distributive property to simplify to: y + 2y + 4 = 7. Combine like terms to get: 3y+ 4 = 7; subtract 4 from both sides of the equation: 3y+4-47-4. Simplify to 3y = 3. Divide both sides of the equation by 3: 3y/3 = 3/3, therefore y = 1. Since the greater is two more than the lesser, the greater is 1 + 2 = 3. "
+        },
+        {"question": "One integer is four times another. The sum of the integers is 5. What is the value of the lesser integer?",
+        "options": ["A. 5", "B. 4", "C. 2", "D. 1"],
+        "answer": "D. 1",
+        "explanation": "Let x = the lesser integer and let y = the greater integer. The first sentence in the question gives the equation y = 4x. The second sentence gives the equation x + y = 5. Substitute y = 4x into the second equation: x+4x= 5. Combine like terms on the left side of the equation: 5x = 5; divide both sides of the equation by 5: 5x/5 = 5/5. This gives a solution of x = 1, which is the lesser integer."
+        },
+        {"question": "The sum of three times a greater integer and 5 times a lesser integer is 9. Three less than the greater equals the lesser. What is the value of the lesser integer?",
+        "options": ["A. 0", "B. 1", "C. 2", "D. 3"],
+        "answer": "A. 0",
+        "explanation": "Let x = the lesser integer and let y = the greater integer. The first sentence in the question gives the equation 3y+5x=9. The second sentence gives the equation y - 3 = x. Substitute y-3 for x in the second equation: 3y+ 5(y-3)= 9. Use the distributive property on the left side of the equation: 3y+5y-15 = 9. Combine like terms on the left side: 8y-15=9; add 15 to both sides of the equation: 8y- 15+ 15 = 9 + 15. Simplify to: 8y = 24. Divide both sides of the equation by 8: 8y/8 = 24/8. This gives a solution of y = 3. Therefore the lesser, x, is three less than y, so x = 0."
+        },
+        {"question": "The perimeter of a rectangle is 104 inches. The width is 6 inches less than 3 times the length. Find the width of the rectangle.",
+        "options": ["A. 13.5 inches", "B. 37.5 inches", "C. 14.5 inches", "D. 15 inches"],
+        "answer": "B. 37.5 inches",
+        "explanation": "Let l = the length of the rectangle and let w = the width of the rectangle. Since the width is 6 inches less than 3 times the length, one equation is w=31-6. The formula for the perimeter of a rectangle is 21 + 2w = 104. Substituting the first equation into the perimeter equation for w results in 2/+2(37-6)= 104. Use the distributive property on the left side of the equation: 21 +61-12 = 104. Combine like terms on the left side of the equation: 8/12 = 104; add 12 to both sides of the equation: 8/12+12= 104 + 12. Simplify to: 8/= 116. Divide both sides of the equation by 8: 8l/8 = 116/8. Therefore, the length is l = 14.5 inches and the width is w=3(14.5) - 6 = 37.5 inches."
+        },
+        {"question": "The perimeter of a parallelogram is 50 cm. The length of the parallelogram is 5 cm more than the width. Find the length of the parallelogram.",
+        "options": ["A. 15 cm", "B. 11 cm", "C. 5 cm", "D. 10 cm"],
+        "answer": "A. 15 cm",
+        "explanation": "Let w = the width of the parallelogram and let l = the length of the parallelogram. Since the length is 5 more than the width, then l = w+5. The formula for the perimeter of a parallelogram 2l + 2w = 50. Substituting the first equation into the second for / results in 2(w+5)+2w = 50. Use the distributive property on the left side of the equation: 2w+ 10 + 2 = 50; combine like terms on the left side of the equation: 4w+ 10 = 50. Subtract 10 on both sides of the equation: 4w+10-10=50-10. Simply to: 4w = 40. Divide both sides of the equation by 4: 4w/4 = 40/4;w= 10. Therefore, the width is 10 cm and the length is 10+ 5 = 15 cm."
+        },
+        {"question": "Jackie invested money in two different accounts, one of which earned 12% interest per year and another that earned 15% interest per year. The amount invested at 15% was 100 more than twice the amount at 12%. How much was invested at 12% if the total annual interest earned was $855?",
+        "options": ["A. $4,100", "B. $2,100", "C. $2,000", "D. $4,000"],
+        "answer": "C. $2,000",
+        "explanation": "Let x = the amount invested at 12% interest. Let y = the amount invested at 15% interest. Since the amount invested at 15% is 100 more then twice the amount at 12%, then y = 2x + 100. Since the total interest was $855, use the equation 0.12x + 0.15y = 855. You have two equations with two variables. Use the second equation 0.12x+0.15y = 855 and substitute (2x+100) for y: 0.12x+0.15(2x+100) = 855. Use the distributive property: 0.12x+0.3x+15=855. Combine like terms: 0.42x+15855. Subtract 15 from both sides: 0.42x+15-15 = 855- 0.42.x 840 15; simplify: 0.42x=840. Divide both sides by 0.42: 0.42x/0.42 = 840/0.42. Therefore, x = $2,000, which is the amount invested at 12% interest."
+        },
+        {"question": "Kevin invested $4,000 in an account that earns 6% interest per year and Sr in a different account that earns 8% interest per year. How much is invested at 8% if the total amount of interest earned annually is $405.50?",
+        "options": ["A. $2,075.00", "B. $4,000.00", "C. $2,068.75", "D. $2,075.68"],
+        "answer": "C. $2,068.75",
+        "explanation": "Let x = the amount invested at 8% interest. Since the total interest is $405.50, use the equation 0.06(4,000) + 0.08x= 405.50. Simplify the multiplication: 240+ 0.08x= 405.50. Subtract 240 from both sides: 240 - 240 +0.8x=405.50-240; simplify: 0.08x= 165.50. Divide both sides by 0.08: 0.08x/0.08 = 165.50/0.08. Therefore, x = $2,068.75, which is the amounti nvested at 8% interest."
+        },
+        {"question": "Megan bought x pounds of coffee that cost $3 per pound and 18 pounds of coffee at $2.50 per pound for the company picnic. Find the total number of pounds of coffee purchased if the average cost per pound of both types together is $2.85.",
+        "options": ["A. 42", "B. 18", "C. 63", "D. 60"],
+        "answer": "D. 60",
+        "explanation": "Let x = the amount of coffee at $3 per pound. Let y = the total amount of coffee purchased. If there are 18 pounds of coffee at $2.50 per pound, then the total amount of coffee can be expressed as y = x + 18. Use the equation 3x + 2.50(18) = 2.85y since the average cost of the y pounds of coffe is $2.85 per pound. To solve, substitute y = x + 18 into 3x + 2.50(18) 2.85y. 3x+2.50(18) = 2.85(x+18). Multiply on the left side and use the distributive property on the right side: 3x + 45 = 2.85x + 51.30. Subtract 2.85x on both sides: 3x-2.85x+45 = 2.85x-2.85x+ 51.30. Simplify: 0.15x +45 = 51.30. Subtract 45 from both sides: 0.15x+45-45 = 51.30-45. Simplify: 0.15x = 6.30. Divide both sides by 0.15: 0.15x/0.15 = 6.30/0.15; so, x = 42 pounds, which is the amount of coffee that costs $3 per pound. Therefore, the total amount of coffee is 42 + 18, which is 60 pounds."
+        },
+        {"question": "The student council bought two different types of candy for the school fair. They purchased 40 pounds of candy at $2.15 per pound and x pounds at $1.90 per pound. What is the total number of pounds they bought if the total amount of money spent on candy was $158.20?",
+        "options": ["A. 40", "B. 38", "C. 78", "D. 50"],
+        "answer": "C. 78",
+        "explanation": "Let x = the amount of candy at $1.90 per pound. Let y = the total number of pounds of candy purchased. If it is known that there are 40 pounds of candy at $2.15 per pound, then the total amount of candy can be expressed as y=x+40. Use the equation 1.90x + 2.15(40) = $158.20 since the total amount of money spent was $158.20. Multiply on the left side: 1.90x + 86 = 158.20. Subtract 86 from both sides: 1.90x+86-86 = 158.20 -86. 1.90 72.20. Simplify: 1.90x 72.20. Divide both sides by 1.90: 1.90x/1.90 = 72.20/1.90, so, x = 38 pounds, which is the amount of candy that costs $1.90 per pound. Therefore, the total amount of candy is 38 +40, which is 78 pounds."
+        },
+        {"question": "The manager of a garden store ordered two different kinds of marigold seeds for her display. The first type cost her $1 per packet and the second type cost $1.26 per packet. How many packets of the first type did she purchase if she bought 50 more of the $1.26 packets than the $1 packets and spent a total of $402?",
+        "options": ["A. 150", "B. 200", "C. 250", "D. 100"],
+        "answer": "A. 150",
+        "explanation": "Let x = the amount of marigolds at $1 per packet. Let y = the amount of marigolds at $1.26 per packet. Since there are 50 more packets of the $1.26 seeds than the $1 seeds, y = x + 50. Use the equation 1x + 1.26y= 420 to find the total number of packets of each. By substituting into the second equation, you get 1x + 1.26(x + 50) = 402. Multiply on the left side using the distributive property: 1x + 1.26x+63 402. Combine like terms on the left side: 2.26x+63 = 402. Subtract 63 from both sides: 2.26x+63-63 = 402 63. Simplify: 2.26.x = 339. Divide both sides by 2.26: 2.26x/2.26 = 3369/2.26; so, x = 150 packets, which is the number of packets that costs $1 each."
+        },
+        {"question": "Harold used a 3% iodine solution and a 20% iodine solution to make a 95- ounce solution that was 19% iodine. How many ounces of the 3% iodine solution did he use?",
+        "options": ["A. 5", "B. 80", "C. 60", "D. 20"],
+        "answer": "A. 5",
+        "explanation": "Let x = the amount of 3% iodine solution. Let y = the amount of 20% iodine solution. Since the total amount of solution was 85 oz., then x + y = 85. The amount of each type of solution added together and set equal to the amount of 19% solution can be expressed in the equation 0.03x+0.20y=0.19(85); Use both equations to solve for x. Multiply the second equation by 100 to eliminate the decimal point: 3x + 20y= 19(85). Simplify that equation: 3x + 20y= 1805. Multiply the first equation by -20: -20x+-20y=-1700. Add the two equations to eliminate y: -17x+0y=-85. Divide both sides of the equation by -17: -17x/-17= -85/-17; x = 5. The amount of 3% iodine solution is 5 ounces."
+        },
+        {"question": "A chemist mixed a solution that was 34% acid with another solution that was 18% acid to produce a 30-ounce solution that was 28% acid. How much of the 34% acid solution did he use?",
+        "options": ["A. 27", "B. 11.5", "C. 18.75", "D. 28"],
+        "answer": "C. 18.75",
+        "explanation": "Let x = the amount of 34% acid solution. Let y = the amount of 18% iodine solution. Since the total amount of solution was 30 oz., then x + y = 30. The amount of each type of solution added together and set equal to the amount of 28% solution can be expressed in the equation 0.34x+0.18y = 0.28(30). Use both equations to solve for x. Multiply the second equation by 100 to eliminate the decimal point: 34x+18y = 28(30); simplify that equation: 34x + 22y= 840. Multiply the first equation by -18: -18x+ -18y = -540. Add the two equations to eliminate y: 16x+0y= 300. Divide both sides of the equation by 16: 16x/16 = 300/16, x = 18.75. The amount of 34% acid solution is 18.75 ounces."
+        },
+        {"question": "Bob is 2 years from being twice as old as Ellen. The sum of twice Bob's age and three times Ellen's age is 66. How old is Ellen?",
+        "options": ["A. 15", "B. 10", "C. 18", "D. 20"],
+        "answer": "B. 10",
+        "explanation": "Let x = Ellen's age and let y = Bob's age. Since Bob is 2 years from being twice as old as Ellen, than y = 2x-2. The sum of twice Bob's age and three times Ellen's age is 66 and gives a second equation of 2y + 3x=66. Substituting the first equation for y into the second equation results in 2(2x-2)+3x= 66. Use the distributive property on the left side of the equation: 4x4 + 3x = 66; combine like terms on the left side of the equation: 7x-4= 66. Add 4 to both sides of the equation: 7x-4+4= 66 + 4. Simplify: 7x = 70. Divide both sides of the equation by 7: 7x/7 = 70/7. The variable, x, is now alone: x = 10. Therefore, Ellen is 10 years old."
+        },
+        {"question": "Sam's age is 1 less than twice Shari's age. The sum of their ages is 104. How old is Shari?",
+        "options": ["A. 52", "B. 36", "C. 69", "D. 35"],
+        "answer": "D. 35",
+        "explanation": "Let x = Shari's age and let y = Sam's age. Since Sam's age is 1 less than twice Shari's age this gives the equation y = 2x - 1. Since the sum of their ages is 104, this gives a second equation of x + y = 104. By substituting the first equation into the second for y, this results in the equation x + 2x - 1 = 104. Combine like terms on the left side of the equation: 3x-1= 104. Add 1 to both sides of the equation: 3x-1+1= 104 + 1. Simplify: 3x = 105. Divide both sides of the equation by 3: 3x/3 = 105/3. The variable, x, is now alone: x = 35. Therefore, Shari's age is 35."
+        },
+        {"question": "At the school bookstore, two binders and three pens cost $12.50. Three binders and five pens cost $19.50. What is the total cost of 1 binder and 1 pen?",
+        "options": ["A. $4.50", "B. $4.00", "C. $1.50", "D. $5.50"],
+        "answer": "D. $5.50",
+        "explanation": "Let x = the cost of one binder and let y = the cost of one pen. The first statement, 'two binders and three pens cost $12.50,' translates to the equation 2x + 3y = 12.50. The second statement, 'three binders and five pens cost $19.50,' translates to the equation: 3x + 57 = 19.50. Multiply the first equation by 3: 6x + 9y = 37.50. Multiply the second equation by -2: -6x + -10y = -39.00. Combine the two equations to eliminate x: -1y = -1.50. Divide by -1: y = 1.50.  Therefore, the cost of one pen is $1.50. Since the cost of 2 binders and 3 pens is 12.50, substitute y = 1.50 into the first equation: 3 × $1.50 = $4.50; $12.50 -4.50 = $8.00; $8.00 ÷ 2= $4.00, so each binder is $4.00. The total cost of 1 binder and 1 pen is $4.00 +$1.50 = $5.50."
+        },
+        {"question": "Two angles are complementary. The larger angle is 15° more than twice the smaller. Find the measure of the smaller angle.",
+        "options": ["A. 25°", "B. 65°", "C. 90°", "D. 82.5°"],
+        "answer": "A. 25°",
+        "explanation": "Let x = the number of degrees in the smaller angle and let y = the number of degrees in the larger angle. Since the angles are complementary, x + y = 90. In addition, since the larger angle is 15 more than twice the smaller, y = 2x + 15. Substitute the second equation into the first equation for y: x+2x+15=90. Combine like terms on the left side of the equation: 3x + 15 = 90. Subtract 15 from both sides of the equation: 3x + 15 - 15 = 90 - 15; simplify: 3x = 75. Divide both sides by 3: 3x/3 = 75/3. The variable, x, is now alone: x = 25. The number of degrees in the smaller angle is 25."
+        },
+        {"question": "The cost of a student ticket is $1 more than half of an adult ticket. Six adults and four student tickets cost $28. What is the cost of one adult ticket?",
+        "options": ["A. $2.50", "B. $3.00", "C. $5.50", "D. $4.00"],
+        "answer": "B. $3.00",
+        "explanation": "Let x = the cost of a student ticket. Let y = the cost of an adult ticket. The first sentence, 'The cost of a student ticket is $1 more than half of an adult ticket,' gives the equation x = 1/2y + 1; the second sentence, 'six adults and four student tickets cost $28,' gives the equation 6y+4x= 28. Substitute the first equation into the second for x: 6y + 4(1/2y + 1) = 28. Use the distributive property on the left side of the equation: 6y+ 2y + 4 = 28. Combine like terms: 8y + 4 = 28. Subtract 4 on both sides of the equation: 8y + 4-4=28-4; simplify: 8y = 24. Divide both sides by 8: 8y/8 = 24/8. The variable is now alone: y = 3. The cost of one adult ticket is $3."
+        },
+        {"question": "Three shirts and five ties cost $23. Five shirts and one tie cost $20. What is the price of one shirt?",
+        "options": ["A. $3.50", "B. $2.50", "C. $6.00", "D. $3.00"],
+        "answer": "A. $3.50",
+        "explanation": "Let x = the cost of one shirt. Let y = the cost of one tie. The first part of the question, 'three shirts and 5 ties cost $23,' gives the equation 3x + 5y=23; the second part of the question, '5 shirts and one tie cost $20,' gives the equation 5x + 1y= 20. Multiply the second equation by -5: -25x-5y=-100. Add the first equation to that result to eliminate y. The combined equation is: -22x = -77. Divide both sides of the equation by -22: -22/x = -77/-22. The variable is now alone: x = 3.50; the cost of one shirt is $3.50."
+        },
+        {"question": "Noel rode 3x miles on his bike and Jamie rode 5x miles on hers. In terms of x, what is the total number of miles they rode?",
+        "options": ["A. 15x miles", "B. 15x^2 miles", "C. 8x miles", "D. 8x^2 miles"],
+        "answer": "C. 8x miles",
+        "explanation": "The terms 3x and 5x are like terms because they have exactly the same variable with the same exponent. Therefore, you just add the coefficients and keep the variable. 3x + 5x = 8x."
+        },
+        {"question": "If the areas of two sections of a garden are 6a+ 2 and 5a, what is the difference between the areas of the two sections in terms of a?",
+        "options": ["A. a-2", "B. 3a+2", "C. a+2", "D. 11a-2"],
+        "answer": "C. a+2",
+        "explanation": "Because the question asks for the difference between the areas, you need to subtract the expressions: 6a + 2 − 5a. Subtract like terms: 6a – 5a +2 = la + 2; la = a, so the simplified answer is a + 2."
+        },
+        {"question": "Laura has a rectangular garden whose width is x^3 and whose length is x^4. In terms of x, what is the area of her garden?",
+        "options": ["A. 2x^7", "B. x^7", "C. x^12", "D. 2x^12"],
+        "answer": "B. x^7",
+        "explanation": "Since the area of a rectangle is A = length times width, multiply (x^3)(x^4). When multiplying like bases, add the exponents: x^(3+4) = x^7."
+        },
+        {"question": "Jonestown High School has a soccer field whose dimensions can be expressed as 7y2 and 3xy. What is the area of this field in terms of x and y?",
+        "options": ["A. 10xy^2", "B. 10xy^3", "C. 21xy^3", "D. 21xy^2"],
+        "answer": "C. 21xy^3",
+        "explanation": "Since the area of the soccer field would be found by the formula A = length width, multiply the dimensions together: 7y^2 × 3xy. Use the commutative property to arrange like variables and the coefficients next to each other: 7 * 3 * x * y^2 * y. Multiply: remember that y^2*y=y^2*y^1 =y^(2+1)=y^3. The answer is 21xy^3."
+        },
+        {"question": "The area of a parallelogram is a. If the base is x+, what is the height in terms of x?",
+        "options": ["A. x^4", "B. x^2", "C. x^12", "D. x^32"],
+        "answer": "A. x^4",
+        "explanation": "Since the area of a parallelogram is A = base times height, then the area divided by the base would give you the height; x^8/x^4, when dividing like bases, subtract the exponents; x^(8-4) = x^4."
+        },
+        {"question": "The quotient of 3d^3 and 9d^5 is",
+        "options": ["A. 3d^2", "B. 3d^8", "C. 1/(3d^8)", "D. 1/(3d^2)"],
+        "answer": "D. 1/(3d^2)",
+        "explanation": "The key word quotient means division so the problem becomes 3d^3/9d^5. Divide the coefficients: 1d^3/3d^5. When dividing like bases, subtract the exponents: 1d^(3-5)/3; simplify: 1d^-2/3. A variable in the numerator with a negative exponent is equal to the same variable in the denominator with the opposite sign-in this case, a positive sign on the exponent: 1/3d^2."
+        },
+        {"question": "The product of 6x^2 and 4xy^2 is divided by 3x^3y. What is the simplified expression?",
+        "options": ["A. 8y", "B. 4y/x", "C. 4y", "D. 8y/x"],
+        "answer": "A. 8y",
+        "explanation": "The translation of the question is (6x^2 * 4xy^2)/3x^3y. The key word product tells you to multiply 6x^2 and 4xy^2. The result is then divided by 3x^3y. Use the commutative property in the numerator to arrange like variables and the coefficients together: 6*4x^2xy^2/3x^5y. Multiply in the numerator. Remember that x^2 * x = x^(2+1) = x^3: (24x^3y^2)/3x^3y. Divide the coefficients; 24÷3 = 8: 8x^3y^2/x^3y. Divide the variables by subtracting the exponents: 8x^(3-3)y^(2-1); simplify. Recall that anything to the zero power is equal to 1: 8x^0y^1=8y."
+        },
+        {"question": "If the side of a square can be expressed as a^2b^3, what is the area of the square in simplified form?",
+        "options": ["A. a^4b^5", "B. a^4b^6", "C. a^2b^6", "D. a^2b^5"],
+        "answer": "B. a^4b^6",
+        "explanation": "Since the formula for the area of a square is A = s^2, then by substituting A = (a^2b^3)^2. Multiply the outer exponent by each exponent inside the parentheses: a^(2×2)b^(3×2). Simplify; a^4b^6."
+        },
+        {"question": "If 3x^2 is multiplied by the quantity 2x^3y raised to the fourth power, what would this expression simplify to?",
+        "options": ["A. 48x^14y^4", "B. 1,296x^16y^4", "C. 6x^9y^4", "D. 6x^14y^4"],
+        "answer": "A. 48x^14y^4",
+        "explanation": "The statement in the question would translate to 3x^2(2x^3y)^4. The word quantity reminds you to put that part of the expression in parentheses. Evaluate the exponent by multiplying each number or variable inside the parentheses by the exponent outside the parentheses: 3x^2(2^4x^(3×4)y^4); simplify: 3x^2(16x^12y^4). Multiply the coefficients and add the exponents of like variables: 3(16x^(2+12)y^4); simplify: 48x^14y^4."
+        },
+        {"question": "Sara's bedroom is in the shape of a rectangle. The dimensions are 2x and 4x + 5. What is the area of Sara's bedroom?",
+        "options": ["A. 18x", "B. 18x^2", "C. 8x^2+5x", "D. 8x^2+10x"],
+        "answer": "D. 8x^2+10x",
+        "explanation": "Since the area of a rectangle is A = length times width, multiply the dimensions to find the area: 2x(4x + 5). Use the distributive property to multiply each term inside the parentheses by 2x: 2x × 4x + 2x × 5. Simplify by multiplying the coefficients of each term and adding the exponents of the like variables: 8x^2+10x."
+        },
+        {"question": "Express the product of -9p^3r and the quantity 2p- 3r in simplified form.",
+        "options": ["A. -11p^4r+ 12p^3r^2", "B. -18p^4r+ 27p^3r^2", "C. -18p^4r-3r", "D. -18p^3r + 27p^3r^2"],
+        "answer": "B. -18p^4r+ 27p^3r^2",
+        "explanation": "The translated expression would be -9p^3r(2p- 3r). Remember that the key word product means multiply. Use the distributive property to multiply each term inside the parentheses by -9p^3r: -9p^3r × 2p - (-9p^3r) × 3r. Simplify by multiplying the coefficients of each term and adding the exponents of the like variables: -9 × 2p^(3+1)r − (−9 × 3p^3r^(1+1)). Simplify: -18p^4r-(-27p^3r^2). Change subtraction to addition and change the sign of the following term to its opposite: -18p^4r+ (+27p^3r^2); this simplifies to: -18p^4r+ 27p^3r^2."
+        },
+        {"question": "A number, x, increased by 3 is multiplied by the same number, x, increased by 4. What is the product of the two numbers in terms of x?",
+        "options": ["A. x^2+7", "B. x^2 + 12", "C. x^2+7x+12", "D. x^2+x+7"],
+        "answer": "C. x^2+7x+12",
+        "explanation": "The two numbers in terms of x would be x + 3 and x + 4 since increased by would tell you to add. Product tells you to multiply these two quantities: (x+3)(x+4). Use FOIL (First terms of each binomial multiplied, Outer terms in each multiplied, Inner terms of each multiplied, and Last term of each binomial multiplied) to multiply the binomials: (x*x) + (4 · x) + (3 · x) + (3 · 4); simplify each term: x^2 + 4x + 3x + 12. Combine like terms: x^2+7x+12."
+        },
+        {"question": "The length of Kara's rectangular patio can be expressed as 2x - 1 and the width can be expressed as x + 6. In terms of x, what is the area of her patio?",
+        "options": ["A. 2x^2+13x-6", "B. 2x^2-6", "C. 2x^2-5x-6", "D. 2x^2 + 11x-6"],
+        "answer": "D. 2x^2 + 11x-6",
+        "explanation": "Since the area of a rectangle is A = length times width, multiply the two expressions together: (2x-1)(x+6). Use FOIL (First terms of each binomial multiplied, Outer terms in each multiplied, Inner terms of each multiplied, and Last term of each binomial multiplied) to multiply the binomials: (2x*x) + (2x · 6) − (1 · x) − (1 · 6). Simplify: 2x^2 + 12x − x - 6; combine like terms: 2x^2 + 11x-6."
+        },
+        {"question": "A car travels at a rate of (4x^2 - 2). What is the distance this car will travel in (3x-8) hours?",
+        "options": ["A. 12x^3-32x^2-6x+16", "B. 12x^3-32x^2-6x+16", "C. 12x^3+32x^2-6x-16", "D. 12x^3-32x^2-5x+16"],
+        "answer": "A. 12x^3-32x^2-6x+16",
+        "explanation": "Use the formula distance = rate × time. By substitution, distance = (4x^2 - 2)× (3x-8). Use FOIL (First terms of each binomial multiplied, Outer terms in each multiplied, Inner terms of each multiplied, and Last term of each binomial multiplied) to multiply the binomials: (4x^2 * 3x) — (8 · 4x^2) — (2 · 3x) — (2*-8). Simplify each term: 12x^3-32x^2-6x + 16."
+        },
+        {"question": "The area of the base of a prism can be expressed as x^2 + 4x + 1 and the height of the prism can be expressed as x- 3. What is the volume of this prism in terms of x?",
+        "options": ["A. x^3+x^2-13x-3", "B. x^3+7x^2-13x-3", "C. x^3-x^2-11x-3", "D. x^3 + x^2-11x-3"],
+        "answer": "D. x^3 + x^2-11x-3",
+        "explanation": "Since the formula for the volume of a prism is V = Bb, where B is the area of the base and b is the height of the prism, V = (x-3)(x^2 + 4x + 1). Use the distributive property to multiply the first term of the binomial, x, by each term of the trinomial, and then the second term of the binomial, -3, by each term of the trinomial: x(x^2 + 4x + 1) − 3(x^2 + 4x + 1). Then distribute: (x * x2) + (x · 4x) + (x * 1) − (3 · x^2) − (3 · 4x) – (3 · 1). Simplify by multiplying within each term: x^3+ 4x^2+x-3x^2-12x- 3. Use the commutative property to arrange like terms next to each other. Remember that 1x=x: x^3+4x^2-3x^2+x-12x-3; combine like terms: x^3 + x^2-11x-3."
+        },
+        {"question": "The dimensions of a rectangular prism can be expressed as x + 1, x − 2, and x + 4. In terms of x, what is the volume of the prism?",
+        "options": ["A. x^3+3x^2+6x-8", "B. x^3+3x^2-6x-8", "C. x^3+5x^2-2x+8", "D. x^3-5x^2-2x-8"],
+        "answer": "B. x^3+3x^2-6x-8",
+        "explanation": "Since the formula for the volume of a rectangular prism is V = I*wx=*b, multiply the dimensions together: (x + 1)(x − 2)(x+4). Use FOIL (First terms of each binomial multiplied, Outer terms in each multiplied, Inner terms of each multiplied, and Last term of each binomial multiplied) to multiply the first two binomials: (x + 1)(x-2); (x * x) + x(−2) + (1 * x) + 1(−2). Simplify by multiplying within each term: x^2 - 2x + 1x - 2; combine like terms: x^2-x-2. Multiply the third factor by this result: (x+4)(x^2-x-2). To do this, use the distributive property to multiply the first term of the binomial, x, by each term of the trinomial, and then the second term of the binomial, 4, by each term of the trinomial: x(x^2-x-2)+4(x^2-x-2). Distribute: (x * x2) + (x · −x) + (x*-2)+(4· x2)+(4·−x) + (4 ·−2). Simplify by multiplying in each term: x^3-x^2-2x+4x^2-4x-8. Use the commutative property to arrange like terms next to each other: x^3-x^2+4x^2-2x-4x-8; combine like terms: x^3+3x^2-6x-8."
+        },
+        {"question": "The area of Mr. Smith's rectangular classroom is x^2 - 25. Which of the following binomials could represent the length and the width of the room?",
+        "options": ["A. (x+5)(x+5)", "B. (x-5)(x-5)", "C. (x-5)(x-5)", "D. x(x-25)"],
+        "answer": "C. (x-5)(x-5)",
+        "explanation": "Since area of a rectangle is found by multiplying length by width, we need to find the factors that multiply out to yield x^2 - 25. Because x^2 and 25 are both perfect squares (x2 = x * x and 25 = 5*5), the product, x^2 - 25, is called a difference of two perfect squares, and its factors are the sum and difference of the square roots of its terms. Therefore, because the square root of x^2 = x and the square root of 25 = 5, x^2-25 = (x+5)(x-5)."
+        },
+        {"question": "The area of a parallelogram can be expressed as the binomial 2x2 - 10x. Which of the following could be the length of the base and the height of the parallelogram?",
+        "options": ["A. 2x(x^2-5x)", "B. 2x(x-5)", "C. (2x-1)(x-10)", "D. (2x-5)(x+2)"],
+        "answer": "B. 2x(x-5)",
+        "explanation": "To find the base and the height of the parallelogram, find the factors of this binomial. First look for factors that both terms have in common; 2x^2 and 10x both have a factor of 2 and x. Factor out the greatest common factor, 2x, from each term. 2x^2 - 10x; 2x(x-5). To check an answer like this, multiply through using the distributive property. 2x(x-5); (2x*x)-(2x*5); simplify and look for a result that is the same as the original question. This question checked: 2x^2 - 10x."
+        },
+        {"question": "A farmer's rectangular field has an area that can be expressed as the trinomial x^2 + 2x + 1. In terms of x, what are the dimensions of the field?",
+        "options": ["A. (x + 1)(x+2)", "B. (x-1)(x-2)", "C. (x-1)(x+2)", "D. (x + 1)(x + 1)"],
+        "answer": "D. (x + 1)(x + 1)",
+        "explanation": "Since the formula for the area of a rectangle is A = length times width, find the two factors of x^2 + 2x + 1 to get the dimensions. First check to see if there is a common factor in each of the terms or if it is the difference between two perfect squares, and it is neither of these. The next step would be to factor the trinomial into two binomials. To do this, you will be doing a method that resembles FOIL backwards (First terms of each binomial multiplied, Outer terms in each multiplied, Inner terms of each multiplied, and Last term of each binomial multiplied.) First results in x^2, so the first terms must be: (x )(x ); Outer added to the Inner combines to 2x, and the Last is 1, so you need to find two numbers that add to +2 and multiply to +1. These two numbers would have to be +1 and +1: (x + 1)(x + 1). Since the factors of the trinomial are the same, this is an example of a perfect square trinomial, meaning that the farmer's rectangular field was, more specifically, a square field. To check to make sure these are the factors, multiply them by using FOIL (First terms of each binomial multiplied, Outer terms in each multiplied, Inner terms of each multiplied, and Last term of each binomial multiplied; (x * x) + (1 * x) + (1 * x) + (1 * 1); multiply in each term: x^2 + 1x + 1x + 1; combine like terms: x^2 + 2x + 1."
+        },
+        {"question": "Harold is tiling a rectangular kitchen floor with an area that is expressed as x^2+6x+5. What could the dimensions of the floor be in terms of x?",
+        "options": ["A. (x + 1)(x+5)", "B. (x-1)(x-5)", "C. (x-2)(x+3)", "D. (x+2)(x+3)"],
+        "answer": "A. (x + 1)(x+5)",
+        "explanation": "Since area of a rectangle is length x width, look for the factors of the trinomial to find the two dimensions. First check to see if there is a common factor in each of the terms or if it is the difference between two perfect squares, and it is neither of these. The next step would be to factor the trinomial into two binomials. To do this, you will be doing a method that resembles FOIL backwards. (First terms of each binomial multiplied, Outer terms in each multiplied, Inner terms of each multiplied, and Last term of each binomial multiplied.) First results in x^2, so the first terms must be (x )(x ); Outer added to the Inner combines to 6x, and the Last is 5, so you need to find two numbers that add to produce +6 and multiply to produce +5. These two numbers are +1 and +5; (x + 1)(x+5)."
+        },
+        {"question": "The area of a rectangle is represented by the trinomial: x^2 + x-12. Which of the following binomials could represent the length and width?",
+        "options": ["A. (x+4)(x-3)", "B. (x-4)(x-3)", "C. (x-4)(x+3)", "D. (x-6)(x+2)"],
+        "answer": "A. (x+4)(x-3)",
+        "explanation": "Since the formula for the area of a rectangle is length x width, find the factors of the trinomial to get the dimensions. First check to see if there is a common factor in each of the terms or if it is the difference between two perfect squares, and it is neither of these. The next step would be to factor the trinomial into two binomials. To do this, you will be doing a method that resembles FOIL backwards (First terms of each binomial multiplied, Outer terms in each multiplied, Inner terms of each multiplied, and Last term of each binomial multiplied.) First results in x^2, so the first terms must be (x )(x ); Outer added to the Inner combines to 1x, and the Last is -12, so you need to find two numbers that add to +1 and multiply to -12. These two numbers are -3 and +4; (x-3)(x+4). Thus, the dimensions are (x + 4) and (x − 3)."
+        },
+        {"question": "Katie's school has a rectangular courtyard whose area can be expressed as 3x^2-7x+2. Which of the following could be the dimensions of the courtyard in terms of x?",
+        "options": ["A. (3x-1)(x+2)", "B. (3x-1)(x-2)", "C. (3x-2)(x-1)", "D. (3x+2)(x + 1)"],
+        "answer": "B. (3x-1)(x-2)",
+        "explanation": "Since the trinomial does not have a coefficient of one on its highest exponent term, the easiest way to find the answer to this problem is to use the distributive property. First, using the original trinomial, identify the sum and product by looking at the terms when the trinomial is in descending order (highest exponent first): 3x^2 - 7x+2.The sum is the middle term, in this case, -7x. The product is the product of the first and last terms, in this case, (3x^2)(2) = 6x^2. Now, identify two quantities whose sum is -7x and product is 6x^2, namely -6x and -x. Rewrite the original trinomial using these two terms to replace the middle term in any order: 3x^2-6x-x+2. Now factor by grouping by taking a common factor out of each pair of terms. The common factor of 3x^2 and -6x is 3x and the common factor of -x and 2 is -1.Therefore, 3x^2-6x-x+2 becomes 3x(x-2)-1(x-2). (Notice that if this expression were multiplied back out and simplified, it would correctly yield the original polynomial.) Now, this two-term expression has a common factor of (x-2) which can be factored out of each term using the distributive property: 3x(x − 2) - 1(x − 2) becomes (x − 2)(3x-1). The dimensions of the courtyard are (x-2) and (3x-1)."
+        },
+        {"question": "The distance from the sun to the earth is approximately 9.3 x 107 miles. What is this distance expressed in standard notation?",
+        "options": ["A. 930,000,000", "B. 93,700,000", "C. 0.00000093", "D. 93,000,000"],
+        "answer": "D. 93,000,000",
+        "explanation": "In order to convert this number to standard notation, multiply 9.3 by the factor of 10^7. Since 10^7 is equal to 10,000,000, 9.3 × 10,000,000 is equal to 93,000,000. As an equivalent solution, move the decimal point in 9.3 seven places to the right since the exponent on the 10 is positive 7."
+        },
+        {"question": "The distance from the earth to the moon is approximately 240,000 miles. What is this distance expressed in scientific notation?",
+        "options": ["A. 24 × 10^4", "B. 240 × 10^3", "C. 2.4 x 10^5", "D. 2.4 x 10^5"],
+        "answer": "C. 2.4 x 10^5",
+        "explanation": "To convert to scientific notation, place a decimal point after the first non-zero digit to create a number between 1 and 10-in this case, between the 2 and the 4. Count the number of decimal places from that decimal to the place of the decimal in the original number. In this case, the number of places would be 5. This number, 5, becomes the exponent of 10 and is positive because the original number was greater than one. The answer then is 2.4 × 10^5."
+        },
+        {"question": "It takes light 5.3 x 10 seconds to travel one mile. What is this time in standard notation?",
+        "options": ["A. 0.00000053", "B. 0.000053", "C. 5.300000", "D. 0.0000053"],
+        "answer": "D. 0.0000053",
+        "explanation": "In order to convert this number to standard notation, multiply 5.3 by the factor of 10^-6. Since 10^-6 is equal to 0.000001, 5.3 × 0.000001 is equal to 0.0000053. Equivalently, move the decimal point in 5.3 six places to the left since the exponent on the 10 is negative 6."
+        },
+        {"question": "The square of a positive number is 49. What is the number?",
+        "options": ["A. √7", "B. -7", "C. 7 or -7", "D. 7"],
+        "answer": "D. 7",
+        "explanation": "Let x = the number. The sentence, 'The square of a positive number is 49,' translates to the equation x^2 = 49. Take the square root of each side to get √(x^2) = √49 so x = 7 or -7. Since you are looking for a positive number, the final solution is 7."
+        },
+        {"question": "The square of a number added to 25 equals 10 times the number. What is the number?",
+        "options": ["A. -5", "B. 10", "C. -10", "D. 5"],
+        "answer": "D. 5",
+        "explanation": "Let x = the number. The statement, 'The square of a number added to 25 equals 10 times the number,' translates to the equation x^2 + 25 = 10x. Put the equation in standard form ax^2 + bx + c = 0, and set it equal to zero: x^2 - 10x+25= 0. Factor the left side of the equation: (x-5)(x — 5) = 0. Set each factor equal to zero and solve: x-5=0 or x-5=0; x = 5 or x = 5. The number is 5."
+        },
+        {"question": "The sum of the square of a number and 12 times the number is -27. What is the smaller possible value of this number?",
+        "options": ["A. -3", "B. -9", "C. 3", "D. 9"],
+        "answer": "B. -9",
+        "explanation": "Let x = the number. The statement, 'The sum of the square of a number and 12 times the number is -27,' translates to the equation x^2 + 12x=-27. Put the equation in standard form and set it equal to zero: x^2 + 12x+27= 0. Factor the left side of the equation: (x+3)(x+9) = 0. Set each factor equal to zero and solve: x + 3 = 0 or x+9=0; x = −3 or x = -9. The possible values of this number are -3 or -9, the smaller of which is -9."
+        },
+        {"question": "The area of a rectangle is 24 square inches. The length of the rectangle is 2 inches more than the width. How many inches is the width?",
+        "options": ["A. 3 in", "B. 4 in", "C. 6 in", "D. 8 in"],
+        "answer": "B. 4 in",
+        "explanation": "Let x = the number of inches in the width and let x + 2 = the number of inches in the length. Since area of a rectangle is length times width, the equation for the area of the rectangle is x(x+2)= 24. Multiply the left side of the equation using the distributive property: x^2+2x= 24. Put the equation in standard form and set it equal to zero: x^2+2x-24 = 0. Factor the left side of the equation: (x+6)(x-4) = 0. Set each factor equal to zero and solve: x+6=0 or x-4=0; x=-6 or x = 4. Reject the solution of-6 because a distance will not be negative. The width is 4 inches."
+        },
+        {"question": "The height of a parallelogram measures 5 meters more than its base. If the area of the parallelogram is 36 m^2, what is the height in meters?",
+        "options": ["A. 6 m", "B. 9 m", "C. 12 m", "D. 4 m"],
+        "answer": "B. 9 m",
+        "explanation": "Let x = the measure of the base and let x + 5 = the measure of the height. Since the area of a parallelogram is base times height, then the equation for the area of the parallelogram is x(x + 5) = 36. Multiply the left side of the equation using the distributive property: x^2 + 5x = 36; Put the equation in standard form and set it equal to zero: x^2 + 5x-36= 0. Factor the left side of the equation: (x+9)(x-4)=0. Set each factor equal to zero and solve: x + 9 = 0 or x-4=0; x = -9 or x = 4. Reject the solution of -9 because a distance will not be negative. The height is 4+ 5 = 9 meters."
+        },
+        {"question": "Patrick has a rectangular patio whose length is 5 m less than the diagonal and a width that is 7 m less than the diagonal. If the area of his patio is 195 m^2, what is the length of the diagonal?",
+        "options": ["A. 10 m", "B. 8 m", "C. 16 m", "D. 20 m"],
+        "answer": "D. 20 m",
+        "explanation": "Let x = the length of the diagonal. Therefore, x - 5 = the length of the patio and x-7= the width of the patio. Since the area is 195 m^2, and area is length times the width, the equation is (x-5)(x-7)= 195. Use the distributive property to multiply the binomials: x^2 -5x-7x+35 = 195. Combine like terms: x^2-12x + 35 = 195. Subtract 195 from both sides: x^2-12x+35-195 = 195 - 195. Simplify: x^2 - 12x-160 = 0. Factor the result: (x -20)(x+8)= 0. Set each factor equal to 0 and solve: x - 20 = 0 or x+8=0; x = 20 or x = -8. Reject the solution of -8 because a distance will not be negative. The length of the diagonal is 20 m."
+        },
+        {"question": "Samantha owns a rectangular field that has an area of 3,280 square feet. The length of the field is 2 more than twice the width. What is the width of the field?",
+        "options": ["A. 40 ft", "B. 82 ft", "C. 41 ft", "D. 84 ft"],
+        "answer": "A. 40 ft",
+        "explanation": "Let w = the width of the field and let 2w + 2 = the length of the field (two more than twice the width). Since area is length times width, multiply the two expressions together and set them equal to 3,280: w(2w+2) = 3,280. Multiply using the distributive property: 2w^2 + 2w = 3,280. Subtract 3,280 from both sides: 2w^2 + 2w - 3,280 = 3,280-3,280; simplify: 2w^2+2w-3,280 = 0. Factor the trinomial completely: 2(w^2+w- 1640) = 0; 2(w +41)(w-40) = 0. Set each factor equal to zero and solve: 2 does not equal 0 or w +41 = 0 or w-40 = 0; w = -41 or w = 40. Reject the negative solution because you will not have a negative width. The width is 40 feet."
+        },
+        {"question": "A garden in the shape of a rectangle is surrounded by a walkway of uniform width. The dimensions of the garden only are 35 by 24. The area of the garden and the walkway together is 1,530 square feet. What is the width of the walkway in feet?",
+        "options": ["A. 4 ft", "B. 5 ft", "C. 34.5 ft", "D. 24 ft"],
+        "answer": "B. 5 ft",
+        "explanation": "Let x = the width of the walkway. Since the width of the garden only is 24, the width of the garden and the walkway together is x + x + 24 or 2x + 24. Since the length of the garden only is 35, the length of the garden and the walkway together is x + x + 35 or 2x + 35. Area of a rectangle is length times width, so multiply the expressions together and set the result equal to the total area of 1,530 square feet: (2x + 24)(2x+35) = 1,530. Multiply the binomials using the distributive property: 4x^2 + 70x+48x+ 840 = 1,530. Combine like terms: 4x^2 + 118x + 840 = 1,530. Subtract 1,530 from both sides: 4x^2 + 118x + 840 - 1,530 = 1,530-1,530; simplify: 4x^2 + 118x-690 = 0. Factor the trinomial completely: 2(2x^2+59x-345) = 0; 2(2x + 69)(x − 5) = 0. Set each factor equal to zero and solve: 2 does not equal 0 or 2x + 69 = 0 or x-5=0; x=-34.5 or x = 5. Reject the negative solution because you will not have a negative width. The width is 5 feet."
+        },
+        {"question": "A pool is surrounded by a deck that has the same width all the way around. The total area of the deck only is 400 square feet. The dimensions of the pool are 18 feet by 24 feet. How many feet is the width of the deck?",
+        "options": ["A. 4 ft", "B. 8 ft", "C. 24 ft", "D. 25 ft"],
+        "answer": "A. 4 ft",
+        "explanation": "Let x = the width of the deck. Since the width of the pool only is 18, the width of the pool and the deck is x + x + 18 or 2x + 18. Since the length of the pool only is 24, the length of the pool and the deck together is x + x + 24 or 2x + 24. The total area for the pool and the deck together is 832 square feet, 400 square feet added to 432 square feet for the pool. Area of a rectangle is length times width so multiply the expressions together and set them equal to the total area of 832 square feet: (2x + 18)(2x + 24) = 832. Multiply the binomials using the distributive property: 4x^2+36x+48x + 432 = 832. Combine like terms: 4x^2 + 84x+ 432 = 832. Subtract 832 from both sides: 4x^2 + 84x + 432-832 = 832- 832; simplify: 4x^2+84x-400 = 0. Factor the trinomial completely: 2(2x^2 + 42x-200) = 0; 2(2x-8)(x+25) = 0. Set each factor equal to zero and solve: 2 does not equal 0 or 2x-8=0 or x+25=0; x = 4 or x = -25. Reject the negative solution because you will not have a negative width. The width is 4 feet."
+        },
+        {"question": "Jessica has a picture in a frame with a total area of 288 in^2. The dimension of the picture without the frame is 12 in by 14 in. What is the larger dimension, in inches, of the frame?",
+        "options": ["A. 2 in", "B. 14 in", "C. 18 in", "D. 16 in"],
+        "answer": "C. 18 in",
+        "explanation": "To solve this problem, find the width of the frame first. Let x = the width of the frame. Since the width of the picture only is 12, the width of the frame and the picture is x + x + 12 or 2x + 12. Since the length of the picture only is 14, the length of the frame and the picture together is x + x + 14 or 2x + 14. The total area for the frame and the picture together is 288 square inches. Area of a rectangle is length times width so multiply the expressions together and set them equal to the total area of 288 square inches: (2x+12)(2x+14) = 288. Multiply the binomials using the distributive property: 4x^2 + 28x + 24x + 168 = 288. Combine like terms: 4x^2 + 52x + 168 = 288. Subtract 288 from both sides: 4x^2 + 52x+168-288 = 288-288; simplify: 4x^2+ 52x-120 = 0. Factor the trinomial completely: 4(x^2 + 13x-30) = 0; 4(x-2)(x+15) = 0. Set each factor equal to zero and solve: 4 does not equal 0 or x-2=0 or x+15=0; x = 2 or x = -15. Reject the negative solution because you will not have a negative width. The width is 2 feet. Therefore, the larger dimension of the frame is 2(2) + 14 = 4+14= 18 inches."
+        },
+        {"question": "What is the lesser of two consecutive positive integers whose product is 90?",
+        "options": ["A. -9", "B. 9", "C. -10", "D. 10"],
+        "answer": "B. 9",
+        "explanation": "Let x = the lesser integer and let x + 1 = the greater integer. Since product is a key word for multiplication, the equation is x(x + 1) = 90. Multiply using the distributive property on the left side of the equation: x^2+x=90. Put the equation in standard form and set it equal to zero: x^2+x-90 = 0. Factor the trinomial: (x-9)(x+10) = 0. Set each factor equal to zero and solve: x-9=0 or x + 10 = 0; x = 9 or x=-10. Since you are looking for a positive integer, reject the x-value of -10. Therefore, the lesser positive integer would be 9."
+        },
+        {"question": "What is the greater of two consecutive negative integers whose product is 132?",
+        "options": ["A. -11", "B. -12", "C. 11", "D. 12"],
+        "answer": "A. -11",
+        "explanation": "Let x = the lesser integer and let x + 1 = the greater integer. Since product is a key word for multiplication, the equation is x(x + 1) = 132. Multiply using the distributive property on the left side of the equation: x^2 + x = 132. Put the equation in standard form and set it equal to zero: x^2+x-132 = 0. Factor the trinomial: (x - 11)(x+12) = 0. Set each factor equal to zero and solve: x-11= 0 or x+12=0; x = 11 or x = -12. Since you are looking for a negative integer, reject the x-value of 11. Therefore, x = -12 and x + 1 = -11. The greater negative integer is -11."
+        },
+        {"question": "Find the lesser of two consecutive positive even integers whose product is 168.",
+        "options": ["A. 12", "B. 14", "C. 10", "D. 16"],
+        "answer": "A. 12",
+        "explanation": "Let x = the lesser even integer and let x + 2 = the greater even integer. Since product is a key word for multiplication, the equation is x(x + 2) = 168. Multiply using the distributive property on the left side of the equation: x^2 + 2x = 168. Put the equation in standard form and set it equal to zero: x^2 + 2x-168 = 0. Factor the trinomial: (x - 12)(x+14) = 0. Set each factor equal to zero and solve: x-12= 0 or x+14=0; x = 12 or x = -14. Since you are looking for a positive integer, reject the x-value of -14. Therefore, the lesser positive integer would be 12."
+        },
+        {"question": "Find the greater of two consecutive positive odd integers whose product is 143.",
+        "options": ["A. 10", "B. 11", "C. 12", "D. 13"],
+        "answer": "D. 13",
+        "explanation": "Let x = the lesser odd integer and let x + 2 = the greater odd integer. Since product is a key word for multiplication, the equation is x(x + 2) = 143. Multiply using the distributive property on the left side of the equation: x^2 + 2x = 143. Put the equation in standard form and set it equal to zero: x^2 + 2x-143 = 0. Factor the trinomial: (x-11)(x+13) = 0. Set each factor equal to zero and solve: x-11=0 or x + 13 = 0; x = 11 or x = -13. Since you are looking for a positive integer, reject the x- value of -13. Therefore, x = 11 and x + 2 = 13. The greater positive odd integer is 13."
+        },
+        {"question": "The sum of the squares of two consecutive positive odd integers is 74. What is the value of the smaller integer?",
+        "options": ["A. 3", "B. 7", "C. 5", "D. 11"],
+        "answer": "C. 5",
+        "explanation": "Let x = the lesser odd integer and let x + 2 = the greater odd integer. The translation of the sentence, 'The sum of the squares of two consecutive odd integers is 74,' is the equation x^2 + (x + 2)^2 = 74. Multiply (x + 2)^2 out as (x + 2)(x + 2) using the distributive property: x^2 + (x^2 + 2x+2x+4)=74. Combine like terms on the left side of the equation: 2x^2 + 4x + 4 = 74. Put the equation in standard form by subtracting 74 from both sides, and set it equal to zero: 2x^2 + 4x-70 = 0; factor the trinomial completely: 2(x^2 + 2x−35) = 0; 2(x − 5)(x+7) = 0. Set each factor equal to zero and solve: 2 does not equal 0 or x-5= 0 or x + 7 = 0; x = 5 or x=-7. Since you are looking for a positive integer, reject the solution of x = −7. Therefore, the smaller positive integer is 5."
+        },
+        {"question": "If the difference between the squares of two consecutive integers is 15, find the larger integer.",
+        "options": ["A. 8", "B. 7", "C. 6", "D. 9"],
+        "answer": "A. 8",
+        "explanation": "Let x = the lesser integer and let x + 1 = the greater integer. The sentence, 'the difference between the squares of two consecutive integers is 15,' can translate to the equation (x + 1)^2-x^2 = 15. Multiply the binomial (x + 1)^2 as (x + 1)(x + 1) using the distributive property: x^2 + 1x + 1x + 1 − x^2 = 15. Combine like terms: 2x + 1 = 15; subtract 1 from both sides of the equation: 2x + 1 − 1 = 15 - 1. Divide both sides by 2: 2x/2 = 14/2. The variable is now alone: x = 7. Therefore, the larger consecutive integer is x + 1 = 8."
+        },
+        {"question": "The square of one integer is 55 less than the square of the next consecutive integer. Find the lesser integer.",
+        "options": ["A. 23", "B. 24", "C. 27", "D. 28"],
+        "answer": "C. 27",
+        "explanation": "Let x = the lesser integer and let x + 1 = the greater integer. The sentence, 'The square of one integer is 55 less than the square of the next consecutive integer,' can translate to the equation x^2 = (x + 1)^2 -55. Multiply the binomial (x + 1)^2 as (x + 1)(x + 1) using the distributive property: x^2= x^2 + 1x + 1x+1-55. Combine like terms: x^2 = x^2+2x- 54. Subtract x^2 from both sides of the equation: x^2-x^2 = x^2-x^2+2x- 54. Add 54 to both sides of the equation: 0+54=2x-54 + 54. Divide both sides by 2: 54/2 = 2x/2. The variable is now alone: 27 = x. The lesser integer is 27."
+        },
+        {"question": "A 4-inch by 6-inch photograph is going to be enlarged by increasing each side by the same amount. The new area is 168 square inches. How many inches is each dimension increased?",
+        "options": ["A. 12", "B. 10", "C. 8", "D. 6"],
+        "answer": "C. 8",
+        "explanation": "Let the amount each side is increased. Then, x + 4 = the new width and x + 6 = the new length. Since area is length times width, the formula using the new area is (x + 4)(x+6)= 168. Multiply using the distributive property on the left side of the equation: x^2+6x+4x+ 24 = 168; combine like terms: x^2+10x + 24 = 168. Subtract 168 from both sides: x^2+10x + 24-168 = 168 - 168. Simplify: x^2+10x - 144 = 0. Factor the trinomial: (x-8)(x+18) = 0. Set each factor equal to zero and solve: x-8=0 or x+18=0; x = 8 or x = -18. Reject the negative solution because you won't have a negative dimension. The correct solution is 8 inches."
+        },
+        {"question": "A photographer decides to reduce a picture she took in order to fit it into a certain frame. She needs the picture to be one-third of the area of the original. If the original picture was 4 inches by 6 inches, how many inches is the smaller dimension of the reduced picture if each dimension changes the same amount?",
+        "options": ["A. 2", "B. 3", "C. 4", "D. 5"],
+        "answer": "A. 2",
+        "explanation": "Let x = the amount of reduction. Then 4 - x = the width of the reduced picture and 6 - x = the length of the reduced picture. Since area is length times width, and one-third of the old area of 24 is 8, the equation for the area of the reduced picture would be (4x)(6x) = 8. Multiply the binomials using the distributive property: 24-4x-6x+x^2 = 8; combine like terms: 24 - 10x+x^2= 8. Subtract 8 from both sides: 24 - 8 - 10x + x^2= 8-8. Simplify and place in standard form: x^2 - 10x + 16 = 0. Factor the trinomial into 2 binomials: (x-2)(x-8)= 0. Set each factor equal to zero and solve: x-2=0 or x-8=0; x = 2 or x = 8. The solution of 8 is not reasonable because it is greater than the original dimensions of the picture. Accept the solution of x = 2 and the smaller dimension of the reduced picture would be 4-2 = 2 inches."
+        },
+        {"question": "A rectangular garden has a width of 20 feet and a length of 24 feet. If each side of the garden is increased by the same amount, how many feet is the new length if the new area is 141 square feet more than the original?",
+        "options": ["A. 23", "B. 24", "C. 26", "D. 27"],
+        "answer": "D. 27",
+        "explanation": "Let x = the amount that each side of the garden is increased. Then, x + 20 = the new width and x + 24 = the new length. Since the area of a rectangle is length times width, then the area of the old garden is 20 × 24 = 480 and the new area is 480 + 141 = 621. The equation using the new area becomes (x + 20)(x +24) = 621. Multiply using the distributive property on the left side of the equation: x^2+24x + 20x + 480 = 621; combine like terms: x^2+44x + 480 = 621. Subtract 621 from both sides: x^2+44x+480-621 = 621-621; simplify: x^2+44x-141 = 0. Factor the trinomial: (x-3)(x+47) = 0. Set each factor equal to zero and solve: x-3=0 or x + 47=0; x=3 or x=-47. Reject the negative solution because you won't have a negative increase. Thus, each side will be increased by 3 and the new length would be 24 + 3 = 27 feet."
+        },
+        {"question": "Ian can remodel a kitchen in 20 hours and Jack can do the same job in 15 hours. If they work together, how many hours will it take them to remodel the kitchen?",
+        "options": ["A. 5.6", "B. 8.6", "C. 7.5", "D. 12"],
+        "answer": "B. 8.6",
+        "explanation": "Let x = the number of hours it takes Ian and Jack to remodel the kitchen if they are working together. Since it takes Ian 20 hours if working alone, he will complete 1/20 of the job in one hour, even when he's working with Jack. Similarly, since it takes Jack 15 hours to remodel a kitchen, he will complete 1/15 of the job in one hour, even when he's working with Ian. Since it takes x hours for Ian and Jack to complete the job together, it stands to reason that at the end of one hour, their combined effort will have completed 1/x of the job. Therefore, Ian's work + Jack's work = combined work and we have the equation: 1/20 + 1/15 = 1/x. Multiply through by the least common denominator of 20, 15 and x which is 60x: (60x)(1/20) + (60x)(1/15) = (60x)(1/x). Simplify: 3x+4x= 60. Simplify: 7x = 60. Divide by 7: 7x/7 = 60/7. x = 60/7 which is about 8.6 hours."
+        },
+        {"question": "Peter can paint a room in an hour and a half and Joe can paint the same room in 2 hours. How many minutes will it take them to paint the room if they do it together? Round answer to nearest minute.",
+        "options": ["A. 51", "B. 64", "C. 30", "D. 210"],
+        "answer": "A. 51",
+        "explanation": "Let x = the number of hours it takes Peter and Joe to paint a room if they are working together. Since it takes Peter 1.5 hours if working alone, he will complete 1/1.5 of the job in one hour, even when he's working with Joe. Similarly, since it takes Joe 2 hours to paint a room working alone, he will complete 1/2 of the job in one hour, even when working with Peter. Since it takes x hours for Peter and Joe to complete the job together, it stands to reason that at the end of one hour, their combined effort will have completed 1/x of the job. Therefore, Peter's work + Joe's work = combined work and we have the equation: 1/1.5 + 1/2 = 1/x. Multiply through by the least common denominator of 1.5, 2 and x which is 6x: (6x)(1/1.5) + (6x)(1/2) = (6x)(1/x). Simplify: 4x + 3x = 6. Simplify: 7x = 6. Divide by 7: 7x/7 =6/7, x = 6/7 hours. Change hours into minutes by multiplying by 60 since there are 60 minutes in one hour. (60)(6/7) = 360/7 divided by 7 equals 51.42 minutes which rounds to 51 minutes."
+        },
+        {"question": "Carla can plant a garden in 3 hours and Charles can plant the same garden in 4.5 hours. If they work together, how many hours will it take them to plant the garden?",
+        "options": ["A. 1.5", "B. 2.1", "C. 1.8", "D. 7.5"],
+        "answer": "C. 1.8",
+        "explanation": "Let x = the number of hours it takes Carla and Charles to plant a garden if they are working together. Since it takes Carla 3 hours if working alone, she will complete 1/3 of the job in one hour, even when she's working with Charles. Similarly, since it takes Charles 4.5 hours to plant a garden working alone, he will complete 1/4.5 of the job in one hour, even when working with Carla. Since it takes a hours for Carla and Charles to complete the job together, it stands to reason that at the end of one hour, their combined effort will have completed 1/x of the job. Therefore, Carla's work + Charles's work = combined work and we have the equation: 1/3 + 1/4.5 = 1/x. Multiply through by the least common denominator of 3, 4.5 and x which is 9x: (9x)(1/3) + (9x)(1/4.5) = (9x)(1/x). Simplify: 3x+2x=9. Simplify: 5x = 9. Divide by 5: 5x/5 = 9/5; x = 9/5 hours which is equal to 1.8 hours."
+        },
+        {"question": "If Jim and Jerry work together they can finish a job in 4 hours. If working alone takes Jim 10 hours to finish the job, how many hours would it take Jerry to do the job alone?",
+        "options": ["A. 16", "B. 5.6", "C. 6.7", "D. 6.0"],
+        "answer": "C. 6.7",
+        "explanation": "Let x = the number of hours it will take Jerry to do the job alone. In 1 hour Jim can do 1/10 of the work, and Jerry can do 1/x of the work. As an equation this looks like 1/10 + 1/x = 1/4, where 1/4 represents what part of the job they can complete in one hour together. Multiplying both sides of the equation by the least common denominator, 40x, results in the equation 4x + 40 = 10x. Subtract 4x from both sides of the equation. 4x-4x+40=10x-4x. This simplifies to 40 = 6x. Divide each side of the equation by 6; 40/6 = 6x/6. Therefore, 6.666 = x, and it would take Jerry about 6.7 hours to complete the job alone."
+        },
+        {"question": "Bill and Ben can clean the garage together in 6 hours. If it takes Bill 10 hours working alone, how long will it take Ben working alone?",
+        "options": ["A. 11 hours", "B. 4 hours", "C. 16 hours", "D. 15 hours"],
+        "answer": "D. 15 hours",
+        "explanation": "Let x = the number of hours Ben takes to clean the garage by himself. In 1 hour Ben can do 1/x of the work and Bill can do 1/10 of the work. As an equation this looks like 1/x + 1/10 = 1/6, where 1/6 represents what part they can clean in one hour together. Multiply both sides of the equation by the least common denominator, 30x, to get an equation of 30 + 3x = 5x. Subtract 3x from both sides of the equation; 30+ 3x-3x=5x-3x. This simplifies to 30 = 2x, and dividing both sides by 2 results in a solution of 15 hours."
+        }
+    ],
 
     "empty": [
         {"question": "",
