@@ -2175,10 +2175,10 @@
         "explanation": "The area of Stuckeyburg can be found by dividing the region into a rectangle and a triangle. Find the area of the rectangle (A = /w) and add the area of the triangle (1/2bh) for the total area of the region. Referring to the diagram, the area of the rectangle is (10)(8) = 80 miles^2. The area of the triangle is 1/2(8)(3) = 12 miles^2. The sum of the two regions is 80 miles^2 + 12 miles^2 = 92 miles^2. If you chose a, you found the perimeter. If you chose b, you found the area of the rectangular region but did not include the triangular region.",
         "image_urls": ["./images/geometry_question411answer.png"]
         },
-        {"question": "A rectangular field is to be fenced in completely. The width is 22 yd and the total area is 990 yd2. What is the length of the field?",
+        {"question": "A rectangular field is to be fenced in completely. The width is 22 yd and the total area is 990 yd^2. What is the length of the field?",
         "options": ["A. 968 yd", "B. 45 yd", "C. 31 yd", "D. 473 yd"],
         "answer": "B. 45 yd",
-        "explanation": "The area of a rectangle is length times width. Using the formula 990 yd^2 = (1)(22), solve for l by dividing both sides by 22; l = 45 yards."
+        "explanation": "The area of a rectangle is length times width. Using the formula 990 yd^2 = (l)(22), solve for l by dividing both sides by 22; l = 45 yards."
         },
         {"question": "A circular print is being matted in a square frame. If the frame is 18 in by 18 in, and the radius of the print is 7 in, what is the area of the matting? (π = 3.14)",
         "options": ["A. 477.86 in^2", "B. 170.14 in^2", "C. 280.04 in^2", "D. 288 in^2"],
